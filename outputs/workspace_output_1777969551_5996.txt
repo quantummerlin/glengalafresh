@@ -1,0 +1,46 @@
+  adding: outputs/images/ (stored 0%)
+  adding: outputs/images/infographics/ (stored 0%)
+  adding: outputs/images/infographics/why_ozonated_water.png (deflated 8%)
+  adding: outputs/images/infographics/product_comparison_chart.png (deflated 5%)
+  adding: outputs/images/infographics/ozone_vs_chlorine.png (deflated 10%)
+  adding: outputs/images/infographics/health_benefits_wheel.png (deflated 3%)
+  adding: outputs/images/hero/ (stored 0%)
+  adding: outputs/images/hero/hero_full_lineup.png (deflated 7%)
+  adding: outputs/images/hero/hero_brand_moody.png (deflated 5%)
+  adding: outputs/images/hero/hero_three_bottles_studio.png (deflated 4%)
+  adding: outputs/images/hero/hero_lifestyle_woman.png (deflated 4%)
+  adding: outputs/images/hero/hero_all_five_products.png (deflated 5%)
+  adding: outputs/images/ingredients/ (stored 0%)
+  adding: outputs/images/ingredients/golden_fire_flatlay.png (deflated 2%)
+  adding: outputs/images/ingredients/immuni_tea_flatlay.png (deflated 2%)
+  adding: outputs/images/ingredients/celery_flatlay.png (deflated 1%)
+  adding: outputs/images/ingredients/beetroid_flatlay.png (deflated 3%)
+  adding: outputs/images/ingredients/immuni_fire_flatlay.png (deflated 2%)
+  adding: outputs/images/ingredients/master_ingredient_spread.png (deflated 1%)
+  adding: outputs/images/lifestyle/ (stored 0%)
+  adding: outputs/images/lifestyle/pour_shot_closeup.png (deflated 4%)
+  adding: outputs/images/lifestyle/morning_routine_lifestyle.png (deflated 4%)
+  adding: outputs/images/lifestyle/ginger_turmeric_macro.png (deflated 4%)
+  adding: outputs/images/lifestyle/shop_front_lifestyle.png (deflated 3%)
+  adding: outputs/images/lifestyle/citrus_mint_macro.png (deflated 6%)
+  adding: outputs/images/social/ (stored 0%)
+  adding: outputs/images/social/instagram_story_golden_fire.png (deflated 6%)
+  adding: outputs/images/social/wellness_quote_graphic.png (deflated 3%)
+  adding: outputs/images/social/instagram_story_immuni_fire.png (deflated 12%)
+  adding: outputs/images/social/instagram_beetroid_feature.png (deflated 6%)
+  adding: outputs/images/social/instagram_product_lineup.png (deflated 5%)
+  adding: outputs/images/products/ (stored 0%)
+  adding: outputs/images/products/beetroid_hero.png (deflated 3%)
+  adding: outputs/images/products/immuni_fire_hero.png (deflated 4%)
+  adding: outputs/images/products/immuni_tea_hero.png (deflated 5%)
+  adding: outputs/images/products/celery_juice_hero.png (deflated 5%)
+  adding: outputs/images/products/golden_fire_hero.png (deflated 3%)
+  adding: outputs/IMAGE_GUIDE.md (deflated 63%)
+✅ ZIP created
+62M	cold_pressed_juice_images.zip
+Files in zip:
+  2073414  2026-05-05 07:10   outputs/images/products/celery_juice_hero.png
+  2341307  2026-05-05 07:06   outputs/images/products/golden_fire_hero.png
+     8138  2026-05-05 08:25   outputs/IMAGE_GUIDE.md
+---------                     -------
+ 67511382                     38 files

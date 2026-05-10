@@ -1,0 +1,13 @@
+-rw-r--r-- 1 root root  7891 Apr 26 02:49 BEETROID_DEEP_INSIGHTS.md
+-rw-r--r-- 1 root root 10906 Apr 25 08:17 BEETROID_MARKETING_PLAYBOOK.md
+-rw-r--r-- 1 root root 11646 Apr 26 00:48 BEETROID_SYNERGY_REPORT.md
+-rw-r--r-- 1 root root  9322 Apr 26 00:50 BEETROID_SYNERGY_SOCIAL.md
+-rw-r--r-- 1 root root  7846 Apr 26 22:16 COMPLETE_PRODUCT_LINE_ANALYSIS.md
+-rw-r--r-- 1 root root 10431 Apr 26 22:19 FINAL_BUSINESS_SUMMARY.md
+-rw-r--r-- 1 root root 13628 Apr 26 22:19 GOLDEN_FIRE_IMMUNI_FIRE_MARKETING.md
+-rw-r--r-- 1 root root 10949 Apr 26 22:16 MASTER_PRODUCT_PLAYBOOK.md
+-rw-r--r-- 1 root root 11747 Apr 26 22:17 OZONATED_WATER_BENEFITS.md
+-rw-r--r-- 1 root root  9813 Apr 26 22:18 OZONATED_WATER_REGULATIONS.md
+-rw-r--r-- 1 root root  3858 Apr 26 22:17 PRODUCT_LINE_OVERVIEW.md
+-rw-r--r-- 1 root root  9975 Apr 25 08:19 SOCIAL_MEDIA_CONTENT.md
+-rw-r--r-- 1 root root  1194 Apr 26 11:37 todo.md

@@ -1,0 +1,418 @@
+{
+  "ingredient": "Ozonated Water",
+  "total_videos": 44,
+  "total_views": 2914434,
+  "avg_views": 66237,
+  "avg_duration_seconds": 261.4318181818182,
+  "avg_duration_formatted": "4:21",
+  "top_channels": [
+    [
+      "BES Group Official Channel",
+      4
+    ],
+    [
+      "Ozonated Water",
+      3
+    ],
+    [
+      "science to technology",
+      2
+    ],
+    [
+      "A2Z Ozone Inc.",
+      2
+    ],
+    [
+      "Dr. Eric Berg DC",
+      2
+    ],
+    [
+      "Dr. Sanda Moldovan",
+      1
+    ],
+    [
+      "AmericanWaterWorks",
+      1
+    ],
+    [
+      "Clean Water Store",
+      1
+    ],
+    [
+      "Flavour Shield",
+      1
+    ],
+    [
+      "The Pro Dentist",
+      1
+    ]
+  ],
+  "common_title_words": [
+    [
+      "ozone",
+      38
+    ],
+    [
+      "water",
+      34
+    ],
+    [
+      "ozonated",
+      8
+    ],
+    [
+      "treatment",
+      7
+    ],
+    [
+      "benefits",
+      6
+    ],
+    [
+      "generator",
+      5
+    ],
+    [
+      "works",
+      5
+    ],
+    [
+      "beverage",
+      4
+    ],
+    [
+      "vegetable",
+      4
+    ],
+    [
+      "washer",
+      4
+    ],
+    [
+      "cleaning",
+      4
+    ],
+    [
+      "food",
+      4
+    ],
+    [
+      "biosure",
+      3
+    ],
+    [
+      "professional",
+      3
+    ],
+    [
+      "fruits",
+      3
+    ]
+  ],
+  "health_claims_found": [
+    [
+      "bacteria",
+      16
+    ],
+    [
+      "treatment",
+      12
+    ],
+    [
+      "infection",
+      10
+    ],
+    [
+      "health",
+      10
+    ],
+    [
+      "natural",
+      8
+    ],
+    [
+      "virus",
+      7
+    ],
+    [
+      "prevent",
+      6
+    ],
+    [
+      "benefits",
+      5
+    ],
+    [
+      "liver",
+      5
+    ],
+    [
+      "minerals",
+      4
+    ],
+    [
+      "blood",
+      4
+    ],
+    [
+      "boost",
+      4
+    ],
+    [
+      "energy",
+      3
+    ],
+    [
+      "pressure",
+      3
+    ],
+    [
+      "pain",
+      3
+    ],
+    [
+      "immune",
+      3
+    ],
+    [
+      "inflammation",
+      2
+    ],
+    [
+      "healing",
+      2
+    ],
+    [
+      "disease",
+      2
+    ],
+    [
+      "antioxidant",
+      2
+    ]
+  ],
+  "synergies_found": [
+    [
+      "ozone",
+      28
+    ],
+    [
+      "lemon",
+      1
+    ],
+    [
+      "apple_cider_vinegar",
+      1
+    ]
+  ],
+  "top_videos": [
+    {
+      "title": "\ud83d\udca6 Healthy Water: Which is BEST WATER to Drink \ud83d\udca6",
+      "channel": "KenDBerryMD",
+      "views": 942330,
+      "views_str": "942,330 views",
+      "url": "https://www.youtube.com/watch?v=C08xGTiZZ74"
+    },
+    {
+      "title": "The Dangers and Benefits of Alkaline Water",
+      "channel": "Dr. Eric Berg DC",
+      "views": 507459,
+      "views_str": "507,459 views",
+      "url": "https://www.youtube.com/watch?v=6xTdFPOjfSQ"
+    },
+    {
+      "title": "The #1 Nontoxic Vegetable Wash",
+      "channel": "Dr. Eric Berg DC",
+      "views": 398646,
+      "views_str": "398,646 views",
+      "url": "https://www.youtube.com/watch?v=GKLZpquBc_4"
+    },
+    {
+      "title": "[ Ozonation ] - Learn How Ozonation Process Works",
+      "channel": "SHArPEdgeGlobal",
+      "views": 235693,
+      "views_str": "235,693 views",
+      "url": "https://www.youtube.com/watch?v=dB6Dxsxb8Og"
+    },
+    {
+      "title": "Ozone Therapy With Dr. Kelly Misch",
+      "channel": "Michigan Implants & Periodontics",
+      "views": 134839,
+      "views_str": "134,839 views",
+      "url": "https://www.youtube.com/watch?v=fFlX6vPZocM"
+    },
+    {
+      "title": "WHY NOT? Ionizers, UV Lights, Hydroxyl, Hydrogen Peroxide and Ozone Generators in Homes (and Cars)",
+      "channel": "Home Performance",
+      "views": 127276,
+      "views_str": "127,276 views",
+      "url": "https://www.youtube.com/watch?v=xr6h1m9Rhek"
+    },
+    {
+      "title": "Ozone Water Treatment Explained In HINDI {Science Thursday}",
+      "channel": "science to technology",
+      "views": 89481,
+      "views_str": "89,481 views",
+      "url": "https://www.youtube.com/watch?v=e-QTwxIFEz0"
+    },
+    {
+      "title": "How We Make Ozonated Water",
+      "channel": "Dr. Sanda Moldovan",
+      "views": 56847,
+      "views_str": "56,847 views",
+      "url": "https://www.youtube.com/watch?v=vIjuflTs9CA"
+    },
+    {
+      "title": "Can an Ozone Generator Kill House Plants?",
+      "channel": "Zach Fields",
+      "views": 54992,
+      "views_str": "54,992 views",
+      "url": "https://www.youtube.com/watch?v=MwqWAWgy0eI"
+    },
+    {
+      "title": "Installing your own ozone water treatment system",
+      "channel": "The Mountain Garden",
+      "views": 53022,
+      "views_str": "53,022 views",
+      "url": "https://www.youtube.com/watch?v=IRZWcr-L1tQ"
+    }
+  ],
+  "content_themes": {
+    "recipe": 5,
+    "benefits": 7,
+    "tutorial": 0,
+    "challenge": 2,
+    "weight_loss": 0,
+    "detox": 0,
+    "medical": 7,
+    "mistake": 0,
+    "science": 2
+  },
+  "unique_claims": [
+    [
+      [
+        "to",
+        "you"
+      ],
+      6
+    ],
+    [
+      "antimicrobial",
+      4
+    ],
+    [
+      "the",
+      2
+    ],
+    [
+      "our",
+      2
+    ],
+    [
+      [
+        "to",
+        "get"
+      ],
+      2
+    ],
+    [
+      [
+        "ozone",
+        "maintain"
+      ],
+      2
+    ],
+    [
+      "water",
+      1
+    ],
+    [
+      [
+        "can",
+        "control"
+      ],
+      1
+    ],
+    [
+      [
+        "and",
+        "dental"
+      ],
+      1
+    ],
+    [
+      [
+        "might",
+        "their"
+      ],
+      1
+    ],
+    [
+      [
+        "can",
+        "bacterial"
+      ],
+      1
+    ],
+    [
+      [
+        "and",
+        "inflammation"
+      ],
+      1
+    ],
+    [
+      "antibiotics",
+      1
+    ],
+    [
+      [
+        "to",
+        "the"
+      ],
+      1
+    ],
+    [
+      [
+        "it",
+        "pets"
+      ],
+      1
+    ],
+    [
+      [
+        "and",
+        "gets"
+      ],
+      1
+    ],
+    [
+      [
+        "to",
+        "keep"
+      ],
+      1
+    ],
+    [
+      [
+        "it",
+        "keep"
+      ],
+      1
+    ],
+    [
+      [
+        "also",
+        "remove"
+      ],
+      1
+    ],
+    [
+      [
+        "also",
+        "in"
+      ],
+      1
+    ]
+  ]
+}

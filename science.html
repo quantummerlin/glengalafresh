@@ -1,0 +1,512 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>The Science — Glengala Fresh</title>
+  <meta name="description" content="The science behind every Glengala Fresh ingredient. Ozonated water, beetroot nitrates, curcumin bioavailability, and more — all backed by research.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .science-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 48px;
+      position: sticky;
+      top: 80px;
+      background: rgba(10,10,10,0.96);
+      backdrop-filter: blur(12px);
+      padding: 16px 0;
+      z-index: 10;
+    }
+    .science-nav a {
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      border: 1.5px solid var(--border);
+      transition: var(--transition);
+    }
+    .science-nav a:hover {
+      color: var(--gold);
+      border-color: var(--gold);
+    }
+    .science-section { padding: 56px 0; border-top: 1px solid var(--border); }
+    .science-section:first-of-type { border-top: none; }
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+      margin-top: 20px;
+    }
+    .data-table th {
+      text-align: left;
+      padding: 12px 16px;
+      background: var(--card);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--border);
+    }
+    .data-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      color: var(--text-muted);
+    }
+    .data-table td:first-child { color: var(--text); font-weight: 500; }
+    .data-table tr:hover td { background: rgba(255,255,255,0.02); }
+    .views-pill {
+      display: inline-block;
+      background: rgba(201,168,76,0.1);
+      color: var(--gold);
+      border-radius: 12px;
+      padding: 2px 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img">Glengala <span>Fresh</span></a>
+      <ul class="nav-links">
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="science.html" style="color:var(--text)">The Science</a></li>
+        <li><a href="blog.html">Articles</a></li>
+        <li><a href="partnerships.html">Partner With Us</a></li>
+        <li><a href="contact.html" class="nav-cta">Order Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav">
+    <a href="shop.html">Shop</a>
+    <a href="about.html">Our Story</a>
+    <a href="science.html">The Science</a>
+    <a href="blog.html">Articles</a>
+    <a href="partnerships.html">Partner With Us</a>
+    <a href="contact.html">Order Now →</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>→</span>
+      <span>The Science</span>
+    </div>
+    <span class="section-label">Research-Backed</span>
+    <h1>The Science Behind the Sip</h1>
+    <p>Everything in a Glengala Fresh juice is there for a reason. Here's the evidence.</p>
+    <div class="chip-row" style="margin-top:28px;">
+      <div class="chip"><span class="chip-value">8</span><span class="chip-label">Ingredients Studied</span></div>
+      <div class="chip"><span class="chip-value">3,100×</span><span class="chip-label">Better Than Chlorine</span></div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+
+    <div class="science-nav">
+      <a href="#ozone">Ozonated Water</a>
+      <a href="#beetroot">Beetroot</a>
+      <a href="#ginger">Ginger</a>
+      <a href="#lemon">Lemon</a>
+      <a href="#honey">Honey</a>
+      <a href="#turmeric">Turmeric</a>
+      <a href="#cayenne">Cayenne</a>
+      <a href="#celery">Celery</a>
+    </div>
+
+    <!-- Ozonated Water -->
+    <div id="ozone" class="science-section">
+      <div class="two-col" style="margin-bottom:48px;">
+        <div class="reveal">
+          <span class="section-label">Foundation</span>
+          <h2>Ozonated Water</h2>
+          <p style="margin-bottom:14px;">Ozonated water is water infused with ozone gas (O3). When ozone dissolves in water, it becomes a powerful therapeutic agent. Unlike gaseous ozone, ozonated water is safe for consumption and is classified by the US FDA as Generally Recognized As Safe (GRAS).</p>
+          <p style="margin-bottom:14px;">In our process, ozone is bubbled through purified water for a minimum of five minutes until maximum saturation occurs. The result is a cleaning agent that eliminates bacteria, viruses, fungi, parasites, and residual pesticides — then reverts harmlessly to oxygen.</p>
+          <p>Every piece of produce in a Glengala Fresh juice is washed in it.</p>
+        </div>
+        <div class="img-block reveal reveal-delay-2">
+          <img src="outputs/images/infographics/ozone_vs_chlorine.png" alt="Ozone vs chlorine infographic">
+        </div>
+      </div>
+      <div class="benefits-grid reveal">
+        <div class="benefit-card">
+          <span class="benefit-icon">⚡</span>
+          <h4>3,100× Faster Than Chlorine</h4>
+          <p>As a disinfectant, ozone eliminates pathogens at a rate 3,100 times faster than chlorine. No chemical residue remains after use.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🔬</span>
+          <h4>Anti-Inflammatory</h4>
+          <p>A study in Biomedical Reports (2014) found ozonated water reduced TNF-α (inflammatory marker) levels and increased antioxidant enzyme SOD activity by 46%.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🦠</span>
+          <h4>Immune System Support</h4>
+          <p>Ozone activates glutathione peroxidase, superoxide dismutase, and catalase — key enzymes in the body's antioxidant defense system.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🫁</span>
+          <h4>Gut Health</h4>
+          <p>Ozone kills harmful gut bacteria and yeast upon contact, improving the environment for nutrient absorption and reducing bloating.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🦷</span>
+          <h4>Oral Health</h4>
+          <p>Used in dentistry since the 1930s. Clinical studies show significant reduction in Mutans Streptococci (primary cause of tooth decay) after regular use.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">✅</span>
+          <h4>FDA GRAS Certified</h4>
+          <p>Classified as Generally Recognized As Safe since 2001. Used safely in food processing, hospitals, and water treatment worldwide.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Beetroot -->
+    <div id="beetroot" class="science-section">
+      <div class="section-header reveal">
+        <span class="section-label">Beetroot</span>
+        <h2>Beetroot</h2>
+        <p>Used in: <strong>Beetroid</strong></p>
+      </div>
+      <div class="two-col" style="align-items:flex-start; gap:48px;">
+        <div class="reveal">
+          <p style="margin-bottom:16px;">Beetroot's power comes from its high nitrate content. Your body converts dietary nitrates to nitric oxide — a molecule that relaxes and widens blood vessels, improving blood flow and oxygen delivery throughout the body.</p>
+          <div class="callout">
+            <p>"Blood flow to your legs can increase by 40–60% after drinking beetroot juice."</p>
+          </div>
+          <div class="callout">
+            <p>"A study shows that people with heart failure experienced a 13% rise in muscle power."</p>
+          </div>
+          <div class="feature-list" style="margin-top:20px;">
+            <div class="feature-item">
+              <div class="feature-icon">🩸</div>
+              <div class="feature-text"><h4>Nitrates → Nitric Oxide</h4><p>Widens blood vessels, reduces blood pressure, improves circulation.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">💪</div>
+              <div class="feature-text"><h4>Athletic Performance</h4><p>Improves oxygen delivery during workouts, extends endurance.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">❤️</div>
+              <div class="feature-text"><h4>Heart Health</h4><p>Reduces systolic blood pressure and improves cardiovascular markers.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🧠</div>
+              <div class="feature-text"><h4>Brain Health</h4><p>Increased blood flow supports cognitive function and brain oxygenation.</p></div>
+            </div>
+          </div>
+        </div>
+    </div>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ginger -->
+    <div id="ginger" class="science-section">
+      <div class="section-header reveal">
+        <span class="section-label">Ginger</span>
+        <h2>Ginger</h2>
+        <p>Used in: <strong>Beetroid, Immuni-Tea, Immuni-Fire</strong></p>
+      </div>
+      <div class="ingredient-grid reveal">
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">🔥</span>
+          <h4>Gingerol</h4>
+          <p>The primary bioactive compound. Powers anti-inflammatory and antioxidant effects.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">🛡</span>
+          <h4>Immune Support</h4>
+          <p>Antiviral properties support the body's defenses.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">🫁</span>
+          <h4>Digestive Health</h4>
+          <p>Reduces nausea, relieves bloating, supports gut motility.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">🤧</span>
+          <h4>Cold &amp; Flu</h4>
+          <p>Fights respiratory infections.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">💆</span>
+          <h4>Pain Relief</h4>
+          <p>Anti-inflammatory action reduces muscle soreness and joint pain.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">🌅</span>
+          <h4>Morning Ritual</h4>
+          <p>Sets the tone for the day, activates digestion.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lemon -->
+    <div id="lemon" class="science-section">
+      <div class="section-header reveal">
+        <span class="section-label">Lemon</span>
+        <h2>Lemon</h2>
+        <p>Used in: <strong>Beetroid, Immuni-Tea, Immuni-Fire, Golden Fire</strong></p>
+      </div>
+      <div class="two-col reveal">
+        <div>
+          <p style="margin-bottom:16px;">Lemon serves multiple functions: a concentrated source of vitamin C, a bioavailability enhancer for other nutrients, and an alkalizing agent on the digestive system after metabolism.</p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-icon">🍋</div>
+              <div class="feature-text"><h4>Vitamin C</h4><p>Powers immune function, collagen synthesis, and antioxidant protection.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🔬</div>
+              <div class="feature-text"><h4>Enhances Absorption</h4><p>Lemon's acidity and citric acid improve the bioavailability of other ingredients — crucial for turmeric and iron from beetroot.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🫁</div>
+              <div class="feature-text"><h4>Liver &amp; Detox</h4><p>Citric acid supports kidney function and may reduce kidney stone formation.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">⚖️</div>
+              <div class="feature-text"><h4>Alkalizing Effect</h4><p>Despite being acidic, lemon has an alkalizing effect on the body's pH after metabolism.</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="img-block">
+          <img src="outputs/images/lifestyle/citrus_mint_macro.png" alt="Lemon macro">
+        </div>
+      </div>
+    </div>
+
+    <!-- Honey -->
+    <div id="honey" class="science-section">
+      <div class="section-header reveal">
+        <span class="section-label">Honey</span>
+        <h2>Honey</h2>
+        <p>Used in: <strong>Beetroid, Immuni-Tea, Immuni-Fire, Golden Fire</strong></p>
+      </div>
+      <div class="benefits-grid reveal">
+        <div class="benefit-card">
+          <span class="benefit-icon">🦠</span>
+          <h4>Antibacterial</h4>
+          <p>Honey's hydrogen peroxide content, low pH, and osmotic properties create an environment hostile to bacteria — even antibiotic-resistant strains.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🍯</span>
+          <h4>Natural Sweetener</h4>
+          <p>Replaces refined sugar while adding genuine bioactive properties. Doesn't cause the same blood sugar spike as processed sweeteners.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🥵</span>
+          <h4>Soothes Cayenne</h4>
+          <p>Honey coats the throat and digestive tract, moderating the intensity of cayenne and making spicy formulas accessible to a wider audience.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">⚡</span>
+          <h4>Sustained Energy</h4>
+          <p>The combination of fructose and glucose in honey provides immediate energy followed by sustained release — ideal for athletic use.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Turmeric -->
+    <div id="turmeric" class="science-section">
+      <div class="section-header reveal">
+        <span class="section-label">Turmeric</span>
+        <h2>Turmeric</h2>
+        <p>Used in: <strong>Golden Fire</strong></p>
+      </div>
+      <div class="two-col reveal">
+        <div>
+          <p style="margin-bottom:16px;">Turmeric's active compound is curcumin — one of the most studied natural anti-inflammatory agents in existence. The catch: curcumin on its own has very poor bioavailability. Your body absorbs almost none of it. This is why Golden Fire pairs turmeric with cayenne.</p>
+          <div class="callout">
+            <p>Cayenne's piperine-equivalent (capsaicin) has been shown to significantly boost the absorption and retention of curcumin in the bloodstream. This is the key synergy behind Golden Fire.</p>
+          </div>
+          <div class="feature-list" style="margin-top:20px;">
+            <div class="feature-item">
+              <div class="feature-icon">🌟</div>
+              <div class="feature-text"><h4>Curcumin Anti-Inflammation</h4><p>Inhibits NF-κB, a key molecule that triggers the inflammatory response. Works similarly to ibuprofen but without the gastrointestinal side effects.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🦴</div>
+              <div class="feature-text"><h4>Joint Health</h4><p>Multiple clinical trials show curcumin reduces symptoms of osteoarthritis and rheumatoid arthritis.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🧠</div>
+              <div class="feature-text"><h4>Brain Support</h4><p>Curcumin boosts BDNF (brain-derived neurotrophic factor), supporting cognitive function and mood regulation.</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="img-block">
+          <img src="outputs/images/ingredients/golden_fire_flatlay.png" alt="Turmeric and cayenne">
+        </div>
+      </div>
+    </div>
+
+    <!-- Cayenne -->
+    <div id="cayenne" class="science-section">
+      <div class="section-header reveal">
+        <span class="section-label">Cayenne</span>
+        <h2>Cayenne Pepper</h2>
+        <p>Used in: <strong>Immuni-Fire, Golden Fire</strong></p>
+      </div>
+      <div class="ingredient-grid reveal">
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">🔥</span>
+          <h4>Capsaicin</h4>
+          <p>Active compound. Boosts turmeric absorption, stimulates circulation, triggers thermogenesis.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">🫀</span>
+          <h4>Circulation Boost</h4>
+          <p>Vasodilatory effect increases blood flow — especially useful when combined with ginger in Immuni-Fire.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">🏃</span>
+          <h4>Metabolism</h4>
+          <p>Thermogenic effect raises core body temperature and metabolic rate.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">😮‍💨</span>
+          <h4>Sinus Clearing</h4>
+          <p>Capsaicin acts as a natural decongestant, stimulating mucus clearance and opening airways.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">🦠</span>
+          <h4>Lymphatic Stimulation</h4>
+          <p>Supports lymphatic drainage, assisting the body's waste removal and immune surveillance systems.</p>
+        </div>
+        <div class="ingredient-card">
+          <span class="ingredient-emoji">❤️</span>
+          <h4>Heart Health</h4>
+          <p>Cayenne supports cardiovascular health through blood pressure regulation and anti-platelet aggregation.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Celery -->
+    <div id="celery" class="science-section">
+      <div class="section-header reveal">
+        <span class="section-label">Celery</span>
+        <h2>Celery Juice</h2>
+        <p>Used in: <strong>Straight Celery</strong></p>
+      </div>
+      <div class="two-col reveal">
+        <div class="img-block">
+          <img src="outputs/images/ingredients/celery_flatlay.png" alt="Fresh celery">
+        </div>
+        <div>
+          <p style="margin-bottom:16px;">Straight celery juice — nothing added — is one of the most studied gut health protocols. The 7-Day Challenge trend alone has accumulated millions of views from people tracking real-world results.</p>
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-icon">🫁</div>
+              <div class="feature-text"><h4>Gut Microbiome</h4><p>Celery's natural compounds create an unfavorable environment for harmful gut bacteria and yeast, supporting a healthier microbiome balance.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🩸</div>
+              <div class="feature-text"><h4>Blood Pressure</h4><p>Phthalides in celery relax arterial walls and reduce cortisol stress hormones, supporting blood pressure reduction.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">💧</div>
+              <div class="feature-text"><h4>Hydration &amp; Detox</h4><p>High water content combined with natural electrolytes supports kidney function and toxin flushing.</p></div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🌅</div>
+              <div class="feature-text"><h4>Empty Stomach Protocol</h4><p>Maximum benefit is achieved on an empty stomach, first thing in the morning. This is the Medical Medium protocol followed by millions.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Health Benefits Wheel -->
+    <div class="text-center reveal" style="margin-top:48px;">
+      <span class="section-label">The Full Picture</span>
+      <h2 style="margin-bottom:32px;">Combined Benefits of the Glengala Fresh Range</h2>
+      <div class="img-block" style="max-width:800px; margin:0 auto;">
+        <img src="outputs/images/infographics/health_benefits_wheel.png" alt="Health benefits wheel">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="background:var(--bg-2); border-top:1px solid var(--border);">
+  <div class="container text-center">
+    <div class="reveal">
+      <span class="section-label">Ready?</span>
+      <h2 style="margin-bottom:20px;">Put the Research Into Your Day.</h2>
+      <p style="margin-bottom:36px; margin:0 auto 36px;">Every product. Every ingredient. Built from the evidence up.</p>
+      <div style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;">
+        <a href="shop.html" class="btn btn-primary btn-lg">Shop All Products</a>
+        <a href="contact.html" class="btn btn-secondary btn-lg">Order via Text</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img">Glengala <span>Fresh</span></div>
+        <p>Cold-pressed juices. Science-backed formulas. Ozonated water cleaned. No shortcuts.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Products</h5>
+        <ul>
+          <li><a href="products/beetroid.html">Beetroid</a></li>
+          <li><a href="products/immuni-tea.html">Immuni-Tea</a></li>
+          <li><a href="products/immuni-fire.html">Immuni-Fire</a></li>
+          <li><a href="products/golden-fire.html">Golden Fire</a></li>
+          <li><a href="products/celery.html">Straight Celery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="science.html">The Science</a></li>
+          <li><a href="partnerships.html">Partner With Us</a></li>
+          <li><a href="blog.html">Articles</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Order</h5>
+        <ul>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact &amp; Order</a></li>
+          <li><a href="https://wa.me/61434694141">Text Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Glengala Fresh. All rights reserved.</div>
+      <div>Made with real ingredients. Cleaned with ozonated water.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+============================================================
+ANALYZING CAYENNE DATASET
+============================================================
+
+📊 CAYENNE OVERVIEW:
+   Videos: 41
+   Total Views: 22,644,866
+   Average Views: 552,313
+   Avg Duration: 6:30
+
+📺 TOP CHANNELS:
+   - Healthy Side: 5 videos
+   - Foods4Health: 3 videos
+   - Dr. Eric Berg DC: 3 videos
+   - Ryan Taylor (Natural Remedies): 2 videos
+   - Chef Ricardo Cooking: 2 videos
+
+🔥 HEALTH CLAIMS FOUND:
+   - health: 23 mentions
+   - blood: 20 mentions
+   - benefits: 20 mentions
+   - detox: 16 mentions
+   - nutrients: 15 mentions
+   - natural: 14 mentions
+   - digestion: 13 mentions
+   - liver: 12 mentions
+   - boost: 12 mentions
+   - energy: 12 mentions
+
+🤝 SYNERGIES WITH OTHER INGREDIENTS:
+   - lemon: 28 videos
+   - cayenne: 24 videos
+   - ginger: 11 videos
+   - apple_cider_vinegar: 8 videos
+   - honey: 8 videos
+   - beetroot: 7 videos
+   - celery: 4 videos
+   - turmeric: 3 videos
+
+🎬 CONTENT THEMES:
+   - medical: 15 videos
+   - recipe: 7 videos
+   - benefits: 4 videos
+   - challenge: 4 videos
+   - detox: 3 videos
+   - weight_loss: 1 videos
+   - mistake: 1 videos
+
+📈 TOP PERFORMING VIDEOS:
+   1. 7,474,857 views - The Natural Liver Cleanser: Apple Cider Vinegar and Lemon Wa...
+   2. 4,066,708 views - The 4 Mistakes People Make with Drinking Lemon Water (and Ju...
+   3. 2,987,254 views - A Morning Drink Every Diabetic Should Try!...
+   4. 1,553,453 views - Top 2 Apple Cider Vinegar Drinks: Full Recipes: Thomas DeLau...
+   5. 1,355,411 views - I Drank Beetroot Juice for 21 DAYS and THIS Happened! 😧… 4 T...
+
+============================================================
+ANALYZING OZONATED WATER DATASET
+============================================================
+
+📊 OZONATED WATER OVERVIEW:
+   Videos: 44
+   Total Views: 2,914,434
+   Average Views: 66,237
+   Avg Duration: 4:21
+
+📺 TOP CHANNELS:
+   - BES Group Official Channel: 4 videos
+   - Ozonated Water: 3 videos
+   - science to technology: 2 videos
+   - A2Z Ozone Inc.: 2 videos
+   - Dr. Eric Berg DC: 2 videos
+
+💧 HEALTH CLAIMS FOUND:
+   - bacteria: 16 mentions
+   - treatment: 12 mentions
+   - infection: 10 mentions
+   - health: 10 mentions
+   - natural: 8 mentions
+   - virus: 7 mentions
+   - prevent: 6 mentions
+   - benefits: 5 mentions
+   - liver: 5 mentions
+   - minerals: 4 mentions
+
+🤝 SYNERGIES WITH OTHER INGREDIENTS:
+   - ozone: 28 videos
+   - lemon: 1 videos
+   - apple_cider_vinegar: 1 videos
+
+🎬 CONTENT THEMES:
+   - benefits: 7 videos
+   - medical: 7 videos
+   - recipe: 5 videos
+   - challenge: 2 videos
+   - science: 2 videos
+
+📈 TOP PERFORMING VIDEOS:
+   1. 942,330 views - 💦 Healthy Water: Which is BEST WATER to Drink 💦...
+   2. 507,459 views - The Dangers and Benefits of Alkaline Water...
+   3. 398,646 views - The #1 Nontoxic Vegetable Wash...
+   4. 235,693 views - [ Ozonation ] - Learn How Ozonation Process Works...
+   5. 134,839 views - Ozone Therapy With Dr. Kelly Misch...
+
+============================================================
+ANALYSIS COMPLETE!
+============================================================
+
+✅ Reports saved to:
+   - cayenne_analysis_report.json
+   - ozonated_water_analysis_report.json

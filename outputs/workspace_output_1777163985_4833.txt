@@ -1,0 +1,174 @@
+================================================================================
+GINGER JUICE YOUTUBE ANALYSIS - MARKETING INSIGHTS
+================================================================================
+
+================================================================================
+1. VIDEO STATISTICS
+================================================================================
+Total Videos Analyzed: 50
+Total Combined Views: 23,451,580
+Average Views per Video: 469,032
+
+TOP 10 VIDEOS BY VIEWS:
+  1. WHAT I DRINK EVERY MORNING for glowing skin, flat stoma...
+     Views: 4,803,643 views | Channel: Dadacafe다다카페
+  2. What Happens To Your Body When You Eat Ginger Everyday...
+     Views: 4,514,271 views | Channel: HealthNormal
+  3. Let’s Make My Healthy Ginger Pineapple Drink | Ginger P...
+     Views: 3,750,990 views | Channel: Sweet Adjeley
+  4. 6 ANTI-INFLAMMATORY IMMUNE-BOOSTING WELLNESS SHOTS | pr...
+     Views: 3,331,398 views | Channel: Feelin' Fab With Kayla
+  5. Cucumber, Ginger & Lime Juice. Detox & Cleanse 🥒(reduce...
+     Views: 1,104,961 views | Channel: Racquel’s Caribbean Cuisine
+  6. AVOID Ginger if You Have THESE Problems...
+     Views: 889,760 views | Channel: Dr. Eric Berg DC
+  7. Make Any Probiotic Soda From Ginger...
+     Views: 812,119 views | Channel: Whole Shenanigans
+  8. immune-boosting - Carrot, Orange, Lemon, Apple, Ginger ...
+     Views: 777,155 views | Channel: Nanaaba's Kitchen
+  9. THE BEST JAMAICAN GINGER JUICE | The Most Refreshing Dr...
+     Views: 456,491 views | Channel: Jody Cooking
+  10. Immunity Boosting Ginger Shots | Wellness Booster | Gin...
+     Views: 435,161 views | Channel: GST Kitchen - Recipes for Happiness by Ashmi
+
+================================================================================
+2. KEY THEMES FROM VIDEO TITLES
+================================================================================
+
+Themes found in video titles:
+  - IMMUNE: 4 videos, 4,128,571 total views
+  - SHOT: 4 videos, 4,078,635 total views
+  - DETOX: 3 videos, 1,285,708 total views
+  - MORNING: 3 videos, 5,140,852 total views
+  - SKIN: 3 videos, 5,595,364 total views
+  - GLOWING: 3 videos, 5,595,364 total views
+  - SHOTS: 3 videos, 3,772,885 total views
+  - WELLNESS: 2 videos, 3,766,559 total views
+  - ANTI INFLAMMATORY: 2 videos, 499,841 total views
+  - BLOOD: 2 videos, 4,783 total views
+  - BLOOD PRESSURE: 2 videos, 4,783 total views
+  - STOMACH: 1 videos, 4,803,643 total views
+  - FLAT STOMACH: 1 videos, 4,803,643 total views
+  - ANTI-INFLAMMATORY: 1 videos, 3,331,398 total views
+  - IMMUNITY: 1 videos, 435,161 total views
+  - LIVER: 1 videos, 157,796 total views
+  - WEIGHT LOSS: 1 videos, 523 total views
+  - WEIGHT: 1 videos, 523 total views
+
+================================================================================
+3. EXTRACTING TRANSCRIPT CONTENT...
+================================================================================
+
+================================================================================
+4. KEY HEALTH CLAIMS FROM TRANSCRIPTS
+================================================================================
+
+Health claims mentioned in transcripts:
+  - DIGESTION: mentioned 33 times
+  - IMMUNE: mentioned 32 times
+  - ANTIOXIDANT: mentioned 21 times
+  - ANTI-INFLAMMATORY: mentioned 19 times
+  - COLD: mentioned 19 times
+  - CANCER: mentioned 19 times
+  - HEART: mentioned 18 times
+  - NAUSEA: mentioned 15 times
+  - STOMACH: mentioned 15 times
+  - PAIN: mentioned 11 times
+  - MUSCLE: mentioned 10 times
+  - BLOOD SUGAR: mentioned 9 times
+  - GINGEROL: mentioned 9 times
+  - BLOOD PRESSURE: mentioned 9 times
+  - FLU: mentioned 7 times
+  - WEIGHT LOSS: mentioned 5 times
+  - DIABETES: mentioned 5 times
+  - ARTHRITIS: mentioned 3 times
+  - MORNING SICKNESS: mentioned 3 times
+  - REDUCE INFLAMMATION: mentioned 2 times
+
+================================================================================
+5. KEY COMPOUNDS & NUTRIENTS
+================================================================================
+
+Compound/nutrient mentions:
+  - VITAMIN: 39 mentions
+  - ANTIOXIDANT: 21 mentions
+  - FIBER: 13 mentions
+  - GINGEROL: 9 mentions
+  - POTASSIUM: 2 mentions
+
+================================================================================
+6. GINGER + BEETROOT COMBINATION CONTENT
+================================================================================
+
+Videos mentioning ginger + beetroot: 8
+  - 6 ANTI-INFLAMMATORY IMMUNE-BOOSTING WELLNESS SHOTS... (3,331,398 views)
+  - Benefits of drinking Ginger mixed beetroot juice i... (323,228 views)
+  - 9 POWERFUL Beetroot & Ginger Juice Health Benefits... (161,805 views)
+  - Beetroot Carrot and Ginger Juice. Drink to cleanse... (157,796 views)
+  - Batch Juicing - Apple Beet Carrot Ginger Juice | P... (5,452 views)
+
+================================================================================
+7. SPECIFIC CLAIMS WITH CONTEXT (MARKETING GOLD)
+================================================================================
+
+BENEFIT CLAIMS:
+  - "the beautiful bright color of beetroot can make anyone fall in love with them yet they're ignored perhaps because of their distinctive taste if you're..."
+    (Source: 9 POWERFUL Beetroot & Ginger Juice Healt... - 161,805 views)
+  - "it's an anti-inflammatory like other produce ginger and beets contain antioxidant-like compounds that may reduce cell damage the root of ginger can al..."
+    (Source: 9 POWERFUL Beetroot & Ginger Juice Healt... - 161,805 views)
+  - "[Music] hello guys welcome back to my Channel today I'm going to be showing you a simple DIY they can easily make at home I'm going to be showing you ..."
+    (Source: How to make ginger juice at home with a ... - 249,595 views)
+  - "all right [Music] what happens to your body when you eat ginger every day Ginger is a spice that has been used for over 4 000 years it's a very powerf..."
+    (Source: What Happens To Your Body When You Eat G... - 4,514,271 views)
+  - "so when to take Ginger and when not to take Ginger that's what we're going to talk about today Ginger can be a powerful remedy for so many things it's..."
+    (Source: AVOID Ginger if You Have THESE Problems... - 889,760 views)
+
+STATISTICS:
+  - "It’s take about 10 minute, cost a couple 
+of dollars and ingredients are so simple..."
+    (Source: WHAT I DRINK EVERY MORNING for glowing s... - 4,803,643 views)
+  - "It's not going to be really perfect, but you know, most of them if like 95% can come out, that would be fine..."
+    (Source: GINGER JUICE (Liberian style) 2 WAYS... - 1,969 views)
+  - "hi guys welcome back again to my kitchen today I'm going to make ginger juice in my kitchen I know you guys been waiting for this recipe for so long a..."
+    (Source: HOW TO MAKE JAMAICAN GINGER JUICE RECIPE... - 183,173 views)
+  - "Just let it evaporate for 24 hours to decllorinate it..."
+    (Source: Make Any Probiotic Soda From Ginger... - 812,119 views)
+  - "And now this just needs to sit at room temperature for anywhere from 12 hours to 3ish days depending on all the factors at hand..."
+    (Source: Make Any Probiotic Soda From Ginger... - 812,119 views)
+
+IMMUNE CLAIMS:
+  - "There is so many benefits like simply good for ur skin, anti inflammatory, reduce digestive 
+issues, stronger immune system, boosts metabolism Startin..."
+    (Source: WHAT I DRINK EVERY MORNING for glowing s... - 4,803,643 views)
+  - "[Music] what's up my beautiful people it is your favorite auntie your favorite sister aka sister madame back in the kitchen it's another one of those ..."
+    (Source: immune-boosting - Carrot, Orange, Lemon,... - 777,155 views)
+
+DIGESTION CLAIMS:
+  - "hi everyone welcome back to my channel today we will be making this absolutely refreshing pineapple in ginger drink it is super healthy absolutely nut..."
+    (Source: Healthy and Refreshing Pineapple and Gin... - 375,464 views)
+
+INFLAMMATION CLAIMS:
+  - "hi everyone welcome back again to dubsy's delight today i'm back with you with another delicious and healthy fresh homemade juice so if you want to se..."
+    (Source: PINEAPPLE GINGER JUICE... - 9,132 views)
+  - "They fight inflammation, soothe joint pain, and calm your digestive system..."
+    (Source: Drink Beetroot Ginger Juice Every Day – ... - 1,047 views)
+
+================================================================================
+8. TARGET AUDIENCE SEGMENTS
+================================================================================
+  Morning Routine: 14 videos, 15,444,511 total views
+  Digestive Health: 17 videos, 16,167,544 total views
+  Immune Support: 24 videos, 17,208,996 total views
+  Weight Management: 6 videos, 4,994,406 total views
+  Skin/Beauty: 22 videos, 15,822,946 total views
+  Pain/Inflammation: 13 videos, 9,396,075 total views
+  Pregnancy/Morning Sickness: 3 videos, 5,565,836 total views
+
+================================================================================
+9. SAVING ANALYSIS...
+================================================================================
+Ginger analysis saved to ginger_analysis_report.json
+
+================================================================================
+GINGER ANALYSIS COMPLETE!
+================================================================================

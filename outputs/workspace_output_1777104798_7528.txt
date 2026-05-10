@@ -1,0 +1,500 @@
+{
+  "query": "beetroot juice",
+  "config": {
+    "query": "beetroot juice",
+    "sort": "relevance",
+    "timeframe": "all",
+    "maxVideos": 50,
+    "lang": "en",
+    "minViews": 0
+  },
+  "extractedAt": "2026-04-25T06:07:28.207Z",
+  "status": "complete",
+  "videos": [
+    {
+      "rank": 1,
+      "channel": "HealthNormal",
+      "description": "",
+      "duration": "11:35",
+      "publishedTime": "3 years ago",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LFFVAYPWS9g/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDDEfsykrnOeF-AzSrfh5W1KaESoA",
+      "title": "9 POWERFUL Things That Happen To Your Body When You Drink Beet Juice",
+      "url": "https://www.youtube.com/watch?v=LFFVAYPWS9g",
+      "videoId": "LFFVAYPWS9g",
+      "views": "822,599 views",
+      "transcript": {
+        "fullText": "all right [Music] what happens to your body when you drink beet juice every day beet juice is one of the most popular juices around today and it lives up to its name the taste as you can imagine is very similar to beets this makes it a bit hard for those who aren't big fans of this unique taste to drink beet juice regularly however its health benefits outweigh its taste beets are root vegetables that come in red yellow and white varieties they are rich in vitamins A and C as well as potassium iron and magnesium they are also a good source of fiber in this video we are going to be talking about the amazing health benefits of drinking beet juice every day before we proceed please note that everything mentioned in this video is unbiased fact checked and reviewed by qualified health professionals with that said let's jump in and talk about the nine benefits of beet juice number one detoxifies the liver the liver is one of the most important organs in our body it performs around 500 different functions including producing bile and blood removing toxins and providing support to the immune system because of this it's important to keep your liver healthy but a healthy liver isn't just about keeping your blood clean and your digestive system functioning your liver also plays an important role in maintaining your energy levels and mental Clarity if you're feeling sluggish or mentally foggy it could be due to a sluggish liver the good news is that there are simple ways to support this essential organ like drinking beet juice for example beets contain betaine which is an amino acid that supports liver function betaine helps detoxify the body by clearing out harmful toxins like ammonia from protein breakdown beets are also rich in nitrates which helps your body produce more oxygen-rich blood cells this makes them especially beneficial for those with heart disease and high blood pressure who tend to experience low oxygen levels in their bloodstream number two helps nerves and muscles function properly beet juice has long been used as a natural remedy for helping the body heal itself it was used in ancient Egypt and Greece to treat various conditions today beets are still popularly used to treat heart disease cancer arthritis and even psoriasis beet juice is a great source of potassium which is a mineral that helps your muscles contract potassium is an electrolyte which means it dissolves in water electrolytes are important for the body to function properly because they help transmit electrical signals between nerve cells and muscle cells electrolytes also help regulate blood pressure by allowing your body to retain water or release it into the bloodstream as needed beets contain about 400 milligrams of potassium per cup which makes them one of the best sources of this mineral in all vegetables the betaine found in beets can also help with nerve cell function and muscle contractions by increasing the amount of choline in the body choline is an essential nutrient that helps nerves send messages from one location to another within the body without enough choline nerve cells cannot function properly and muscles may not be able to contract properly either number three boosts stamina your stamina is the ability of your body to continue working without getting tired it's a measure of your physical fitness and it can be improved by exercising regularly if you're looking for an easy way to improve your stamina then beet juice is the answer beetroot juice contains nitrates that help increase blood flow throughout your body including your muscles and brain this allows for greater oxygen delivery to your organs and muscles so you can perform better during workouts but tannin and beets is also absorbed slowly into the bloodstream which means it can supply energy for longer periods liking our video so far before we move on to the next benefit don't forget to hit the like button and subscribe to our channel so you never miss out on our new informative videos number four lowers blood pressure high blood pressure is one of the most important risk factors for heart attack and stroke the good news is that many foods can help lower blood pressure naturally if you have high blood pressure you may want to give beet juice a try a new study found that drinking beet juice can significantly lower your blood pressure beets are packed with nutrients like folate potassium and magnesium these minerals help to relax blood vessels and reduce inflammation which are both common cause of high blood pressure beet juice also increases nitric oxide levels in your body which relaxes your blood vessels and lowers your blood pressure a study found that after two weeks of drinking beet juice the participants had a significant reduction in their systolic blood pressure systolic blood pressure is the top number that represents the force of blood against artery walls when the heart beats number five promotes healthy skin the benefits of beet juice for the skin are many beet juice is rich in antioxidants and has anti-inflammatory properties that help to reduce redness and improve skin tone antioxidants are a group of nutrients that protect your skin from the damaging effects of ultraviolet light and other environmental factors these nutrients include vitamins a c and e and carotenoids such as lycopene and beta-carotene antioxidants also work to slow down or prevent cell damage that occurs with age or sun exposure as you age your body produces fewer antioxidants and it becomes harder for it to repair damaged DNA strands this increases your risk of developing cancerous cells in the future beet juice also contains betalane which helps fight free radicals that cause wrinkles and dark spots in the skin beta lanes are pigments that give color to a variety of fruits and vegetables the most common beta lanes are beta cyanines which give beets their deep red color number six May prevent dementia drinking beet juice has been shown to improve brain health and boost cognition beetroot juice is rich in nitrates which are converted into nitric oxide in the body nitric oxide helps relax blood vessels which improves blood flow and oxygen levels to the brain this boosts brain health and cognitive performance a new study shows that nitric oxide protects against Alzheimer's disease the findings suggests that boosting levels of nitric oxide could be a promising new way to prevent or even treat Alzheimer's scientists have known for some time that nitric oxide is important for brain function for example it can help how well neurons communicate with each other but its exact role hasn't been clear number seven lowers cholesterol levels the juice of beets is a natural remedy for lowering cholesterol cholesterol is a waxy fat like substance that occurs naturally in every cell of the body it helps digest fat and absorb vitamins but when you have too much of it in your blood it can lead to heart disease and stroke a high level of cholesterol is a major risk factor for heart disease as well as other serious conditions like diabetes and cancer beets are rich in folate which helps reduce the risk of cardiovascular disease folate is important for cardiovascular health because it helps to prevent levels of homocysteine from becoming too high homocysteine is an amino acid that can damage blood vessels and contribute to the hardening of the arteries researchers found that drinking beet juice can lower bad cholesterol levels by as much as 13 percent within one hour after consumption the researchers also noted that beet juice consumption did not affect good cholesterol or triglyceride levels number eight promotes Eye Health beet juice has been shown to promote Eye Health by preventing macular degeneration which is a major cause of blindness macular degeneration is a disease that causes damage to the retina the retina contains millions of light sensing cells called rods and cones the rods help you see in dim light and the cones help you see fine detail macular degeneration damages these light sensing cells over time and leads to vision loss and blindness in some people several Studies have shown that drinking beet juice may help prevent or slow down the progression of age-related macular degeneration in one study published in the British Journal of nutrition researchers found that drinking beet juice daily for 12 weeks improved blood flow to the retina it also reduced markers of oxidative stress in people with early age-related macular degeneration number nine May prevent cancer to put it simply beet juice is a miracle food the root vegetable is packed with antioxidants and other nutrients that can help protect your body from disease beta Lanes found in beets are powerful antioxidants that help prevent cancer and other diseases by activating detoxification enzymes in the body beet juice helps your liver eliminate toxins including carcinogens that promote cancer in addition to helping prevent cancer beet juice may also help treat existing cancers it's one of the top Foods on the list of natural remedies for cancer prevention and treatment the antioxidants in beets can fight free radicals which are unstable molecules that damage DNA and cause cell death free radical damage can lead to cancer development if left unchecked studies show that drinking beet juice can reduce DNA damage by up to 40 percent betalanes also have anti-inflammatory Effects by inhibiting the production of inflammatory cytokines which are proteins that stimulate immune cells to produce inflammation throughout the body reducing inflammation is important because chronic low-grade inflammation can lead to cancer development in animal studies beta Lanes have been shown to inhibit tumor growth beets may not be everyone's cup of tea but the nutritional benefits of this healthy food are worth considering for those who do enjoy beets knowing these benefits can help you make informed choices about how you prepare them and enjoy them in your meals so it's now easy to see that there are many potential benefits of beet juice they're not for everyone but for anyone looking for a way to increase overall health and stamina beets may be your answer enjoyed this video hit the like button and subscribe to our channel for more informative videos like this one thanks for watching your Wellness is our mission thank you",
+        "language": "en",
+        "segments": [
+          {
+            "startSec": 0,
+            "text": "all right"
+          },
+          {
+            "startSec": 1,
+            "text": "[Music]"
+          },
+          {
+            "startSec": 6,
+            "text": "what happens to your body when you drink"
+          },
+          {
+            "startSec": 8,
+            "text": "beet juice every day"
+          },
+          {
+            "startSec": 11,
+            "text": "beet juice is one of the most popular"
+          },
+          {
+            "startSec": 12,
+            "text": "juices around today and it lives up to"
+          },
+          {
+            "startSec": 15,
+            "text": "its name the taste as you can imagine is"
+          },
+          {
+            "startSec": 18,
+            "text": "very similar to beets this makes it a"
+          },
+          {
+            "startSec": 20,
+            "text": "bit hard for those who aren't big fans"
+          },
+          {
+            "startSec": 22,
+            "text": "of this unique taste to drink beet juice"
+          },
+          {
+            "startSec": 24,
+            "text": "regularly however its health benefits"
+          },
+          {
+            "startSec": 27,
+            "text": "outweigh its taste"
+          },
+          {
+            "startSec": 29,
+            "text": "beets are root vegetables that come in"
+          },
+          {
+            "startSec": 31,
+            "text": "red yellow and white varieties they are"
+          },
+          {
+            "startSec": 34,
+            "text": "rich in vitamins A and C as well as"
+          },
+          {
+            "startSec": 37,
+            "text": "potassium iron and magnesium they are"
+          },
+          {
+            "startSec": 40,
+            "text": "also a good source of fiber in this"
+          },
+          {
+            "startSec": 42,
+            "text": "video we are going to be talking about"
+          },
+          {
+            "startSec": 44,
+            "text": "the amazing health benefits of drinking"
+          },
+          {
+            "startSec": 46,
+            "text": "beet juice every day"
+          },
+          {
+            "startSec": 48,
+            "text": "before we proceed please note that"
+          },
+          {
+            "startSec": 51,
+            "text": "everything mentioned in this video is"
+          },
+          {
+            "startSec": 53,
+            "text": "unbiased fact checked and reviewed by"
+          },
+          {
+            "startSec": 55,
+            "text": "qualified health professionals with that"
+          },
+          {
+            "startSec": 58,
+            "text": "said let's jump in and talk about the"
+          },
+          {
+            "startSec": 60,
+            "text": "nine benefits of beet juice number one"
+          },
+          {
+            "startSec": 64,
+            "text": "detoxifies the liver the liver is one of"
+          },
+          {
+            "startSec": 67,
+            "text": "the most important organs in our body it"
+          },
+          {
+            "startSec": 70,
+            "text": "performs around 500 different functions"
+          },
+          {
+            "startSec": 73,
+            "text": "including producing bile and blood"
+          },
+          {
+            "startSec": 76,
+            "text": "removing toxins and providing support to"
+          },
+          {
+            "startSec": 79,
+            "text": "the immune system because of this it's"
+          },
+          {
+            "startSec": 81,
+            "text": "important to keep your liver healthy but"
+          },
+          {
+            "startSec": 84,
+            "text": "a healthy liver isn't just about keeping"
+          },
+          {
+            "startSec": 86,
+            "text": "your blood clean and your digestive"
+          },
+          {
+            "startSec": 88,
+            "text": "system functioning your liver also plays"
+          },
+          {
+            "startSec": 91,
+            "text": "an important role in maintaining your"
+          },
+          {
+            "startSec": 93,
+            "text": "energy levels and mental Clarity if"
+          },
+          {
+            "startSec": 95,
+            "text": "you're feeling sluggish or mentally"
+          },
+          {
+            "startSec": 97,
+            "text": "foggy it could be due to a sluggish"
+          },
+          {
+            "startSec": 99,
+            "text": "liver the good news is that there are"
+          },
+          {
+            "startSec": 102,
+            "text": "simple ways to support this essential"
+          },
+          {
+            "startSec": 104,
+            "text": "organ like drinking beet juice for"
+          },
+          {
+            "startSec": 106,
+            "text": "example"
+          },
+          {
+            "startSec": 107,
+            "text": "beets contain betaine which is an amino"
+          },
+          {
+            "startSec": 110,
+            "text": "acid that supports liver function"
+          },
+          {
+            "startSec": 112,
+            "text": "betaine helps detoxify the body by"
+          },
+          {
+            "startSec": 115,
+            "text": "clearing out harmful toxins like ammonia"
+          },
+          {
+            "startSec": 118,
+            "text": "from protein breakdown beets are also"
+          },
+          {
+            "startSec": 120,
+            "text": "rich in nitrates which helps your body"
+          },
+          {
+            "startSec": 122,
+            "text": "produce more oxygen-rich blood cells"
+          },
+          {
+            "startSec": 125,
+            "text": "this makes them especially beneficial"
+          },
+          {
+            "startSec": 127,
+            "text": "for those with heart disease and high"
+          },
+          {
+            "startSec": 130,
+            "text": "blood pressure who tend to experience"
+          },
+          {
+            "startSec": 131,
+            "text": "low oxygen levels in their bloodstream"
+          },
+          {
+            "startSec": 134,
+            "text": "number two helps nerves and muscles"
+          },
+          {
+            "startSec": 137,
+            "text": "function properly"
+          },
+          {
+            "startSec": 139,
+            "text": "beet juice has long been used as a"
+          },
+          {
+            "startSec": 141,
+            "text": "natural remedy for helping the body heal"
+          },
+          {
+            "startSec": 143,
+            "text": "itself it was used in ancient Egypt and"
+          },
+          {
+            "startSec": 146,
+            "text": "Greece to treat various conditions today"
+          },
+          {
+            "startSec": 149,
+            "text": "beets are still popularly used to treat"
+          },
+          {
+            "startSec": 151,
+            "text": "heart disease cancer arthritis and even"
+          },
+          {
+            "startSec": 154,
+            "text": "psoriasis beet juice is a great source"
+          },
+          {
+            "startSec": 157,
+            "text": "of potassium which is a mineral that"
+          },
+          {
+            "startSec": 159,
+            "text": "helps your muscles contract potassium is"
+          },
+          {
+            "startSec": 162,
+            "text": "an electrolyte which means it dissolves"
+          },
+          {
+            "startSec": 164,
+            "text": "in water electrolytes are important for"
+          },
+          {
+            "startSec": 167,
+            "text": "the body to function properly because"
+          },
+          {
+            "startSec": 169,
+            "text": "they help transmit electrical signals"
+          },
+          {
+            "startSec": 171,
+            "text": "between nerve cells and muscle cells"
+          },
+          {
+            "startSec": 174,
+            "text": "electrolytes also help regulate blood"
+          },
+          {
+            "startSec": 176,
+            "text": "pressure by allowing your body to retain"
+          },
+          {
+            "startSec": 178,
+            "text": "water or release it into the bloodstream"
+          },
+          {
+            "startSec": 181,
+            "text": "as needed"
+          },
+          {
+            "startSec": 182,
+            "text": "beets contain about 400 milligrams of"
+          },
+          {
+            "startSec": 185,
+            "text": "potassium per cup which makes them one"
+          },
+          {
+            "startSec": 188,
+            "text": "of the best sources of this mineral in"
+          },
+          {
+            "startSec": 190,
+            "text": "all vegetables the betaine found in"
+          },
+          {
+            "startSec": 192,
+            "text": "beets can also help with nerve cell"
+          },
+          {
+            "startSec": 194,
+            "text": "function and muscle contractions by"
+          },
+          {
+            "startSec": 197,
+            "text": "increasing the amount of choline in the"
+          },
+          {
+            "startSec": 199,
+            "text": "body"
+          },
+          {
+            "startSec": 200,
+            "text": "choline is an essential nutrient that"
+          },
+          {
+            "startSec": 202,
+            "text": "helps nerves send messages from one"
+          },
+          {
+            "startSec": 204,
+            "text": "location to another within the body"
+          },
+          {
+            "startSec": 207,
+            "text": "without enough choline nerve cells"
+          },
+          {
+            "startSec": 209,
+            "text": "cannot function properly and muscles may"
+          },
+          {
+            "startSec": 211,
+            "text": "not be able to contract properly either"
+          },
+          {
+            "startSec": 214,
+            "text": "number three boosts stamina your stamina"
+          },
+          {
+            "startSec": 218,
+            "text": "is the ability of your body to continue"
+          },
+          {
+            "startSec": 220,
+            "text": "working without getting tired it's a"
+          },
+          {
+            "startSec": 222,
+            "text": "measure of your physical fitness and it"
+          },
+          {
+            "startSec": 224,
+            "text": "can be improved by exercising regularly"
+          },
+          {
+            "startSec": 226,
+            "text": "if you're looking for an easy way to"
+          },
+          {
+            "startSec": 229,
+            "text": "improve your stamina then beet juice is"
+          },
+          {
+            "startSec": 231,
+            "text": "the answer beetroot juice contains"
+          },
+          {
+            "startSec": 234,
+            "text": "nitrates that help increase blood flow"
+          },
+          {
+            "startSec": 236,
+            "text": "throughout your body including your"
+          },
+          {
+            "startSec": 238,
+            "text": "muscles and brain this allows for"
+          },
+          {
+            "startSec": 240,
+            "text": "greater oxygen delivery to your organs"
+          },
+          {
+            "startSec": 242,
+            "text": "and muscles so you can perform better"
+          },
+          {
+            "startSec": 244,
+            "text": "during workouts"
+          },
+          {
+            "startSec": 246,
+            "text": "but tannin and beets is also absorbed"
+          },
+          {
+            "startSec": 248,
+            "text": "slowly into the bloodstream which means"
+          },
+          {
+            "startSec": 251,
+            "text": "it can supply energy for longer periods"
+          },
+          {
+            "startSec": 254,
+            "text": "liking our video so far before we move"
+          },
+          {
+            "startSec": 257,
+            "text": "on to the next benefit don't forget to"
+          },
+          {
+            "startSec": 259,
+            "text": "hit the like button and subscribe to our"
+          },
+          {
+            "startSec": 261,
+            "text": "channel so you never miss out on our new"
+          },
+          {
+            "startSec": 263,
+            "text": "informative videos"
+          },
+          {
+            "startSec": 265,
+            "text": "number four lowers blood pressure"
+          },
+          {
+            "startSec": 268,
+            "text": "high blood pressure is one of the most"
+          },
+          {
+            "startSec": 270,
+            "text": "important risk factors for heart attack"
+          },
+          {
+            "startSec": 272,
+            "text": "and stroke the good news is that many"
+          },
+          {
+            "startSec": 275,
+            "text": "foods can help lower blood pressure"
+          },
+          {
+            "startSec": 277,
+            "text": "naturally if you have high blood"
+          },
+          {
+            "startSec": 279,
+            "text": "pressure you may want to give beet juice"
+          },

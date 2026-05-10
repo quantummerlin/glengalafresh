@@ -1,0 +1,301 @@
+================================================================================
+DEEP DIVE ANALYSIS - FINDING HIDDEN INSIGHTS
+================================================================================
+
+================================================================================
+1. TOP CHANNELS BY TOTAL VIEWS (INFLUENCER OPPORTUNITIES)
+================================================================================
+
+Top 20 Channels (Potential Influencer Partnerships):
+
+1. Dr. Eric Berg DC
+   Total Views: 17,563,665
+   Videos in Dataset: 6
+   Covers: honey, lemon, ginger
+
+2. Our Collection
+   Total Views: 12,630,284
+   Videos in Dataset: 1
+   Covers: lemon
+
+3. Rozy's Kitchen
+   Total Views: 10,316,762
+   Videos in Dataset: 1
+   Covers: beetroot
+
+4. Dadacafe다다카페
+   Total Views: 9,607,352
+   Videos in Dataset: 2
+   Covers: lemon, ginger
+
+5. HealthNormal
+   Total Views: 8,861,344
+   Videos in Dataset: 3
+   Covers: honey, ginger, beetroot
+
+6. BRIGHT SIDE
+   Total Views: 7,006,705
+   Videos in Dataset: 1
+   Covers: honey
+
+7. DietTube India
+   Total Views: 6,439,749
+   Videos in Dataset: 1
+   Covers: beetroot
+
+8. Sandra Serrati Research
+   Total Views: 4,198,955
+   Videos in Dataset: 1
+   Covers: beetroot
+
+9. Sweet Adjeley
+   Total Views: 3,750,990
+   Videos in Dataset: 1
+   Covers: ginger
+
+10. The Stay At Home Chef
+   Total Views: 3,528,533
+   Videos in Dataset: 1
+   Covers: lemon
+
+11. Chef Ricardo Cooking
+   Total Views: 3,392,305
+   Videos in Dataset: 2
+   Covers: lemon, beetroot
+
+12. Feelin' Fab With Kayla
+   Total Views: 3,331,398
+   Videos in Dataset: 1
+   Covers: ginger
+
+13. Dr. Sten Ekberg
+   Total Views: 2,896,490
+   Videos in Dataset: 1
+   Covers: honey
+
+14. Dr. Eric Berg DC and Dr. Berg Shorts
+   Total Views: 2,828,433
+   Videos in Dataset: 1
+   Covers: beetroot
+
+15. Clean & Delicious
+   Total Views: 2,772,119
+   Videos in Dataset: 1
+   Covers: beetroot
+
+16. Racquel’s Caribbean Cuisine
+   Total Views: 2,425,439
+   Videos in Dataset: 3
+   Covers: ginger, beetroot
+
+17. Respiratory Therapy Zone
+   Total Views: 1,928,292
+   Videos in Dataset: 2
+   Covers: honey
+
+18. Bhusanur.cooking
+   Total Views: 1,859,962
+   Videos in Dataset: 1
+   Covers: beetroot
+
+19. Nanaaba's Kitchen
+   Total Views: 1,601,129
+   Videos in Dataset: 2
+   Covers: lemon, ginger
+
+20. Dr. Josh Axe
+   Total Views: 1,374,194
+   Videos in Dataset: 3
+   Covers: honey
+
+================================================================================
+2. VIDEO DURATION ANALYSIS (CONTENT FORMAT INSIGHTS)
+================================================================================
+
+Content Format Distribution:
+  SHORT: 40 videos, 14,447,478 total views, 361,187 avg views/video
+  MEDIUM: 112 videos, 95,289,013 total views, 850,795 avg views/video
+  LONG: 48 videos, 30,860,237 total views, 642,922 avg views/video
+
+================================================================================
+3. PUBLISH TIMING ANALYSIS
+================================================================================
+
+Publish Time Distribution:
+  5 years ago: 28 videos
+  2 years ago: 26 videos
+  4 years ago: 25 videos
+  3 years ago: 21 videos
+  1 year ago: 19 videos
+  6 years ago: 10 videos
+  7 years ago: 9 videos
+  8 years ago: 9 videos
+  9 years ago: 7 videos
+  4 months ago: 5 videos
+  3 months ago: 4 videos
+  8 months ago: 4 videos
+  11 months ago: 4 videos
+  10 years ago: 3 videos
+  7 months ago: 3 videos
+
+================================================================================
+4. HIGH-PERFORMING TITLE PATTERNS
+================================================================================
+
+Most Common Words in HIGH-PERFORMING Videos (500K+ views):
+  juice: 34
+  beetroot: 16
+  drink: 14
+  lemon: 14
+  benefits: 9
+  ginger: 9
+  honey: 9
+  beet: 8
+  body: 6
+  health: 6
+  healthy: 6
+  make: 6
+  blood: 5
+  skin: 5
+  days: 4
+  problems: 4
+
+================================================================================
+5. 'MISTAKES' & 'WARNING' CONTENT (High Engagement Format)
+================================================================================
+
+Found 13 'Mistakes/Warning' style videos:
+
+  - "Stop Eating Raw Beetroot | Problems with Beetroot ..."
+    6,439,749 views | beetroot | DietTube India
+
+  - "The 4 Mistakes People Make with Drinking Lemon Wat..."
+    4,066,175 views | lemon | Dr. Eric Berg DC
+
+  - "Top 5 Lemon Water Mistakes That Can Damage Your Li..."
+    1,162,083 views | lemon | Dr. Livingood
+
+  - "AVOID Ginger if You Have THESE Problems..."
+    889,760 views | ginger | Dr. Eric Berg DC
+
+  - "Over 60? NEVER Drink Beet Juice With THESE 7 Foods..."
+    683,469 views | beetroot | Ageless Vitality
+
+  - "Over 50? NEVER Drink Beet Juice With THESE 7 Foods..."
+    534,947 views | beetroot | Senior Secrets Book
+
+  - "Drink Beetroot Juice But Never Make These 7 Deadly..."
+    287,234 views | beetroot | Dr Rohini Patil
+
+  - "Stop Drinking Beetroot Juice Like This! 7 Dangerou..."
+    86,948 views | beetroot | Dr Murali Manohar Chirumamilla, MD (Ayu) Official
+
+  - "HOW TO USE ONION GARLIC & GINGER JUICE FOR UNSTOPP..."
+    58,896 views | ginger | WLHMC ALLNATURAL
+
+  - "Over 60? NEVER Combine Beet Juice With THESE 7 Foo..."
+    22,684 views | beetroot | Max Smith Senior Health Care
+
+TOTAL VIEWS for 'Mistakes' content: 14,246,016
+Average views: 1,095,847
+
+================================================================================
+6. QUESTION-BASED CONTENT (Curiosity Gap)
+================================================================================
+
+Found 48 question-based videos:
+
+  - "What Happens When You Change One Small Daily Habit..."
+    7,006,705 views | honey
+
+  - "What Happens To Your Body When You Eat Ginger Everyday..."
+    4,514,271 views | ginger
+
+  - "Over 60? Drink THIS to Increase Blood Flow in Legs Fast..."
+    4,198,955 views | beetroot
+
+  - "What Happens to Your Body When You Start Eating Honey..."
+    3,524,474 views | honey
+
+  - "What If You Start Eating Honey Every Day For 30 Days?..."
+    2,896,490 views | honey
+
+  - "Eat 1 Spoon of Raw Honey Every Morning and THIS Will Ha..."
+    1,769,347 views | honey
+
+  - "I Drank Beetroot Juice for 21 DAYS and THIS Happened! 😧..."
+    1,354,388 views | beetroot
+
+  - "BEETROOT JUICE // This Super healthy drink, cleanses, d..."
+    1,305,912 views | beetroot
+
+  - "Why I love Beetroot - Beetroot Benefits and Beetroot Ju..."
+    882,202 views | beetroot
+
+  - "Honey Uses for Skin In Hindi | Honey Benefits | BENEFTI..."
+    769,525 views | honey
+
+TOTAL VIEWS: 32,952,876
+Average views per question video: 686,518
+
+================================================================================
+7. TIME-BASED CLAIMS (When to consume)
+================================================================================
+
+Found 85 videos with timing recommendations:
+  - [morning] The Natural Liver Cleanser: Apple Cider Vineg... (7,474,542 views)
+  - [night] What Happens When You Change One Small Daily ... (7,006,705 views)
+  - [morning] WHAT I DRINK EVERY MORNING for glowing skin, ... (4,803,709 views)
+  - [morning] WHAT I DRINK EVERY MORNING for glowing skin, ... (4,803,643 views)
+  - [first thing] Amazing Benefits of Eating WHOLE Lemons - Pee... (4,411,297 views)
+  - [morning] Over 60? Drink THIS to Increase Blood Flow in... (4,198,955 views)
+  - [morning] The 4 Mistakes People Make with Drinking Lemo... (4,066,175 views)
+  - [night] What Happens to Your Body When You Start Eati... (3,524,474 views)
+  - [morning] 6 ANTI-INFLAMMATORY IMMUNE-BOOSTING WELLNESS ... (3,331,398 views)
+  - [before bed] What If You Start Eating Honey Every Day For ... (2,896,490 views)
+  - [morning] DRINK 1 CUP A DAY to Unclog Your Arteries... (2,828,433 views)
+  - [first thing] Beets 101 - Everything You Need To Know... (2,772,119 views)
+  - [morning] Cleanse your body with baking soda and lemon ... (2,466,572 views)
+  - [morning] Eat 1 Spoon of Raw Honey Every Morning and TH... (1,769,347 views)
+  - [morning] I Drank Beetroot Juice for 21 DAYS and THIS H... (1,354,388 views)
+
+================================================================================
+8. DEMOGRAPHIC TARGETING OPPORTUNITIES
+================================================================================
+
+Demographic Content Analysis:
+  MEN: 143 videos, 104,440,948 total views
+  OVER 50: 96 videos, 62,786,261 total views
+  HEART PATIENTS: 74 videos, 50,849,638 total views
+  DIABETICS: 53 videos, 39,751,385 total views
+  ATHLETES: 36 videos, 20,398,443 total views
+  WOMEN: 12 videos, 8,239,870 total views
+
+================================================================================
+9. RECIPE & HOW-TO CONTENT
+================================================================================
+
+Found 47 recipe/how-to videos:
+Total views: 22,197,691
+Average: 472,291
+
+Top 10 Recipe/How-To Videos:
+  - The 4 Mistakes People Make with Drinking Lemon Wat... (4,066,175 views)
+  - Let’s Make My Healthy Ginger Pineapple Drink | Gin... (3,750,990 views)
+  - How to Make Homemade Lemonade Using Real Lemons... (3,528,533 views)
+  - Oil Treatments & Recipes : How to Treat Kidney Sto... (1,168,069 views)
+  - Beetroot Juice Recipe Using Blender... (1,016,966 views)
+  - Beetroot & Ginger Healthy Recipes | Recipes By Che... (925,733 views)
+  - Make Any Probiotic Soda From Ginger... (812,119 views)
+  - Chukandar Juice Recipe | Healthy Beetroot Juice fo... (780,459 views)
+  - Beet Juice Benefits (Plus A Simple Recipe!)... (680,877 views)
+  - How To Make Beetroot Juice Without A Juicer | Supe... (670,763 views)
+
+================================================================================
+10. SAVING DEEP ANALYSIS...
+================================================================================
+Deep analysis saved to deep_analysis_report.json
+
+================================================================================
+DEEP ANALYSIS COMPLETE!
+================================================================================

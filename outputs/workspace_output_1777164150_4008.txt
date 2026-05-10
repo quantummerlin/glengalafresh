@@ -1,0 +1,209 @@
+================================================================================
+LEMON JUICE YOUTUBE ANALYSIS - MARKETING INSIGHTS
+================================================================================
+
+================================================================================
+1. VIDEO STATISTICS
+================================================================================
+Total Videos Analyzed: 50
+Total Combined Views: 50,022,512
+Average Views per Video: 1,000,450
+
+TOP 10 VIDEOS BY VIEWS:
+  1. LEMON SODA: Summer Special Lemon Juice With Sweet Dahi ...
+     Views: 12,630,284 views | Channel: Our Collection
+  2. The Natural Liver Cleanser: Apple Cider Vinegar and Lem...
+     Views: 7,474,542 views | Channel: Dr. Eric Berg DC
+  3. WHAT I DRINK EVERY MORNING for glowing skin, flat stoma...
+     Views: 4,803,709 views | Channel: Dadacafe다다카페
+  4. Amazing Benefits of Eating WHOLE Lemons - Peel, White P...
+     Views: 4,411,297 views | Channel: Dr. Eric Berg DC
+  5. The 4 Mistakes People Make with Drinking Lemon Water (a...
+     Views: 4,066,175 views | Channel: Dr. Eric Berg DC
+  6. How to Make Homemade Lemonade Using Real Lemons...
+     Views: 3,528,533 views | Channel: The Stay At Home Chef
+  7. Cleanse your body with baking soda and lemon and see wh...
+     Views: 2,466,572 views | Channel: Chef Ricardo Cooking
+  8. Oil Treatments & Recipes : How to Treat Kidney Stones W...
+     Views: 1,168,069 views | Channel: ehowhealth
+  9. Top 5 Lemon Water Mistakes That Can Damage Your Liver (...
+     Views: 1,162,083 views | Channel: Dr. Livingood
+  10. Refreshing Immune boosting Beetroot Pineapple, Ginger a...
+     Views: 823,974 views | Channel: Nanaaba's Kitchen
+
+================================================================================
+2. KEY THEMES FROM VIDEO TITLES
+================================================================================
+
+Themes found in video titles:
+  - WATER: 6 videos, 13,799,835 total views
+  - BENEFITS: 5 videos, 5,633,887 total views
+  - HEALTH: 3 videos, 560,361 total views
+  - OLIVE OIL: 3 videos, 1,719,418 total views
+  - CLEANSE: 3 videos, 10,325,964 total views
+  - ACID: 3 videos, 200,478 total views
+  - MORNING: 3 videos, 5,152,629 total views
+  - MISTAKES: 2 videos, 5,228,258 total views
+  - LIVER: 2 videos, 8,636,625 total views
+  - KIDNEY: 2 videos, 1,212,187 total views
+  - KIDNEY STONE: 2 videos, 1,212,187 total views
+  - WEIGHT: 2 videos, 185,324 total views
+  - SKIN: 2 videos, 4,938,998 total views
+  - LOSE: 1 videos, 125,353 total views
+  - ALKALINE: 1 videos, 85,312 total views
+  - PH: 1 videos, 85,312 total views
+  - STOMACH: 1 videos, 4,803,709 total views
+  - WEIGHT LOSS: 1 videos, 59,971 total views
+  - DETOX: 1 videos, 133,617 total views
+  - DIGESTION: 1 videos, 133,617 total views
+  - IMMUNE: 1 videos, 823,974 total views
+
+================================================================================
+3. EXTRACTING TRANSCRIPT CONTENT...
+================================================================================
+
+================================================================================
+4. KEY HEALTH CLAIMS FROM TRANSCRIPTS
+================================================================================
+
+Health claims mentioned in transcripts:
+  - ACID: mentioned 91 times
+  - VITAMIN: mentioned 84 times
+  - LIVER: mentioned 68 times
+  - VITAMIN C: mentioned 59 times
+  - KIDNEY: mentioned 53 times
+  - SUGAR: mentioned 47 times
+  - KIDNEY STONE: mentioned 45 times
+  - SKIN: mentioned 35 times
+  - DIGESTION: mentioned 30 times
+  - CITRIC ACID: mentioned 30 times
+  - PH: mentioned 30 times
+  - CITRATE: mentioned 29 times
+  - MORNING: mentioned 24 times
+  - ANTIOXIDANT: mentioned 23 times
+  - FAT: mentioned 19 times
+  - STOMACH: mentioned 18 times
+  - DETOX: mentioned 17 times
+  - HYDRATION: mentioned 17 times
+  - CLEANSE: mentioned 14 times
+  - BLOOD: mentioned 14 times
+  - IMMUNE: mentioned 12 times
+  - ALKALINE: mentioned 11 times
+  - WEIGHT LOSS: mentioned 11 times
+  - METABOLISM: mentioned 6 times
+  - EMPTY STOMACH: mentioned 3 times
+
+================================================================================
+5. KEY COMPOUNDS & NUTRIENTS
+================================================================================
+
+Compound/nutrient mentions:
+  - VITAMIN C: 59 mentions
+  - CALCIUM: 36 mentions
+  - CITRIC ACID: 30 mentions
+  - CITRATE: 29 mentions
+  - ANTIOXIDANT: 23 mentions
+  - FLAVONOID: 8 mentions
+  - PECTIN: 8 mentions
+  - POTASSIUM: 7 mentions
+  - FIBER: 7 mentions
+  - MAGNESIUM: 6 mentions
+
+================================================================================
+6. LEMON COMBINATION CONTENT
+================================================================================
+
+Lemon + GINGER: 8 videos
+  - WHAT I DRINK EVERY MORNING for glowing skin, ... (4,803,709 views)
+  - Refreshing Immune boosting Beetroot Pineapple... (823,974 views)
+  - Here’s How I Store LEMONS for 1 YEAR Without ... (545,824 views)
+
+Lemon + BEETROOT: 2 videos
+  - Refreshing Immune boosting Beetroot Pineapple... (823,974 views)
+  - How to clarify lemon juice | Clarified Penici... (172,598 views)
+
+Lemon + HONEY: 11 videos
+  - Top 5 Lemon Water Mistakes That Can Damage Yo... (1,162,083 views)
+  - Here’s How I Store LEMONS for 1 YEAR Without ... (545,824 views)
+  - When Lemons Are Cheap, I Do This Right Away —... (473,131 views)
+
+================================================================================
+7. SPECIFIC CLAIMS WITH CONTEXT
+================================================================================
+
+VITAMIN C BENEFITS:
+  - "like to talk about four common mistakes that people make when they consume lemon water I've done lots of videos on lemon..."
+    (Source: The 4 Mistakes People Make with Drinking... - 4,066,175 views)
+  - "to 2 g of sugar for the lemon compared to its sweeter cousin the orange which has like 12 g of sugar or something like t..."
+    (Source: Lemon Water Myths Busted: What You Reall... - 376,051 views)
+  - "so the question today is why would you
+want to use lemon juice and apple cider vinegar for your liver let's talk about
+i..."
+    (Source: The Natural Liver Cleanser: Apple Cider ... - 7,474,542 views)
+  - "so here you are you take a lemon cut it in half squeeze it in your water disregard the peel from the garbage and then yo..."
+    (Source: Amazing Benefits of Eating WHOLE Lemons ... - 4,411,297 views)
+
+TIMING:
+  - "the health benefits of lemon juice and olive oil and a simple recipe to use at home extra virgin olive oil is one of the..."
+    (Source: Lemon Juice and Olive Oil: Benefits for ... - 166,499 views)
+  - "brain health scientific studies show that consuming olive oil regularly can protect the brain against different forms of..."
+    (Source: Lemon Juice and Olive Oil: Benefits for ... - 166,499 views)
+  - "5 when you take a mouthful of an acidic substance it actually softens your enamel and can do damage yeah so you need to ..."
+    (Source: Lemon Water Myths Busted: What You Reall... - 376,051 views)
+  - "[Music] [Applause] [Music] hello this is Dr Budweiser and I am coming to you directly from the wiser living headquarters..."
+    (Source: Dr Budweiser: Olive Oil & Lemon Juice Cl... - 384,850 views)
+
+KIDNEY STONES:
+  - "kidney stones the citrates from the lemon juice help to prevent the formation of kidney stones it does this by helping t..."
+    (Source: Lemon Juice and Olive Oil: Benefits for ... - 166,499 views)
+  - "I need to make some kidney stones and not in 
+the traditional way, because I wanna try out a potential home remedy for p..."
+    (Source: I Destroyed Homemade Kidney Stones with ... - 44,118 views)
+  - "Kidney stones come in a couple of 
+different types..."
+    (Source: I Destroyed Homemade Kidney Stones with ... - 44,118 views)
+  - "What we care 
+about today are the most common type of kidney stones called calcium stones..."
+    (Source: I Destroyed Homemade Kidney Stones with ... - 44,118 views)
+
+STATISTICS:
+  - "lemon water a lot of people talking about it should you drink it we're going to talk about what it is what people say it..."
+    (Source: Lemon Water Myths Busted: What You Reall... - 376,051 views)
+  - "62 grams, but I also got two seeds in there..."
+    (Source: I Destroyed Homemade Kidney Stones with ... - 44,118 views)
+  - "It looks like we have about 2
+cups which is perfect..."
+    (Source: How to Make Homemade Lemonade Using Real... - 3,528,533 views)
+  - "And since we had two cups of lemon juice we will pour in 2 cups of water..."
+    (Source: How to Make Homemade Lemonade Using Real... - 3,528,533 views)
+
+HEALTH BENEFITS:
+  - "over the last few years cayenne pepper mixed with lemon juice has exploded in popularity with individuals and was largel..."
+    (Source: Eat Cayenne Pepper Mixed With Lemon Juic... - 133,429 views)
+  - "baking soda and lemon juice can provide numerous health benefits for those individuals who consume this mixture consiste..."
+    (Source: Drink Baking Soda and Lemon Juice Every ... - 215,303 views)
+
+ORGAN HEALTH:
+  - "in the morning this sounds like something very small but this small practice can have tremendous amount of benefit to yo..."
+    (Source: Morning Detox Secret: Lemon Water & Hima... - 133,617 views)
+
+================================================================================
+8. TARGET AUDIENCE SEGMENTS
+================================================================================
+  Morning Routine: 20 videos, 28,273,715 total views
+  Liver Health: 12 videos, 21,941,843 total views
+  Kidney Health: 8 videos, 17,922,054 total views
+  Weight Management: 16 videos, 25,857,370 total views
+  Skin/Beauty: 17 videos, 13,348,594 total views
+  Digestive Health: 20 videos, 26,985,169 total views
+  Immune Support: 21 videos, 32,394,531 total views
+  Alkaline/pH Balance: 23 videos, 21,221,447 total views
+
+================================================================================
+9. SAVING ANALYSIS...
+================================================================================
+Lemon analysis saved to lemon_analysis_report.json
+
+================================================================================
+LEMON ANALYSIS COMPLETE!
+================================================================================

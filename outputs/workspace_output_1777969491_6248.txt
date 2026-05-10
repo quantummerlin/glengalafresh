@@ -1,0 +1,51 @@
+=== FULL IMAGE INVENTORY ===
+
+HERO:
+hero_all_five_products.png
+hero_brand_moody.png
+hero_full_lineup.png
+hero_lifestyle_woman.png
+hero_three_bottles_studio.png
+
+PRODUCTS:
+beetroid_hero.png
+celery_juice_hero.png
+golden_fire_hero.png
+immuni_fire_hero.png
+immuni_tea_hero.png
+
+INGREDIENTS:
+beetroid_flatlay.png
+celery_flatlay.png
+golden_fire_flatlay.png
+immuni_fire_flatlay.png
+immuni_tea_flatlay.png
+master_ingredient_spread.png
+
+INFOGRAPHICS:
+health_benefits_wheel.png
+ozone_vs_chlorine.png
+product_comparison_chart.png
+why_ozonated_water.png
+
+SOCIAL:
+instagram_beetroid_feature.png
+instagram_product_lineup.png
+instagram_story_golden_fire.png
+instagram_story_immuni_fire.png
+wellness_quote_graphic.png
+
+LIFESTYLE:
+citrus_mint_macro.png
+ginger_turmeric_macro.png
+morning_routine_lifestyle.png
+pour_shot_closeup.png
+shop_front_lifestyle.png
+
+TOTALS:
+Hero: 5
+Products: 5
+Ingredients: 6
+Infographics: 4
+Social: 5
+Lifestyle: 5

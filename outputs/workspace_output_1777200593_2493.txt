@@ -1,0 +1,62 @@
+{
+  "query": "ozonated water veggies drink",
+  "config": {
+    "lang": "en",
+    "maxVideos": 50,
+    "minViews": 0,
+    "query": "ozonated water veggies drink",
+    "sort": "relevance",
+    "timeframe": "all"
+  },
+  "extractedAt": "2026-04-26T08:10:22.178Z",
+  "status": "complete",
+  "videos": [
+    {
+      "rank": 1,
+      "channel": "Dr. Sanda Moldovan",
+      "description": "",
+      "duration": "1:40",
+      "publishedTime": "6 years ago",
+      "thumbnailUrl": "https://i.ytimg.com/vi/vIjuflTs9CA/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDqMf4MarmmDEpB_4zFOOL8FPSjIQ",
+      "title": "How We Make Ozonated Water",
+      "url": "https://www.youtube.com/watch?v=vIjuflTs9CA",
+      "videoId": "vIjuflTs9CA",
+      "views": "56,847 views",
+      "transcript": {
+        "fullText": "Comments 203 Show featured comments Show recent comments, including potential spam",
+        "language": "en",
+        "segments": [
+          {
+            "startSec": 0,
+            "text": "Comments"
+          },
+          {
+            "startSec": 0,
+            "text": "203"
+          },
+          {
+            "startSec": 0,
+            "text": "Show featured comments"
+          },
+          {
+            "startSec": 0,
+            "text": "Show recent comments, including potential spam"
+          }
+        ],
+        "source": "dom",
+        "wordCount": 11
+      }
+    },
+    {
+      "rank": 2,
+      "channel": "AmericanWaterWorks",
+      "description": "",
+      "duration": "2:06",
+      "publishedTime": "4 years ago",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hgLad7MEk6k/hqdefault.jpg?sqp=-oaymwEnCOADEI4CSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDPor_BcE4G1d38kAykkjYeOFc9qA",
+      "title": "WSO Water Treatment Grades 3 & 4: Ozone & UV, Ch. 11",
+      "url": "https://www.youtube.com/watch?v=hgLad7MEk6k",
+      "videoId": "hgLad7MEk6k",
+      "views": "4,535 views",
+      "transcript": {
+        "fullText": "ozone that's used

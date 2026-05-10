@@ -1,0 +1,43 @@
+# Image Generation Master Plan - Fruit & Veg Shop
+
+## PHASE 1: HERO & BRAND IMAGES
+- [ ] Hero banner - full lineup of all 5 products together (website)
+- [ ] Brand hero - dark moody studio shot with bottles and ingredients
+- [ ] Hero lifestyle - person drinking juice in natural light setting
+
+## PHASE 2: PRODUCT SHOTS (all 5 products)
+- [ ] Beetroid - product hero shot (ruby red)
+- [ ] Immuni-Tea - product hero shot (golden amber)
+- [ ] Immuni-Fire - product hero shot (fiery orange)
+- [ ] Golden Fire - product hero shot (golden orange)
+- [ ] Straight Celery Juice - product hero shot (bright green)
+
+## PHASE 3: INGREDIENT FLATLAYS
+- [ ] Beetroid ingredients flatlay (beetroot, ginger, lemon, honey)
+- [ ] Immuni-Tea ingredients flatlay (ginger, lemon, honey)
+- [ ] Golden Fire ingredients flatlay (turmeric, lemon, honey, cayenne)
+- [ ] Master ingredient spread (all ingredients together)
+
+## PHASE 4: INFOGRAPHICS
+- [ ] Ozone vs Chlorine comparison infographic
+- [ ] "Why Ozonated Water?" benefits infographic
+- [ ] Product comparison chart (all 5 products with benefits)
+- [ ] Health benefits wheel/chart
+
+## PHASE 5: SOCIAL MEDIA CONTENT
+- [ ] Instagram square - Beetroid feature post
+- [ ] Instagram square - product lineup post
+- [ ] Instagram Story - Immuni-Fire CTA
+- [ ] Instagram Story - Golden Fire promo
+- [ ] Social media quote graphic - wellness/health
+
+## PHASE 6: LIFESTYLE & ATMOSPHERE
+- [ ] Farmers market / shop front lifestyle shot
+- [ ] Morning routine lifestyle (juice + breakfast scene)
+- [ ] Close-up pour shot (liquid detail)
+- [ ] Ingredient macro shots (ginger root, turmeric)
+
+## PHASE 7: FINAL OUTPUTS & DELIVERY
+- [ ] Compile all generated images into organised folder
+- [ ] Create image index/manifest file
+- [ ] Deliver with usage guide

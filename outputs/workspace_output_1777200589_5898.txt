@@ -1,0 +1,26 @@
+{
+  "query": "cayenne juice",
+  "config": {
+    "lang": "en",
+    "maxVideos": 50,
+    "minViews": 0,
+    "query": "cayenne juice",
+    "sort": "relevance",
+    "timeframe": "all"
+  },
+  "extractedAt": "2026-04-26T07:18:33.287Z",
+  "status": "complete",
+  "videos": [
+    {
+      "rank": 1,
+      "channel": "Rosel Simpson TV",
+      "description": "",
+      "duration": "3:16",
+      "publishedTime": "9 years ago",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8y2l3TDcfy8/hq720.jpg?sqp=-oaymwFBCNAFEJQDSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGHIgQSg4MA8=&rs=AOn4CLAx4DvCFuDWg_zd651WtjDlrjS6uw",
+      "title": "Vinegar, Lemon Juice, and cayenne pepper Drink",
+      "url": "https://www.youtube.com/watch?v=8y2l3TDcfy8",
+      "videoId": "8y2l3TDcfy8",
+      "views": "14,619 views",
+      "transcript": {
+        "fullText": "hello everyone Rosel Simpson Westlake Louisiana aka Mr fat and Fit I used to refer to myself as Mr fat and fit at 50 or at 51 at 52 but it seemed like my birthdays are coming twice a year now they're coming too fast and Too Furious so I simply call myself Mr fat and fit I'm coming to y'all this morning with a real quick uh little video I wanted to share a little something I came up with i noce a lot of people are using the apple cider vinegar uh pure lemon juice cayenne pepper uh I want to call it a diet or anything but they're using it like as in the morning to kind of get the day started to get their system lubricated uh and I use it for like my uh I guess my first meal of the day so to speak after I get up and get my exercise in uh have me a cup of coffee I fix my drink my uh appleid lemon juice drink to kind of get myself uh started for the morning I'm also toy around with the uh intermittent fasting concept which basically is putting as much time between your last meal of the day and your first meal of the morning and you're putting a gap between that so I try to put about a 14-hour gap between my last meal of the day an

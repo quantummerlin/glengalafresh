@@ -1,0 +1,12 @@
+-rw-r--r-- 1 root root 2528472 May  5 06:54 /workspace/generated_images/edited_image_04d76de3-3135-42b6-bd39-c3c1d2ca1caa_0.png
+-rw-r--r-- 1 root root 2186107 May  5 08:15 /workspace/generated_images/edited_image_0cc958c1-befc-4e0f-ba30-d842640e8a13_0.png
+-rw-r--r-- 1 root root 2264621 May  5 07:01 /workspace/generated_images/edited_image_0e287de5-f70d-43a5-8816-b9fff628610c_0.png
+-rw-r--r-- 1 root root 1967495 May  5 07:54 /workspace/generated_images/edited_image_1b1cbce9-1348-4ec6-b36e-87171771fab2_0.png
+-rw-r--r-- 1 root root 1956965 May  5 07:57 /workspace/generated_images/edited_image_2262c271-5bf7-435f-ab1d-f652ca3f9164_0.png
+-rw-r--r-- 1 root root 1745790 May  5 08:01 /workspace/generated_images/edited_image_2d104ca6-3308-4c51-ab97-1b9a91c9316a_0.png
+-rw-r--r-- 1 root root 2450630 May  5 06:49 /workspace/generated_images/edited_image_41f54447-bdcd-4446-9a01-8b73f3372c76_0.png
+-rw-r--r-- 1 root root 2584433 May  5 06:45 /workspace/generated_images/edited_image_7cf2e07c-3c62-43db-b109-cb3f8e6453b6_0.png
+-rw-r--r-- 1 root root 2073414 May  5 07:10 /workspace/generated_images/edited_image_b7cba420-613d-4e1b-a1d9-58a424d03ac3_0.png
+-rw-r--r-- 1 root root 2195447 May  5 06:58 /workspace/generated_images/edited_image_d1ce8de5-4475-4655-ba23-1e3804b84c9a_0.png
+-rw-r--r-- 1 root root 2180404 May  5 08:04 /workspace/generated_images/edited_image_de8e8e6d-47a4-45cd-940e-4bfaf07e56e6_0.png
+-rw-r--r-- 1 root root 2341307 May  5 07:05 /workspace/generated_images/edited_image_ecbed284-a4d9-4725-96aa-9df0730523ce_0.png

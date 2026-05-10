@@ -1,0 +1,426 @@
+{
+  "ingredient": "Cayenne",
+  "total_videos": 41,
+  "total_views": 22644866,
+  "avg_views": 552313,
+  "avg_duration_seconds": 390.4634146341463,
+  "avg_duration_formatted": "6:30",
+  "top_channels": [
+    [
+      "Healthy Side",
+      5
+    ],
+    [
+      "Foods4Health",
+      3
+    ],
+    [
+      "Dr. Eric Berg DC",
+      3
+    ],
+    [
+      "Ryan Taylor (Natural Remedies)",
+      2
+    ],
+    [
+      "Chef Ricardo Cooking",
+      2
+    ],
+    [
+      "Rosel Simpson TV",
+      1
+    ],
+    [
+      "Bestie Health",
+      1
+    ],
+    [
+      "ehowhealth",
+      1
+    ],
+    [
+      "Kuvings Australia",
+      1
+    ],
+    [
+      "Thomas DeLauer",
+      1
+    ]
+  ],
+  "common_title_words": [
+    [
+      "juice",
+      33
+    ],
+    [
+      "cayenne",
+      28
+    ],
+    [
+      "lemon",
+      20
+    ],
+    [
+      "pepper",
+      20
+    ],
+    [
+      "with",
+      14
+    ],
+    [
+      "drink",
+      9
+    ],
+    [
+      "ginger",
+      7
+    ],
+    [
+      "apple",
+      5
+    ],
+    [
+      "health",
+      5
+    ],
+    [
+      "vinegar",
+      4
+    ],
+    [
+      "days",
+      4
+    ],
+    [
+      "will",
+      4
+    ],
+    [
+      "happen",
+      4
+    ],
+    [
+      "your",
+      4
+    ],
+    [
+      "body",
+      4
+    ]
+  ],
+  "health_claims_found": [
+    [
+      "health",
+      23
+    ],
+    [
+      "blood",
+      20
+    ],
+    [
+      "benefits",
+      20
+    ],
+    [
+      "detox",
+      16
+    ],
+    [
+      "nutrients",
+      15
+    ],
+    [
+      "natural",
+      14
+    ],
+    [
+      "digestion",
+      13
+    ],
+    [
+      "liver",
+      12
+    ],
+    [
+      "boost",
+      12
+    ],
+    [
+      "energy",
+      12
+    ],
+    [
+      "prevent",
+      11
+    ],
+    [
+      "heart",
+      11
+    ],
+    [
+      "immune",
+      10
+    ],
+    [
+      "antioxidant",
+      10
+    ],
+    [
+      "sugar",
+      10
+    ],
+    [
+      "bacteria",
+      10
+    ],
+    [
+      "pressure",
+      10
+    ],
+    [
+      "cure",
+      10
+    ],
+    [
+      "weight loss",
+      9
+    ],
+    [
+      "inflammation",
+      9
+    ]
+  ],
+  "synergies_found": [
+    [
+      "lemon",
+      28
+    ],
+    [
+      "cayenne",
+      24
+    ],
+    [
+      "ginger",
+      11
+    ],
+    [
+      "apple_cider_vinegar",
+      8
+    ],
+    [
+      "honey",
+      8
+    ],
+    [
+      "beetroot",
+      7
+    ],
+    [
+      "celery",
+      4
+    ],
+    [
+      "turmeric",
+      3
+    ]
+  ],
+  "top_videos": [
+    {
+      "title": "The Natural Liver Cleanser: Apple Cider Vinegar and Lemon Water",
+      "channel": "Dr. Eric Berg DC",
+      "views": 7474857,
+      "views_str": "7,474,857 views",
+      "url": "https://www.youtube.com/watch?v=eqQnJIx17io"
+    },
+    {
+      "title": "The 4 Mistakes People Make with Drinking Lemon Water (and Juice)",
+      "channel": "Dr. Eric Berg DC",
+      "views": 4066708,
+      "views_str": "4,066,708 views",
+      "url": "https://www.youtube.com/watch?v=z_cIF3BGctM"
+    },
+    {
+      "title": "A Morning Drink Every Diabetic Should Try!",
+      "channel": "SugarMD",
+      "views": 2987254,
+      "views_str": "2,987,254 views",
+      "url": "https://www.youtube.com/watch?v=lPfOvyocQns"
+    },
+    {
+      "title": "Top 2 Apple Cider Vinegar Drinks: Full Recipes: Thomas DeLauer",
+      "channel": "Thomas DeLauer",
+      "views": 1553453,
+      "views_str": "1,553,453 views",
+      "url": "https://www.youtube.com/watch?v=JnV6RDZSrsg"
+    },
+    {
+      "title": "I Drank Beetroot Juice for 21 DAYS and THIS Happened! \ud83d\ude27\u2026 4 Takeaways",
+      "channel": "Daily Choice Foods | Plant-Foward Eating & Health",
+      "views": 1355411,
+      "views_str": "1,355,411 views",
+      "url": "https://www.youtube.com/watch?v=hUDvHOGFNGg"
+    },
+    {
+      "title": "9 POWERFUL Things That Happen To Your Body When You Drink Beet Juice",
+      "channel": "Bestie Health",
+      "views": 1104571,
+      "views_str": "1,104,571 views",
+      "url": "https://www.youtube.com/watch?v=5cDWfLeCS5s"
+    },
+    {
+      "title": "3 Household Drinks that Lowered my Blood Pressure",
+      "channel": "Adam J. Story, DC",
+      "views": 900552,
+      "views_str": "900,552 views",
+      "url": "https://www.youtube.com/watch?v=e70Fb4Wrstw"
+    },
+    {
+      "title": "9 POWERFUL Things That Happen To Your Body When You Drink Beet Juice",
+      "channel": "HealthNormal",
+      "views": 823214,
+      "views_str": "823,214 views",
+      "url": "https://www.youtube.com/watch?v=LFFVAYPWS9g"
+    },
+    {
+      "title": "What Happens If You Drink Celery Juice for 7 Days",
+      "channel": "Dr. Eric Berg DC",
+      "views": 812704,
+      "views_str": "812,704 views",
+      "url": "https://www.youtube.com/watch?v=mQ8-saXsQ00"
+    },
+    {
+      "title": "Over 50? NEVER Drink Beet Juice With THESE 7 Foods - It Can Cause Serious Health Problems!",
+      "channel": "Senior Secrets Book",
+      "views": 538686,
+      "views_str": "538,686 views",
+      "url": "https://www.youtube.com/watch?v=0i8wGzRC6Ao"
+    }
+  ],
+  "content_themes": {
+    "recipe": 7,
+    "benefits": 4,
+    "tutorial": 0,
+    "challenge": 4,
+    "weight_loss": 1,
+    "detox": 3,
+    "medical": 15,
+    "mistake": 1,
+    "science": 0
+  },
+  "unique_claims": [
+    [
+      "antioxidants",
+      28
+    ],
+    [
+      [
+        "can",
+        "to"
+      ],
+      20
+    ],
+    [
+      "anti-inflammatory",
+      14
+    ],
+    [
+      [
+        "also",
+        "to"
+      ],
+      11
+    ],
+    [
+      "antioxidant",
+      11
+    ],
+    [
+      "your",
+      8
+    ],
+    [
+      [
+        "also",
+        "with"
+      ],
+      7
+    ],
+    [
+      [
+        "to",
+        "you"
+      ],
+      7
+    ],
+    [
+      [
+        "to",
+        "the"
+      ],
+      6
+    ],
+    [
+      "anti-fungal",
+      6
+    ],
+    [
+      "antibacterial",
+      5
+    ],
+    [
+      [
+        "to",
+        "your"
+      ],
+      5
+    ],
+    [
+      [
+        "to",
+        "to"
+      ],
+      5
+    ],
+    [
+      "you",
+      5
+    ],
+    [
+      [
+        "it",
+        "your"
+      ],
+      4
+    ],
+    [
+      [
+        "it",
+        "you"
+      ],
+      4
+    ],
+    [
+      [
+        "can",
+        "you"
+      ],
+      4
+    ],
+    [
+      "digestion",
+      4
+    ],
+    [
+      [
+        "also",
+        "you"
+      ],
+      4
+    ],
+    [
+      "nitrates",
+      4
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Glengala Fresh",
+  "short_name": "Glengala",
+  "description": "Cold-pressed juices, ozone-cleaned. Five science-backed formulas.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "outputs/images/hero/hero_brand_moody.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["food", "health", "shopping"]
+}

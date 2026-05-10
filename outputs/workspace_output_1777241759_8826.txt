@@ -1,0 +1,6 @@
+COMPLETE_PRODUCT_LINE_ANALYSIS.md:201:| Immuni-Tea | TBD | TBD | — |
+COMPLETE_PRODUCT_LINE_ANALYSIS.md:202:| Golden Fire | TBD | TBD | — |
+COMPLETE_PRODUCT_LINE_ANALYSIS.md:203:| Immuni-Fire | TBD | TBD | — |
+MASTER_PRODUCT_PLAYBOOK.md:30:| **Immuni-Tea** | TBD | TBD | Gentle immune support | Families, wellness seekers |
+MASTER_PRODUCT_PLAYBOOK.md:31:| **Immuni-Fire** | TBD | TBD | Spicy immune kick | Bold wellness warriors |
+MASTER_PRODUCT_PLAYBOOK.md:32:| **Golden Fire** | TBD | TBD | Anti-inflammatory | Inflammation sufferers |

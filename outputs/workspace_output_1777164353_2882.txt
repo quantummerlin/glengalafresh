@@ -1,0 +1,244 @@
+================================================================================
+HONEY YOUTUBE ANALYSIS - MARKETING INSIGHTS
+================================================================================
+
+================================================================================
+1. VIDEO STATISTICS
+================================================================================
+Total Videos Analyzed: 50
+Total Combined Views: 22,664,084
+Average Views per Video: 453,282
+
+TOP 10 VIDEOS BY VIEWS:
+  1. What Happens When You Change One Small Daily Habit...
+     Views: 7,006,705 views | Channel: BRIGHT SIDE
+  2. What Happens to Your Body When You Start Eating Honey...
+     Views: 3,524,474 views | Channel: HealthNormal
+  3. What If You Start Eating Honey Every Day For 30 Days?...
+     Views: 2,896,490 views | Channel: Dr. Sten Ekberg
+  4. Eat 1 Spoon of Raw Honey Every Morning and THIS Will Ha...
+     Views: 1,769,347 views | Channel: Respiratory Therapy Zone
+  5. Benefits of Manuka Honey...
+     Views: 882,956 views | Channel: Dr. Josh Axe
+  6. Honey Uses for Skin In Hindi | Honey Benefits | BENEFTI...
+     Views: 769,525 views | Channel: Lewisia Wellness
+  7. The REAL Health Benefits of Garlic and Honey...
+     Views: 760,429 views | Channel: BRAINY DOSE
+  8. The Health Benefits of Honey – Dr.Berg...
+     Views: 596,538 views | Channel: Dr. Eric Berg DC
+  9. HONEY ON FACE Benefits- Yes or No?#skincare#beauty#home...
+     Views: 383,431 views | Channel: Doctors' Circle World's Largest Health Platform
+  10. How HONEY Will Give You Testosterone like a Grizzly Bea...
+     Views: 370,908 views | Channel: Ben Winney
+
+================================================================================
+2. KEY THEMES FROM VIDEO TITLES
+================================================================================
+
+Themes found in video titles:
+  - BENEFITS: 41 videos, 6,519,469 total views
+  - HEALTH: 20 videos, 2,786,538 total views
+  - RAW: 10 videos, 2,279,729 total views
+  - MANUKA: 8 videos, 1,876,514 total views
+  - SKIN: 6 videos, 1,671,781 total views
+  - SUGAR: 1 videos, 333,404 total views
+  - DIABETES: 1 videos, 9,355 total views
+  - INSULIN: 1 videos, 68,125 total views
+  - TESTOSTERONE: 1 videos, 370,908 total views
+  - WOUND: 1 videos, 4,383 total views
+
+================================================================================
+3. EXTRACTING TRANSCRIPT CONTENT...
+================================================================================
+
+================================================================================
+4. KEY HEALTH CLAIMS FROM TRANSCRIPTS
+================================================================================
+
+Health claims mentioned in transcripts:
+  - HONEY: mentioned 1475 times
+  - HEAL: mentioned 326 times
+  - SUGAR: mentioned 255 times
+  - MANUKA: mentioned 201 times
+  - SKIN: mentioned 155 times
+  - RAW HONEY: mentioned 135 times
+  - ANTIOXIDANT: mentioned 112 times
+  - BACTERIA: mentioned 86 times
+  - WOUND: mentioned 84 times
+  - ANTIBACTERIAL: mentioned 60 times
+  - DIABETES: mentioned 58 times
+  - INFECTION: mentioned 49 times
+  - COUGH: mentioned 47 times
+  - DIGESTION: mentioned 41 times
+  - LIVER: mentioned 38 times
+  - IMMUNE: mentioned 36 times
+  - WEIGHT: mentioned 36 times
+  - INSULIN: mentioned 34 times
+  - BLOOD SUGAR: mentioned 33 times
+  - HEART: mentioned 31 times
+  - SLEEP: mentioned 29 times
+  - SORE THROAT: mentioned 28 times
+  - ENERGY: mentioned 26 times
+  - ANTI-INFLAMMATORY: mentioned 25 times
+  - ANTIMICROBIAL: mentioned 23 times
+  - TESTOSTERONE: mentioned 21 times
+
+================================================================================
+5. KEY COMPOUNDS & NUTRIENTS
+================================================================================
+
+Compound/nutrient mentions:
+  - ANTIOXIDANT: 112 mentions
+  - GLUCOSE: 92 mentions
+  - FRUCTOSE: 81 mentions
+  - POLLEN: 56 mentions
+  - VITAMIN: 55 mentions
+  - ENZYME: 36 mentions
+  - MINERAL: 28 mentions
+  - PROPOLIS: 22 mentions
+  - FLAVONOID: 21 mentions
+  - IRON: 17 mentions
+  - HYDROGEN PEROXIDE: 15 mentions
+  - PHENOLIC: 10 mentions
+  - POTASSIUM: 10 mentions
+  - MAGNESIUM: 9 mentions
+  - ZINC: 7 mentions
+  - AMINO ACID: 6 mentions
+
+================================================================================
+6. HONEY COMBINATION CONTENT
+================================================================================
+
+Honey + GINGER: 5 videos
+  - 10 Surprising Benefits of Manuka Honey... (338,464 views)
+  - Benefits + Super Powers of 🐝 RAW HONEY, BEE P... (47,660 views)
+  - What are the benefits of ginger honey tea? - ... (38,618 views)
+
+Honey + LEMON: 13 videos
+  - What Happens When You Change One Small Daily ... (7,006,705 views)
+  - Benefits of Manuka Honey... (882,956 views)
+  - The Health Benefits of Honey – Dr.Berg... (596,538 views)
+
+Honey + BEETROOT: 2 videos
+  - Benefits + Super Powers of 🐝 RAW HONEY, BEE P... (47,660 views)
+  - Is Honey Healthy? - What Happens To The Body ... (34,190 views)
+
+Honey + CINNAMON: 6 videos
+  - What Happens When You Change One Small Daily ... (7,006,705 views)
+  - What Happens to Your Body When You Start Eati... (3,524,474 views)
+  - Honey and Cinnamon: Benefits (Daily)... (360,609 views)
+
+Honey + WARM WATER: 8 videos
+  - What Happens When You Change One Small Daily ... (7,006,705 views)
+  - Eat 1 Spoon of Raw Honey Every Morning and TH... (1,769,347 views)
+  - Beauty Benefits of Honey For Your Skin... (180,602 views)
+
+================================================================================
+7. SPECIFIC CLAIMS WITH CONTEXT
+================================================================================
+
+HEALING PROPERTIES:
+  - "Berg here I had a lot of requests 
+for honey okay raw honey versus pasteurized honey so let's just talk about it it take..."
+    (Source: The Health Benefits of Honey – Dr.Berg... - 596,538 views)
+  - "today's medical Centric topic is eight raw honey benefits for health raw honey is a natural sweetener that offers numero..."
+    (Source: 8 Raw Honey Benefits That Will Transform... - 173,688 views)
+  - "in this video we're going to cover 10 health benefits of something I eat every day which is called Manuka Honey Manuka H..."
+    (Source: Doctor explains 10 HEALTH BENEFITS OF MA... - 234,324 views)
+  - "S Food and Drug Administration approved it as a wound healing treatment now these effects are thanks to the antimicrobia..."
+    (Source: Doctor explains 10 HEALTH BENEFITS OF MA... - 234,324 views)
+
+STATISTICS:
+  - "9 million people died from cardiovascular disease in 2019 representing 32 percent of all Global deaths so protect your h..."
+    (Source: What Happens to Your Body When You Start... - 3,524,474 views)
+  - "Like in compounding we use simple syrup and it's a 70% solution of syrup..."
+    (Source: Little Known Benefits Of Raw Honey! (Sur... - 49,005 views)
+  - "It's heated, and then it
+actually, in many cases, up to 70% of the time
+has either added sugars or high fructose corn sy..."
+    (Source: Little Known Benefits Of Raw Honey! (Sur... - 49,005 views)
+  - "And again, 3% is not a magnificent number..."
+    (Source: Little Known Benefits Of Raw Honey! (Sur... - 49,005 views)
+
+BLOOD SUGAR:
+  - "scientists have proven a positive association between moderate honey intake and a reduced risk of high blood pressure th..."
+    (Source: What Happens to Your Body When You Start... - 3,524,474 views)
+  - "com number four honey has something that not many people know I mean they think that it might be just sugar but it has a..."
+    (Source: RAW HONEY HEALTH BENEFITS 100% SCIENTIFI... - 9,355 views)
+  - "There are controlled studies that show that it may help benefit
+your cholesterol profile, it may benefit weight loss, ma..."
+    (Source: Little Known Benefits Of Raw Honey! (Sur... - 49,005 views)
+  - "So as a diabetic, you have
+to be very, very careful to account for what you're eating..."
+    (Source: Little Known Benefits Of Raw Honey! (Sur... - 49,005 views)
+
+WOUND HEALING:
+  - "com welcome to today's video what is raw honey good for actually Honey is a lot better than eating sugar every day and i..."
+    (Source: RAW HONEY HEALTH BENEFITS 100% SCIENTIFI... - 9,355 views)
+  - "But Manuka honey is often found in different
+types of wound treatments or wound ointments that are good for treating wou..."
+    (Source: 10 Surprising Benefits of Manuka Honey... - 338,464 views)
+  - "I mean, you're talking about
+a lot of strains of bacteria that basically can't
+mount an attack to honey, which is why in..."
+    (Source: Little Known Benefits Of Raw Honey! (Sur... - 49,005 views)
+  - "You know, when we stem from that, you can also find that
+it works really well for wound healing..."
+    (Source: Little Known Benefits Of Raw Honey! (Sur... - 49,005 views)
+
+HONEY TYPES:
+  - "Today I'm going to be talking about my favorite
+pantry item, Manuka honey..."
+    (Source: 10 Surprising Benefits of Manuka Honey... - 338,464 views)
+  - "Manuka honey has been used as medicine for
+hundreds of years..."
+    (Source: 10 Surprising Benefits of Manuka Honey... - 338,464 views)
+  - "And Manuka honey itself is actually created
+by bees in New Zealand, okay, very, very popular honey that comes out of New..."
+    (Source: 10 Surprising Benefits of Manuka Honey... - 338,464 views)
+  - "But I will tell you that because of all of
+the incredible benefits, it can often times be worth the price you pay for Ma..."
+    (Source: 10 Surprising Benefits of Manuka Honey... - 338,464 views)
+
+RESPIRATORY:
+  - "Again when you have a sore throat and you
+have that virus or bacteria that's in your throat lining and in your chest and..."
+    (Source: 10 Surprising Benefits of Manuka Honey... - 338,464 views)
+  - "But doing those oils together really, really
+good for sore throat and naturally supporting your immune system by balanci..."
+    (Source: 10 Surprising Benefits of Manuka Honey... - 338,464 views)
+  - "It has sugar in it, but still helps fight
+tooth decay and gingivitis, it is good for IBS and inflammatory bowel disease,..."
+    (Source: 10 Surprising Benefits of Manuka Honey... - 338,464 views)
+  - "It's also powerful at eliminating allergies
+and a sore throat..."
+    (Source: Benefits of Manuka Honey... - 882,956 views)
+
+HEALTH BENEFITS:
+  - "It's actually been shown to or used historically
+to naturally fight anxiety and depression there as well and to calm the..."
+    (Source: 10 Surprising Benefits of Manuka Honey... - 338,464 views)
+  - "The enzymes boost energy while the prebiotics 
+nourish gut bacteria for happy insides..."
+    (Source: 9 Health Benefits Of Eating Raw Honey Ev... - 11,001 views)
+
+================================================================================
+8. TARGET AUDIENCE SEGMENTS
+================================================================================
+  Immune Support: 30 videos, 19,267,893 total views
+  Wound/Skin Healing: 47 videos, 22,456,757 total views
+  Respiratory Health: 21 videos, 10,802,300 total views
+  Blood Sugar/Diabetes: 24 videos, 17,986,186 total views
+  Sleep/Relaxation: 12 videos, 16,302,228 total views
+  Digestive Health: 25 videos, 19,163,153 total views
+  Energy/Fitness: 17 videos, 10,377,025 total views
+  Natural Remedy Seekers: 34 videos, 20,179,592 total views
+
+================================================================================
+9. SAVING ANALYSIS...
+================================================================================
+Honey analysis saved to honey_analysis_report.json
+
+================================================================================
+HONEY ANALYSIS COMPLETE!
+================================================================================

@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Contact & Order — Glengala Fresh</title>
+  <meta name="description" content="Order Glengala Fresh cold-pressed juices via text. Choose your product, size, and quantity — we'll take it from there.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .order-panel {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+    }
+    .order-panel h2 { margin-bottom: 8px; }
+    .order-panel .lead { font-size: 0.95rem; margin-bottom: 32px; max-width: 100%; }
+    .wa-preview {
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 16px;
+      white-space: pre-wrap;
+      min-height: 100px;
+      font-family: monospace;
+    }
+    .wa-preview-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img">Glengala <span>Fresh</span></a>
+      <ul class="nav-links">
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="science.html">The Science</a></li>
+        <li><a href="blog.html">Articles</a></li>
+        <li><a href="partnerships.html">Partner With Us</a></li>
+        <li><a href="contact.html" class="nav-cta" style="background:var(--green-mid);color:#fff;">Order Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav">
+    <a href="shop.html">Shop</a>
+    <a href="about.html">Our Story</a>
+    <a href="science.html">The Science</a>
+    <a href="blog.html">Articles</a>
+    <a href="partnerships.html">Partner With Us</a>
+    <a href="contact.html">Order Now →</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>→</span>
+      <span>Order</span>
+    </div>
+    <span class="section-label">It's Simple</span>
+    <h1>Order via Text</h1>
+    <p>Fill in the form below. We'll pre-fill your message — just hit send.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start;">
+
+      <!-- Order Form -->
+      <div class="order-panel reveal">
+        <h2>Place an Order</h2>
+        <p class="lead">Select your product and size. We'll confirm availability and arrange delivery or pickup.</p>
+        <form id="orderForm">
+          <div class="form-group">
+            <label class="form-label" for="name">Your Name</label>
+            <input class="form-control" type="text" id="name" name="name" placeholder="First name is fine" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="product">Product</label>
+            <select class="form-control" id="product" name="product" required>
+              <option value="">— Select a product —</option>
+              <option value="Beetroid">⚡ Beetroid</option>
+              <option value="Immuni-Tea">🛡 Immuni-Tea</option>
+              <option value="Immuni-Fire">🔥 Immuni-Fire</option>
+              <option value="Golden Fire">🌟 Golden Fire</option>
+              <option value="Straight Celery Juice">🥬 Straight Celery Juice</option>
+              <option value="Immunity Duo Bundle">Bundle: Immunity Duo ($6.99)</option>
+              <option value="Performance Pack Bundle">Bundle: Performance Pack ($8.99)</option>
+              <option value="Wellness Week Bundle (7-Day Challenge)">Bundle: Wellness Week 7×1L ($69.99)</option>
+              <option value="Full Line Sampler Bundle">Bundle: Full Line Sampler ($17.99)</option>
+              <option value="Family Pack Bundle">Bundle: Family Pack 4×500ml ($19.99)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="size">Size</label>
+            <select class="form-control" id="size" name="size">
+              <option value="300ml">300ml — $3.99</option>
+              <option value="500ml" selected>500ml — $5.99</option>
+              <option value="1L">1L — $11.99 (Celery only)</option>
+              <option value="N/A (Bundle)">Bundle (see above)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="qty">Quantity</label>
+            <select class="form-control" id="qty" name="qty">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="10">10</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="note">Anything else? (Optional)</label>
+            <textarea class="form-control" id="note" name="note" placeholder="Delivery address, preferred pickup time, allergies, mix-and-match requests..."></textarea>
+          </div>
+
+          <div>
+            <div class="wa-preview-label">Message Preview</div>
+            <div class="wa-preview" id="waPreview">Fill in the form above to preview your message...</div>
+          </div>
+
+          <div style="margin-top:24px;">
+            <button type="submit" class="btn btn-whatsapp btn-lg" style="width:100%;justify-content:center;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Send Text Order
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Info Panel -->
+      <div>
+        <div class="reveal" style="margin-bottom:32px;">
+          <h3 style="margin-bottom:12px;">How It Works</h3>
+          <div class="feature-list">
+            <div class="feature-item">
+              <div class="feature-icon" style="background:rgba(37,211,102,0.1);border-color:rgba(37,211,102,0.3)">1</div>
+              <div class="feature-text">
+                <h4>Fill the form</h4>
+                <p>Select your product, size, and quantity. Add any notes about delivery or preferences.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon" style="background:rgba(37,211,102,0.1);border-color:rgba(37,211,102,0.3)">2</div>
+              <div class="feature-text">
+                <h4>Text Us</h4>
+                <p>Click the green button. Your order message is pre-filled and ready to send.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon" style="background:rgba(37,211,102,0.1);border-color:rgba(37,211,102,0.3)">3</div>
+              <div class="feature-text">
+                <h4>We confirm</h4>
+                <p>We'll confirm availability, sort payment, and arrange delivery or pickup. Simple.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card reveal" style="margin-bottom:24px;">
+          <div class="card-body">
+            <h4 style="margin-bottom:16px;">Pricing</h4>
+            <table style="width:100%;font-size:0.875rem;">
+              <tbody>
+                <tr style="border-bottom:1px solid var(--border);">
+                  <td style="padding:10px 0;color:var(--text);">300ml</td>
+                  <td style="padding:10px 0;color:var(--gold);font-weight:700;text-align:right;">$3.99</td>
+                </tr>
+                <tr style="border-bottom:1px solid var(--border);">
+                  <td style="padding:10px 0;color:var(--text);">500ml</td>
+                  <td style="padding:10px 0;color:var(--gold);font-weight:700;text-align:right;">$5.99</td>
+                </tr>
+                <tr style="border-bottom:1px solid var(--border);">
+                  <td style="padding:10px 0;color:var(--text);">1L (Celery only)</td>
+                  <td style="padding:10px 0;color:var(--gold);font-weight:700;text-align:right;">$11.99</td>
+                </tr>
+                <tr>
+                  <td style="padding:10px 0;color:var(--text-muted);font-size:0.8rem;" colspan="2">Bundle deals available — <a href="shop.html" style="color:var(--gold);">view all bundles →</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="card reveal">
+          <div class="card-body">
+            <h4 style="margin-bottom:6px;">Prefer to Just Message Directly?</h4>
+            <p style="font-size:0.875rem;margin-bottom:16px;">No problem. Send us a text.</p>
+            <a href="https://wa.me/61434694141" class="btn btn-whatsapp" target="_blank" style="width:100%;justify-content:center;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+              Text Us
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="background:var(--bg-2); border-top:1px solid var(--border);">
+  <div class="container" style="max-width:760px;">
+    <div class="section-header text-center reveal">
+      <span class="section-label">FAQ</span>
+      <h2>Frequently Asked</h2>
+    </div>
+    <div>
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          Are the juices cold-pressed or blended?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><p>Cold-pressed. The juice is extracted through pressure rather than heat or high-speed blending. This preserves more nutrients and enzymes compared to conventional blending methods.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          How long do the juices last?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><p>Our juices are fresh and unpasteurised. We recommend consuming within 3–5 days of production, stored in the refrigerator. Because ozonated water cleaning significantly reduces the initial bacterial load, shelf life is extended compared to standard fresh juices.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          Do you deliver?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><p>Message us by text and we'll discuss delivery options in your area. We also offer pickup. We'll confirm everything before processing your order.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          Can I get custom orders or bulk supply for my gym or cafe?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><p>Yes. We offer wholesale and white-label supply. Our products come in plain unlabelled bottles that work perfectly for businesses wanting to brand them under their own label. See our <a href="partnerships.html" style="color:var(--gold);">partnerships page</a> for details, or message us directly.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          What is the 7-Day Celery Challenge?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><p>Seven consecutive days of drinking 1L of pure celery juice each morning on an empty stomach. The <a href="products/celery.html" style="color:var(--gold);">Wellness Week bundle</a> covers the full challenge — 7 × 1L for $69.99 (saving $13.94). We also add you to a support group where people share their progress.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          Is it suitable for children?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><p>Immuni-Tea is the most family-friendly option — gentle ginger, lemon, and honey with no spice. For children, we recommend smaller quantities and consulting your healthcare provider for specific dietary advice.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          What does "ozonated water cleaned" mean exactly?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><p>Every piece of produce is cleaned using a 3-step ozonated water process: physical scrubbing, ozone bubbler bath, and final ozone rinse. Ozone (O3) is 3,100× more effective than chlorine at killing bacteria, fungi, and parasites — with zero chemical residue left behind. After use, it simply converts back to oxygen. See our <a href="science.html#ozone" style="color:var(--gold);">science page</a> for the research.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img">Glengala <span>Fresh</span></div>
+        <p>Cold-pressed juices. Science-backed formulas. Ozonated water cleaned. No shortcuts.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Products</h5>
+        <ul>
+          <li><a href="products/beetroid.html">Beetroid</a></li>
+          <li><a href="products/immuni-tea.html">Immuni-Tea</a></li>
+          <li><a href="products/immuni-fire.html">Immuni-Fire</a></li>
+          <li><a href="products/golden-fire.html">Golden Fire</a></li>
+          <li><a href="products/celery.html">Straight Celery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="science.html">The Science</a></li>
+          <li><a href="partnerships.html">Partner With Us</a></li>
+          <li><a href="blog.html">Articles</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Order</h5>
+        <ul>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact &amp; Order</a></li>
+          <li><a href="https://wa.me/61434694141">Text Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Glengala Fresh. All rights reserved.</div>
+      <div>Made with real ingredients. Cleaned with ozonated water.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+// Live message preview
+const fields = ['name','product','size','qty','note'];
+const preview = document.getElementById('waPreview');
+const WA = '61434694141';
+
+function prices() {
+  return { '300ml':'3.99','500ml':'5.99','1L':'11.99' };
+}
+
+function updatePreview() {
+  const name    = document.getElementById('name')?.value.trim();
+  const product = document.getElementById('product')?.value;
+  const size    = document.getElementById('size')?.value;
+  const qty     = document.getElementById('qty')?.value || '1';
+  const note    = document.getElementById('note')?.value.trim();
+
+  if (!name && !product) { preview.textContent = 'Fill in the form above to preview your message...'; return; }
+
+  const p = prices();
+  const unitPrice = p[size];
+  const total = unitPrice ? '$' + (parseFloat(unitPrice) * parseInt(qty)).toFixed(2) : '';
+
+  let msg = 'Hi Glengala Fresh! I\'d like to place an order:\n\n';
+  if (name)    msg += '👤 Name: ' + name + '\n';
+  if (product) msg += '🧃 Product: ' + product + '\n';
+  if (size)    msg += '📏 Size: ' + size + '\n';
+  msg += '🔢 Qty: ' + qty;
+  if (total)   msg += '\n💰 Approx total: ' + total;
+  if (note)    msg += '\n📝 Note: ' + note;
+  msg += '\n\nThanks!';
+
+  preview.textContent = msg;
+}
+
+fields.forEach(id => {
+  const el = document.getElementById(id);
+  if (el) el.addEventListener('input', updatePreview);
+  if (el) el.addEventListener('change', updatePreview);
+});
+</script>
+</body>
+</html>

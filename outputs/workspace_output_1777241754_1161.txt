@@ -1,0 +1,4 @@
+COMPLETE_PRODUCT_LINE_ANALYSIS.md:104:**Pricing**: 1L - $11.99
+COMPLETE_PRODUCT_LINE_ANALYSIS.md:204:| Celery Juice | — | — | $11.99 |
+MASTER_PRODUCT_PLAYBOOK.md:410:- Celery Juice 1L: $11.99
+MASTER_PRODUCT_PLAYBOOK.md:429:| Wellness Week | 7 Celery Juices | $69.99 | Save $14 |

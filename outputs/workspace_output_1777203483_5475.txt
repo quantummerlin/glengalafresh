@@ -1,0 +1,18 @@
+# Pending Tasks from Previous Session
+
+## Completed Tasks ✓
+- [x] Create comprehensive document answering: "What are the benefits of drinking ozonated water?" → Created OZONATED_WATER_BENEFITS.md
+- [x] Remove incorrect "Ozonated Honey Water" product from OZONATED_WATER_REGULATIONS.md
+- [x] Clarify in documentation: ozonated water is an INGREDIENT in juices with honey, not a separate product
+- [x] Add 300ml (£3.99) and 500ml (£5.99) pricing to Straight Celery Juice (updated in both MASTER_PRODUCT_PLAYBOOK.md and OZONATED_WATER_REGULATIONS.md)
+
+## Current Product Line (Corrected)
+| Product | Ingredients | Pricing |
+|---------|-------------|---------|
+| Beetroid | Beetroot, Ginger, Lemon, Honey, Ozonated Water | 300ml £3.99 / 500ml £5.99 |
+| Immuni-Tea | Ginger, Lemon, Honey, Ozonated Water | 300ml £3.99 / 500ml £5.99 |
+| Golden Fire | Turmeric, Lemon, Honey, Cayenne Chilli | 300ml £3.99 / 500ml £5.99 |
+| Immuni-Fire | Immuni-Tea + Cayenne Chilli | 300ml £3.99 / 500ml £5.99 |
+| Straight Celery Juice | Celery, Ozonated Water | 300ml £3.99 / 500ml £5.99 / 1L £11.99 |
+
+**Note: Ozonated Spring Water CAN be sold as a separate product (regulatory research completed)**

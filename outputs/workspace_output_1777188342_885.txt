@@ -1,0 +1,138 @@
+================================================================================
+CELERY & TURMERIC YOUTUBE ANALYSIS
+================================================================================
+
+================================================================================
+CELERY ANALYSIS
+================================================================================
+
+📊 STATISTICS:
+  Total Videos: 50
+  Total Views: 23,381,920
+  Average Views: 467,638
+
+🎬 TOP 10 VIDEOS:
+  1. What Happens When You Drink Celery Juice Every Mor... (6,042,785 views)
+  2. What Would Happen if You Drank Celery Juice Every ... (2,086,828 views)
+  3. The Truth About Drinking Celery Juice Daily Doctor... (2,011,097 views)
+  4. CELERY JUICE FOR 30 DAYS & WHY I SUDDENLY STOPPED... (1,832,792 views)
+  5. I Drank Celery Juice for 7 Days - This is What Hap... (1,489,856 views)
+  6. I drank CELERY JUICE for 7 Days and this is what h... (1,381,731 views)
+  7. Celery Juice Review:  I Drank Celery Juice for 7 D... (1,186,386 views)
+  8. Top Benefits of Celery Juice, Why Consider It?... (1,173,203 views)
+  9. What Happens If You Drink Celery Juice for 7 Days... (812,278 views)
+  10. How To Make Celery Juice In a Blender | Medical Me... (803,772 views)
+
+💊 KEY HEALTH CLAIMS IN TRANSCRIPTS:
+  - DETOX: 58 mentions
+  - LIVER: 71 mentions
+  - KIDNEY: 19 mentions
+  - DIGEST: 89 mentions
+  - GUT: 61 mentions
+  - STOMACH: 126 mentions
+  - BLOATING: 25 mentions
+  - INFLAMMATION: 65 mentions
+  - BLOOD PRESSURE: 107 mentions
+  - SKIN: 97 mentions
+  - ENERGY: 52 mentions
+  - WEIGHT: 49 mentions
+  - MORNING: 101 mentions
+  - 7 DAYS: 13 mentions
+  - 7-DAY: 8 mentions
+  - MEDICAL MEDIUM: 19 mentions
+  - CLEANSE: 55 mentions
+  - HYDRAT: 64 mentions
+  - SODIUM: 29 mentions
+  - ELECTROLYTE: 23 mentions
+  - POTASSIUM: 37 mentions
+  - VITAMIN K: 12 mentions
+  - FOLATE: 5 mentions
+  - MAGNESIUM: 25 mentions
+
+📝 TITLE PATTERNS:
+  - 7 Days Challenge: 9 videos, 5,095,266 total views, 566,141 avg
+  - Question Format: 20 videos, 15,382,386 total views, 769,119 avg
+  - Personal Story: 7 videos, 4,638,748 total views, 662,678 avg
+  - Medical/Doctor: 8 videos, 5,774,576 total views, 721,822 avg
+  - How To: 6 videos, 1,896,150 total views, 316,025 avg
+  - Mistakes/Warnings: 3 videos, 1,853,076 total views, 617,692 avg
+
+================================================================================
+TURMERIC ANALYSIS
+================================================================================
+
+📊 STATISTICS:
+  Total Videos: 50
+  Total Views: 24,285,823
+  Average Views: 485,716
+
+🎬 TOP 10 VIDEOS:
+  1. 8 ANTI-INFLAMMATORY DRINKS | to enjoy for health &... (7,053,209 views)
+  2. 6 ANTI-INFLAMMATORY IMMUNE-BOOSTING WELLNESS SHOTS... (3,332,039 views)
+  3. Top 3 Health Benefits of Consuming Turmeric | Heal... (2,757,551 views)
+  4. How to CONSUME TURMERIC DAILY FOR MAXIMUM BENEFITS... (2,605,400 views)
+  5. AVOID Taking Your TURMERIC This Way...3 Best Ways ... (1,674,229 views)
+  6. Curcumin & Turmeric Benefits [& 10 Serious Side Ef... (1,072,987 views)
+  7. One Cup for Natural Blood Detox: Beetroot, Turmeri... (1,004,481 views)
+  8. Turmeric: Ano Mangyayari Kung Uminom Araw-Araw - P... (993,308 views)
+  9. It Tastes Too Good to be This Healthy! ~ Golden/Tu... (788,373 views)
+  10. 13 Amazing Health Benefits of Turmeric and Ginger ... (406,319 views)
+
+💊 KEY HEALTH CLAIMS IN TRANSCRIPTS:
+  - ANTI-INFLAMMATORY: 61 mentions
+  - INFLAMMATION: 90 mentions
+  - CURCUMIN: 139 mentions
+  - IMMUNE: 46 mentions
+  - ARTHRITIS: 26 mentions
+  - JOINT: 21 mentions
+  - PAIN: 40 mentions
+  - BRAIN: 28 mentions
+  - HEART: 16 mentions
+  - LIVER: 17 mentions
+  - DETOX: 21 mentions
+  - SKIN: 60 mentions
+  - CANCER: 22 mentions
+  - ANTIOXIDANT: 37 mentions
+  - GOLDEN MILK: 10 mentions
+  - TURMERIC: 532 mentions
+  - GINGER: 305 mentions
+  - BLACK PEPPER: 58 mentions
+  - ABSORPTION: 28 mentions
+  - BIOAVAILABILITY: 9 mentions
+  - DIABETES: 8 mentions
+  - WEIGHT: 11 mentions
+  - MOOD: 9 mentions
+  - DEPRESSION: 8 mentions
+
+📝 TITLE PATTERNS:
+  - Question Format: 7 videos, 2,955,519 total views, 422,217 avg
+  - Medical/Doctor: 4 videos, 3,069,873 total views, 767,468 avg
+  - How To: 18 videos, 5,615,872 total views, 311,993 avg
+  - Mistakes/Warnings: 3 videos, 2,751,348 total views, 917,116 avg
+
+================================================================================
+CROSS-PRODUCT SYNERGY
+================================================================================
+
+🔗 CELERY + OTHER INGREDIENTS MENTIONED:
+  - Celery + GINGER: 12 mentions
+  - Celery + LEMON: 21 mentions
+  - Celery + HONEY: 1 mentions
+  - Celery + BEET: 2 mentions
+  - Celery + APPLE: 37 mentions
+  - Celery + CUCUMBER: 11 mentions
+
+🔗 TURMERIC + OTHER INGREDIENTS MENTIONED:
+  - Turmeric + GINGER: 305 mentions
+  - Turmeric + LEMON: 104 mentions
+  - Turmeric + HONEY: 50 mentions
+  - Turmeric + CAYENNE: 9 mentions
+  - Turmeric + CHILLI: 1 mentions
+  - Turmeric + BLACK PEPPER: 58 mentions
+  - Turmeric + PINEAPPLE: 45 mentions
+  - Turmeric + ORANGE: 75 mentions
+  - Turmeric + CARROT: 73 mentions
+
+================================================================================
+ANALYSIS COMPLETE - Reports saved!
+================================================================================

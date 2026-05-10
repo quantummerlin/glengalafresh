@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Shop — Glengala Fresh</title>
+  <meta name="description" content="Shop all Glengala Fresh cold-pressed juices. Beetroid, Immuni-Tea, Immuni-Fire, Golden Fire, Straight Celery. Multiple sizes, bundle deals.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .product-detail-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 300px 1fr;
+      gap: 0;
+      margin-bottom: 32px;
+      transition: var(--transition);
+    }
+    .product-detail-card:hover { border-color: rgba(201,168,76,0.25); }
+    .product-detail-card .shop-img {
+      background: var(--bg-2);
+      overflow: hidden;
+    }
+    .product-detail-card .shop-img img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      transition: transform 0.5s ease;
+    }
+    .product-detail-card:hover .shop-img img { transform: scale(1.04); }
+    .product-detail-body { padding: 32px; }
+    .product-detail-name { font-size: 1.6rem; font-weight: 700; margin-bottom: 8px; }
+    .product-detail-tagline { color: var(--gold); font-weight: 600; margin-bottom: 14px; font-size: 0.95rem; }
+    .product-detail-desc { font-size: 0.9rem; margin-bottom: 24px; max-width: 55ch; }
+    .filter-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 40px;
+    }
+    .filter-tab {
+      padding: 8px 18px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      border: 1.5px solid var(--border);
+      background: transparent;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .filter-tab:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+    .filter-tab.active {
+      background: rgba(201,168,76,0.1);
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+    @media (max-width: 680px) {
+      .product-detail-card { grid-template-columns: 1fr; }
+      .product-detail-card .shop-img { height: 220px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img">Glengala <span>Fresh</span></a>
+      <ul class="nav-links">
+        <li><a href="shop.html" style="color:var(--text)">Shop</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="science.html">The Science</a></li>
+        <li><a href="blog.html">Articles</a></li>
+        <li><a href="partnerships.html">Partner With Us</a></li>
+        <li><a href="contact.html" class="nav-cta">Order Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav">
+    <a href="shop.html">Shop</a>
+    <a href="about.html">Our Story</a>
+    <a href="science.html">The Science</a>
+    <a href="blog.html">Articles</a>
+    <a href="partnerships.html">Partner With Us</a>
+    <a href="contact.html">Order Now →</a>
+  </div>
+</nav>
+
+<div class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>→</span>
+      <span>Shop</span>
+    </div>
+    <span class="section-label">The Range</span>
+    <h1>All Products</h1>
+    <p>Five science-backed formulas. Multiple sizes. Bundle deals. Order via Text.</p>
+  </div>
+</div>
+
+<!-- Products -->
+<section>
+  <div class="container">
+
+    <div class="filter-tabs reveal">
+      <button class="filter-tab active" data-filter="all" id="tab-all" onclick="filterShop('all')">All Products</button>
+      <button class="filter-tab" onclick="filterShop('performance')">Performance</button>
+      <button class="filter-tab" onclick="filterShop('immunity')">Immunity</button>
+      <button class="filter-tab" onclick="filterShop('inflammation')">Inflammation</button>
+      <button class="filter-tab" onclick="filterShop('detox')">Detox &amp; Gut</button>
+    </div>
+
+    <!-- Beetroid -->
+    <div class="product-detail-card reveal" data-shop-cat="performance">
+      <div class="shop-img">
+        <img src="outputs/images/products/beetroid_hero.png" alt="Beetroid">
+      </div>
+      <div class="product-detail-body" data-product="beetroid">
+        <div class="product-detail-name">⚡ Beetroid</div>
+        <div class="product-detail-tagline">"40–60% better blood flow. Nature's pre-workout."</div>
+        <p class="product-detail-desc">Beetroot, Ginger, Lemon, Honey, and Ozonated Water. Drink 30 minutes before training or as your daily heart health ritual.</p>
+        <div class="tag-list" style="margin-bottom:20px;">
+          <span class="tag tag-gold">Performance</span>
+          <span class="tag tag-green">Heart Health</span>
+          <span class="tag">Athletes</span>
+          <span class="tag">Over 50s</span>
+        </div>
+        <div class="size-selector" style="margin-bottom:20px;">
+          <button class="size-btn" data-size="300ml" data-price="3.99">300ml<small>$3.99</small></button>
+          <button class="size-btn" data-size="500ml" data-price="5.99">500ml<small>$5.99</small></button>
+        </div>
+        <button class="btn btn-whatsapp" data-wa-product="Beetroid">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+          Order via Text
+        </button>
+        <a href="products/beetroid.html" class="btn btn-secondary" style="margin-left:10px;">View Details</a>
+      </div>
+    </div>
+
+    <!-- Immuni-Tea -->
+    <div class="product-detail-card reveal" data-shop-cat="immunity">
+      <div class="shop-img">
+        <img src="outputs/images/products/immuni_tea_hero.png" alt="Immuni-Tea">
+      </div>
+      <div class="product-detail-body" data-product="immuni-tea">
+        <div class="product-detail-name">🛡 Immuni-Tea</div>
+        <div class="product-detail-tagline">"Your daily immune ritual. No burn. Just benefits."</div>
+        <p class="product-detail-desc">Ginger, Lemon, Honey, and Ozonated Water. The smooth, family-friendly immunity booster you can take every morning without flinching. Antiviral, antibacterial, antioxidant.</p>
+        <div class="tag-list" style="margin-bottom:20px;">
+          <span class="tag tag-green">Immunity</span>
+          <span class="tag">Morning Ritual</span>
+          <span class="tag">Family Friendly</span>
+          <span class="tag">Gentle</span>
+        </div>
+        <div class="size-selector" style="margin-bottom:20px;">
+          <button class="size-btn" data-size="300ml" data-price="3.99">300ml<small>$3.99</small></button>
+          <button class="size-btn" data-size="500ml" data-price="5.99">500ml<small>$5.99</small></button>
+        </div>
+        <button class="btn btn-whatsapp" data-wa-product="Immuni-Tea">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+          Order via Text
+        </button>
+        <a href="products/immuni-tea.html" class="btn btn-secondary" style="margin-left:10px;">View Details</a>
+      </div>
+    </div>
+
+    <!-- Immuni-Fire -->
+    <div class="product-detail-card reveal" data-shop-cat="immunity">
+      <div class="shop-img">
+        <img src="outputs/images/products/immuni_fire_hero.png" alt="Immuni-Fire">
+      </div>
+      <div class="product-detail-body" data-product="immuni-fire">
+        <div class="product-detail-name">🔥 Immuni-Fire</div>
+        <div class="product-detail-tagline">"Immuni-Tea with a KICK. For when you need the big guns."</div>
+        <p class="product-detail-desc">Ginger, Lemon, Honey, Cayenne, and Ozonated Water. When you feel something coming on, when your sinuses need clearing, when your immune system needs more than a nudge — this is your drink.</p>
+        <div class="tag-list" style="margin-bottom:20px;">
+          <span class="tag tag-gold">Spicy</span>
+          <span class="tag tag-green">Immunity</span>
+          <span class="tag">Metabolism</span>
+          <span class="tag">Sinus Clearing</span>
+        </div>
+        <div class="size-selector" style="margin-bottom:20px;">
+          <button class="size-btn" data-size="300ml" data-price="3.99">300ml<small>$3.99</small></button>
+          <button class="size-btn" data-size="500ml" data-price="5.99">500ml<small>$5.99</small></button>
+        </div>
+        <button class="btn btn-whatsapp" data-wa-product="Immuni-Fire">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+          Order via Text
+        </button>
+        <a href="products/immuni-fire.html" class="btn btn-secondary" style="margin-left:10px;">View Details</a>
+      </div>
+    </div>
+
+    <!-- Golden Fire -->
+    <div class="product-detail-card reveal" data-shop-cat="inflammation">
+      <div class="shop-img">
+        <img src="outputs/images/products/golden_fire_hero.png" alt="Golden Fire">
+      </div>
+      <div class="product-detail-body" data-product="golden-fire">
+        <div class="product-detail-name">🌟 Golden Fire</div>
+        <div class="product-detail-tagline">"Nature's ibuprofen. Two anti-inflammatory forces in one bottle."</div>
+        <p class="product-detail-desc">Turmeric, Lemon, Honey, and Cayenne. Curcumin (turmeric) and capsaicin (cayenne) fight inflammation through separate pathways simultaneously. Cayenne also significantly boosts turmeric's bioavailability.</p>
+        <div class="tag-list" style="margin-bottom:20px;">
+          <span class="tag tag-gold">Anti-Inflammatory</span>
+          <span class="tag tag-green">Joint Health</span>
+          <span class="tag">Recovery</span>
+          <span class="tag">Metabolism</span>
+        </div>
+        <div class="size-selector" style="margin-bottom:20px;">
+          <button class="size-btn" data-size="300ml" data-price="3.99">300ml<small>$3.99</small></button>
+          <button class="size-btn" data-size="500ml" data-price="5.99">500ml<small>$5.99</small></button>
+        </div>
+        <button class="btn btn-whatsapp" data-wa-product="Golden Fire">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+          Order via Text
+        </button>
+        <a href="products/golden-fire.html" class="btn btn-secondary" style="margin-left:10px;">View Details</a>
+      </div>
+    </div>
+
+    <!-- Celery -->
+    <div class="product-detail-card reveal" data-shop-cat="detox">
+      <div class="shop-img">
+        <img src="outputs/images/products/celery_juice_hero.png" alt="Straight Celery Juice">
+      </div>
+      <div class="product-detail-body" data-product="straight-celery">
+        <div class="product-detail-name">🥬 Straight Celery Juice</div>
+        <div class="product-detail-tagline">"Pure. Nothing added. The 7-Day Challenge starts here."</div>
+        <p class="product-detail-desc">100% fresh celery, cleaned in ozonated water. Nothing else. Gut health, detox, blood pressure support. Drink on an empty stomach first thing in the morning for maximum impact. Available in 1L for the full 7-Day Challenge.</p>
+        <div class="tag-list" style="margin-bottom:20px;">
+          <span class="tag tag-green">Gut Health</span>
+          <span class="tag">Detox</span>
+          <span class="tag">Blood Pressure</span>
+          <span class="tag tag-gold">7-Day Challenge</span>
+        </div>
+        <div class="size-selector" style="margin-bottom:20px;">
+          <button class="size-btn" data-size="300ml" data-price="3.99">300ml<small>$3.99</small></button>
+          <button class="size-btn" data-size="500ml" data-price="5.99">500ml<small>$5.99</small></button>
+          <button class="size-btn" data-size="1L" data-price="11.99">1L<small>$11.99</small></button>
+        </div>
+        <button class="btn btn-whatsapp" data-wa-product="Straight Celery Juice">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+          Order via Text
+        </button>
+        <a href="products/celery.html" class="btn btn-secondary" style="margin-left:10px;">View Details</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Bundles -->
+<section style="background:var(--bg-2); border-top:1px solid var(--border);">
+  <div class="container">
+    <div class="section-header text-center reveal">
+      <span class="section-label">Better Together</span>
+      <h2>Bundle Deals</h2>
+      <p>Save when you commit. All bundles ordered via text — we'll confirm and arrange delivery.</p>
+    </div>
+    <div class="bundle-grid">
+      <div class="bundle-card reveal">
+        <div class="bundle-name">Immunity Duo</div>
+        <div class="bundle-contents">Immuni-Tea 300ml + Immuni-Fire 300ml<br>Try both — gentle and spicy, side by side.</div>
+        <div class="bundle-price">$6.99</div>
+        <div class="bundle-save">Save $0.99 vs buying separately</div>
+        <a href="https://wa.me/61434694141?text=Hi!%20I%27d%20like%20the%20Immunity%20Duo%20bundle%20(%24699)%20-%20Immuni-Tea%20%2B%20Immuni-Fire%20300ml%20each." class="btn btn-sm btn-whatsapp" target="_blank">Order via Text</a>
+      </div>
+      <div class="bundle-card reveal reveal-delay-1">
+        <div class="bundle-name">Performance Pack</div>
+        <div class="bundle-contents">Beetroid 500ml + Golden Fire 300ml<br>Pre-workout performance and recovery in one order.</div>
+        <div class="bundle-price">$8.99</div>
+        <div class="bundle-save">Save $0.99 vs buying separately</div>
+        <a href="https://wa.me/61434694141?text=Hi!%20I%27d%20like%20the%20Performance%20Pack%20(%248.99)%20-%20Beetroid%20500ml%20%2B%20Golden%20Fire%20300ml." class="btn btn-sm btn-whatsapp" target="_blank">Order via Text</a>
+      </div>
+      <div class="bundle-card reveal reveal-delay-2" style="border-color:var(--gold);">
+        <div class="bundle-name" style="color:var(--gold);">Wellness Week 🥬</div>
+        <div class="bundle-contents">7 × Straight Celery 1L<br>Everything you need for the complete 7-Day Celery Challenge. support included.</div>
+        <div class="bundle-price">$69.99</div>
+        <div class="bundle-save">Save $13.94 vs buying individually</div>
+        <a href="https://wa.me/61434694141?text=Hi!%20I%27d%20like%20to%20start%20the%207-Day%20Celery%20Challenge%20-%20the%20Wellness%20Week%20bundle%20(%2469.99)%20please." class="btn btn-sm btn-whatsapp" target="_blank">Order via Text</a>
+      </div>
+      <div class="bundle-card reveal reveal-delay-3">
+        <div class="bundle-name">Full Line Sampler</div>
+        <div class="bundle-contents">1 × 300ml of every product (5 in total)<br>Try everything before you commit to a favourite.</div>
+        <div class="bundle-price">$17.99</div>
+        <div class="bundle-save">Save $1.96 vs buying separately</div>
+        <a href="https://wa.me/61434694141?text=Hi!%20I%27d%20like%20the%20Full%20Line%20Sampler%20(%2417.99)%20-%20one%20300ml%20of%20each%20product%20please." class="btn btn-sm btn-whatsapp" target="_blank">Order via Text</a>
+      </div>
+      <div class="bundle-card reveal reveal-delay-4">
+        <div class="bundle-name">Family Pack</div>
+        <div class="bundle-contents">4 × 500ml — mix and match any products<br>Keep the household stocked for the week.</div>
+        <div class="bundle-price">$19.99</div>
+        <div class="bundle-save">Save $3.97 vs buying separately</div>
+        <a href="https://wa.me/61434694141?text=Hi!%20I%27d%20like%20the%20Family%20Pack%20(%2419.99)%20-%204%20x%20500ml.%20Let%20me%20know%20which%20flavours%20I%20can%20mix%20and%20match!" class="btn btn-sm btn-whatsapp" target="_blank">Order via Text</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Comparison Chart -->
+<section>
+  <div class="container">
+    <div class="section-header text-center reveal">
+      <span class="section-label">Compare</span>
+      <h2>Which One Is Right for You?</h2>
+    </div>
+    <div class="img-block reveal">
+      <img src="outputs/images/infographics/product_comparison_chart.png" alt="Product comparison chart">
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img">Glengala <span>Fresh</span></div>
+        <p>Cold-pressed juices. Science-backed formulas. Ozonated water cleaned. No shortcuts.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Products</h5>
+        <ul>
+          <li><a href="products/beetroid.html">Beetroid</a></li>
+          <li><a href="products/immuni-tea.html">Immuni-Tea</a></li>
+          <li><a href="products/immuni-fire.html">Immuni-Fire</a></li>
+          <li><a href="products/golden-fire.html">Golden Fire</a></li>
+          <li><a href="products/celery.html">Straight Celery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="science.html">The Science</a></li>
+          <li><a href="partnerships.html">Partner With Us</a></li>
+          <li><a href="blog.html">Articles</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Order</h5>
+        <ul>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact &amp; Order</a></li>
+          <li><a href="https://wa.me/61434694141">Text Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Glengala Fresh. All rights reserved.</div>
+      <div>Made with real ingredients. Cleaned with ozonated water.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+function filterShop(cat) {
+  document.querySelectorAll('[data-shop-cat]').forEach(card => {
+    card.style.display = (cat === 'all' || card.dataset.shopCat === cat) ? '' : 'none';
+  });
+  document.querySelectorAll('.filter-tab').forEach(btn => btn.classList.remove('active'));
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
