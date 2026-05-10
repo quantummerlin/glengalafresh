@@ -2,7 +2,7 @@
    GLENGALA FRESH — main.js
    ========================================= */
 
-const WA_NUMBER = '61434694141';
+const PHONE_NUMBER = '61434694141';
 
 // ─── Sticky Nav ───────────────────────────
 const nav = document.querySelector('.nav');
@@ -68,10 +68,20 @@ document.querySelectorAll('.size-selector').forEach(selector => {
   if (first) first.classList.add('active');
 });
 
-// ─── WhatsApp Order Builder ───────────────
-function buildWaLink(message) {
-  return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(message)}`;
+// ─── SMS Order Builder ───────────────────
+function buildSmsLink(message) {
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+  const sep = isIOS ? '&' : '?';
+  return `sms:+${PHONE_NUMBER}${sep}body=${encodeURIComponent(message)}`;
 }
+
+// Convert any leftover wa.me links on the page to SMS at runtime
+document.querySelectorAll('a[href*="wa.me"]').forEach(a => {
+  const url = new URL(a.href);
+  const text = url.searchParams.get('text') || '';
+  a.href = buildSmsLink(text);
+  a.removeAttribute('target');
+});
 
 // Generic product order button
 document.querySelectorAll('[data-wa-product]').forEach(btn => {
@@ -80,12 +90,8 @@ document.querySelectorAll('[data-wa-product]').forEach(btn => {
     const selector = btn.closest('[data-product]')?.querySelector('.size-btn.active');
     const size = selector ? selector.dataset.size : '500ml';
     const price = selector ? '$' + selector.dataset.price : '';
-    const msg = `Hi! I'd like to order:\n\n🧃 ${product} — ${size} ${price}\n\nCould you let me know availability and delivery? Thanks!`;
-    const url = buildWaLink(msg);
-    const newWin = window.open(url, '_blank');
-    if (!newWin || newWin.closed || typeof newWin.closed === 'undefined') {
-      window.location.href = url;
-    }
+    const msg = `Hi! I'd like to order:\n\n${product} — ${size} ${price}\n\nCould you let me know availability and delivery? Thanks!`;
+    window.location.href = buildSmsLink(msg);
   });
 });
 
@@ -112,7 +118,7 @@ if (orderForm) {
     if (note)  msg += `\n📝 Note: ${note}`;
     msg += `\n\nThanks!`;
 
-    window.open(buildWaLink(msg), '_blank');
+    window.location.href = buildSmsLink(msg);
   });
 }
 
@@ -137,7 +143,7 @@ if (partnerForm) {
     msg += `📦 Tier: ${tier}`;
     if (message) msg += `\n💬 Message: ${message}`;
 
-    window.open(buildWaLink(msg), '_blank');
+    window.location.href = buildSmsLink(msg);
   });
 }
 
