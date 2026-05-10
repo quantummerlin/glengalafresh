@@ -1,0 +1,10 @@
+# Deep Research Skill Dependencies
+#
+# Core: Python 3.9+ standard library only. No pip install needed.
+#
+# Optional tools (not Python packages):
+#
+# search-cli — multi-provider search aggregation (Brave, Serper, Exa, Jina, Firecrawl)
+#   Install: brew tap 199-biotechnologies/tap && brew install search-cli
+#   Config:  search config set keys.[provider] YOUR_KEY
+#   Repo:    https://github.com/199-biotechnologies/search-cli
