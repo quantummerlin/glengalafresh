@@ -81,7 +81,11 @@ document.querySelectorAll('[data-wa-product]').forEach(btn => {
     const size = selector ? selector.dataset.size : '500ml';
     const price = selector ? '$' + selector.dataset.price : '';
     const msg = `Hi! I'd like to order:\n\n🧃 ${product} — ${size} ${price}\n\nCould you let me know availability and delivery? Thanks!`;
-    window.open(buildWaLink(msg), '_blank');
+    const url = buildWaLink(msg);
+    const newWin = window.open(url, '_blank');
+    if (!newWin || newWin.closed || typeof newWin.closed === 'undefined') {
+      window.location.href = url;
+    }
   });
 });
 
