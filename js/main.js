@@ -22,9 +22,9 @@ if (navToggle && mobileNav) {
     const open = mobileNav.classList.toggle('open');
     navToggle.setAttribute('aria-expanded', String(open));
   });
-  // Close on link click
+  // Close on link click — delay so iOS doesn't cancel navigation before href fires
   mobileNav.querySelectorAll('a').forEach(a => {
-    a.addEventListener('click', () => mobileNav.classList.remove('open'));
+    a.addEventListener('click', () => setTimeout(() => mobileNav.classList.remove('open'), 100));
   });
 }
 
