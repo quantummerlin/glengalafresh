@@ -1,4 +1,4 @@
-const CACHE_NAME = 'glengala-v1';
+const CACHE_NAME = 'glengala-v2';
 const ASSETS = [
   '/',
   '/index.html',
@@ -41,15 +41,26 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
+
+  // Keep navigation and assets fresh; only fall back to cache on network errors.
   event.respondWith(
-    caches.match(event.request).then(cached => {
-      if (cached) return cached;
-      return fetch(event.request).then(response => {
-        if (!response || response.status !== 200 || response.type === 'opaque') return response;
-        const clone = response.clone();
-        caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+    fetch(event.request)
+      .then(response => {
+        if (response && response.status === 200 && response.type !== 'opaque') {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+        }
         return response;
-      });
-    }).catch(() => caches.match('/index.html'))
+      })
+      .catch(async () => {
+        const cached = await caches.match(event.request);
+        if (cached) return cached;
+
+        if (event.request.mode === 'navigate') {
+          return caches.match('/index.html');
+        }
+
+        return new Response('', { status: 503, statusText: 'Offline' });
+      })
   );
 });
