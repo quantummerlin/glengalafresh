@@ -1,0 +1,70 @@
+name: PR Preview Check
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check for common issues
+        run: |
+          echo "## PR Preview Check" > /tmp/report.md
+          echo "" >> /tmp/report.md
+          
+          # Check for missing meta descriptions
+          echo "### SEO Check" >> /tmp/report.md
+          for f in $(find . -name "*.html" -not -path "./.git/*" -not -path "./create-slides-skill/*" -not -path "./deep-research-skill/*"); do
+            if ! grep -q 'name="description"' "$f"; then
+              echo "- ⚠️ $f: missing meta description" >> /tmp/report.md
+            fi
+          done
+          
+          # Check for plausible analytics
+          echo "" >> /tmp/report.md
+          echo "### Analytics Check" >> /tmp/report.md
+          for f in $(find . -name "*.html" -not -path "./.git/*" -not -path "./create-slides-skill/*" -not -path "./deep-research-skill/*"); do
+            if ! grep -q 'plausible' "$f"; then
+              echo "- ⚠️ $f: missing Plausible analytics" >> /tmp/report.md
+            fi
+          done
+          
+          # Check for favicon
+          echo "" >> /tmp/report.md
+          echo "### Favicon Check" >> /tmp/report.md
+          for f in $(find . -name "*.html" -not -path "./.git/*" -not -path "./create-slides-skill/*" -not -path "./deep-research-skill/*"); do
+            if ! grep -q 'rel="icon"' "$f"; then
+              echo "- ⚠️ $f: missing favicon" >> /tmp/report.md
+            fi
+          done
+          
+          # Check file sizes (warn if any image > 500KB)
+          echo "" >> /tmp/report.md
+          echo "### Image Size Check" >> /tmp/report.md
+          find outputs generated_images -type f -size +500k 2>/dev/null | while read -r img; do
+            size=$(du -h "$img" | cut -f1)
+            echo "- ⚠️ $img: $size (consider compressing)" >> /tmp/report.md
+          done
+          
+          cat /tmp/report.md
+
+      - name: Comment PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('/tmp/report.md', 'utf8');
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: report
+            });
