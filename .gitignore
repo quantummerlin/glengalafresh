@@ -1,1 +1,19 @@
-cold_pressed_juice_images.zip
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor temp files
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build artifacts (this is a static site, no build step)
+node_modules/
+*.zip
+
+# Sensitive (never commit)
+.env
+config.local.*
