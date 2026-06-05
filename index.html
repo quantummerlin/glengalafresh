@@ -12,6 +12,183 @@
   <link rel="stylesheet" href="css/style.css">
   <script defer data-domain="glengalafresh.au" src="https://plausible.io/js/script.js"></script>
   <link rel="icon" type="image/svg+xml" href="/images/icons/gf-icon.svg">
+
+<!-- ─── Mini Cart Styles ─── -->
+<style>
+  .cart-badge {
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    background: var(--gold);
+    color: #111;
+    font-size: 0.65rem;
+    font-weight: 700;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: scale(0);
+    transition: var(--transition);
+  }
+  .cart-badge.visible { opacity: 1; transform: scale(1); }
+
+  .cart-trigger {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .cart-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 998;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .cart-overlay.open { opacity: 1; pointer-events: auto; }
+
+  .cart-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-width: 420px;
+    height: 100vh;
+    background: var(--bg-2);
+    border-left: 1px solid var(--border);
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+    display: flex;
+    flex-direction: column;
+  }
+  .cart-drawer.open { transform: translateX(0); }
+
+  .cart-header {
+    padding: 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  .cart-header h3 { font-size: 1.2rem; margin: 0; }
+  .cart-close {
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 4px 8px;
+    line-height: 1;
+  }
+  .cart-close:hover { color: var(--text); }
+
+  .cart-items {
+    flex: 1;
+    overflow-y: auto;
+    padding: 16px 24px;
+  }
+  .cart-empty {
+    text-align: center;
+    color: var(--text-dim);
+    padding: 48px 0;
+    font-size: 0.9rem;
+  }
+  .cart-empty-icon { font-size: 2.5rem; margin-bottom: 12px; }
+
+  .cart-item {
+    display: flex;
+    gap: 14px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+  }
+  .cart-item:last-child { border-bottom: none; }
+  .cart-item-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    object-fit: cover;
+    background: var(--card);
+    flex-shrink: 0;
+  }
+  .cart-item-info { flex: 1; min-width: 0; }
+  .cart-item-name { font-weight: 600; font-size: 0.9rem; margin-bottom: 2px; }
+  .cart-item-size { font-size: 0.75rem; color: var(--text-dim); }
+  .cart-item-price { font-weight: 700; color: var(--gold); font-size: 0.85rem; }
+  .cart-item-qty {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 6px;
+  }
+  .cart-qty-btn {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+    font-size: 0.85rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart-qty-btn:hover { border-color: var(--gold); }
+  .cart-qty-val { font-size: 0.85rem; font-weight: 600; min-width: 20px; text-align: center; }
+  .cart-item-remove {
+    background: none;
+    border: none;
+    color: var(--text-dim);
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 4px;
+    flex-shrink: 0;
+  }
+  .cart-item-remove:hover { color: var(--red-accent); }
+
+  .cart-footer {
+    padding: 20px 24px;
+    border-top: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+  .cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+  .cart-total-price { font-weight: 700; color: var(--gold); font-size: 1.2rem; }
+  .cart-send-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 16px;
+    border-radius: var(--radius);
+    background: #25D366;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  .cart-send-btn:hover { opacity: 0.88; }
+  .cart-send-btn svg { flex-shrink: 0; }
+
+  .product-card-link { display: block; color: inherit; text-decoration: none; }
+  .product-card-link:hover { color: inherit; }
+</style>
 </head>
 <body>
 
@@ -26,7 +203,7 @@
         <li><a href="science.html">The Science</a></li>
         <li><a href="blog.html">Articles</a></li>
         <li><a href="partnerships.html">Partner With Us</a></li>
-        <li><a href="contact.html" class="nav-cta">Order Now</a></li>
+        <li><a href="contact.html" class="nav-cta cart-trigger" id="navCartTrigger">Order Now <span class="cart-badge" id="cartBadge">0</span></a></li>
       </ul>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -53,130 +230,142 @@
     </div>
     <div class="product-grid">
 
-      <a href="products/beetroid.html" class="product-card reveal">
-        <div class="product-card-image">
-          <img src="outputs/images/products/beetroid_hero.png" alt="Beetroid juice">
-          <span class="product-badge">Flagship</span>
-        </div>
-        <div class="product-card-body">
-          <div class="product-name">⚡ Beetroid</div>
-          <p class="product-desc">Beetroot + Ginger + Lemon + Honey. 40–60% better blood flow. Nature's pre-workout.</p>
-          <div>
-            <span class="product-price">From $3.99</span>
-            <span class="product-price-sub">AUD</span>
+      <div class="product-card reveal">
+        <a href="products/beetroid.html" class="product-card-link">
+          <div class="product-card-image">
+            <img src="outputs/images/products/beetroid_hero.png" alt="Beetroid juice">
+            <span class="product-badge">Flagship</span>
           </div>
-          <a href="contact.html?product=beetroid" class="btn btn-primary btn-sm btn-full" style="margin-top:12px;">Add to Cart</a>
-          <div class="tag-list">
-            <span class="tag">Performance</span>
-            <span class="tag">Heart Health</span>
-            <span class="tag">Athletes</span>
+          <div class="product-card-body">
+            <div class="product-name">⚡ Beetroid</div>
+            <p class="product-desc">Beetroot + Ginger + Lemon + Honey. 40–60% better blood flow. Nature's steroid.</p>
+            <div>
+              <span class="product-price">From $3.99</span>
+              <span class="product-price-sub">AUD</span>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Performance</span>
+              <span class="tag">Heart Health</span>
+              <span class="tag">Athletes</span>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="beetroid" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;cursor:pointer;">Add to Cart</span>
+      </div>
 
-      <a href="products/immuni-tea.html" class="product-card reveal reveal-delay-1">
-        <div class="product-card-image">
-          <img src="outputs/images/products/immuni_tea_hero.png" alt="Immuni-Tea juice">
-        </div>
-        <div class="product-card-body">
-          <div class="product-name">🛡 Immuni-Tea</div>
-          <p class="product-desc">Ginger + Lemon + Honey. Smooth, soothing daily immune support. No burn. Just benefits.</p>
-          <div>
-            <span class="product-price">From $3.99</span>
-            <span class="product-price-sub">AUD</span>
+      <div class="product-card reveal reveal-delay-1">
+        <a href="products/immuni-tea.html" class="product-card-link">
+          <div class="product-card-image">
+            <img src="outputs/images/products/immuni_tea_hero.png" alt="Immuni-Tea juice">
           </div>
-          <a href="contact.html?product=immuni-tea" class="btn btn-primary btn-sm btn-full" style="margin-top:12px;">Add to Cart</a>
-          <div class="tag-list">
-            <span class="tag">Immunity</span>
-            <span class="tag">Morning Ritual</span>
-            <span class="tag">Family</span>
+          <div class="product-card-body">
+            <div class="product-name">🛡 Immuni-Tea</div>
+            <p class="product-desc">Ginger + Lemon + Honey. Smooth, soothing daily immune support. No burn. Just benefits.</p>
+            <div>
+              <span class="product-price">From $3.99</span>
+              <span class="product-price-sub">AUD</span>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Immunity</span>
+              <span class="tag">Morning Ritual</span>
+              <span class="tag">Family</span>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="immuni-tea" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+      </div>
 
-      <a href="products/immuni-fire.html" class="product-card reveal reveal-delay-2">
-        <div class="product-card-image">
-          <img src="outputs/images/products/immuni_fire_hero.png" alt="Immuni-Fire juice">
-          <span class="product-badge" style="background:var(--orange);color:#fff;">Spicy</span>
-        </div>
-        <div class="product-card-body">
-          <div class="product-name">🔥 Immuni-Fire</div>
-          <p class="product-desc">Immuni-Tea with a kick. Cayenne clears sinuses, fires up metabolism, boosts circulation.</p>
-          <div>
-            <span class="product-price">From $3.99</span>
-            <span class="product-price-sub">AUD</span>
+      <div class="product-card reveal reveal-delay-2">
+        <a href="products/immuni-fire.html" class="product-card-link">
+          <div class="product-card-image">
+            <img src="outputs/images/products/immuni_fire_hero.png" alt="Immuni-Fire juice">
+            <span class="product-badge" style="background:var(--orange);color:#fff;">Spicy</span>
           </div>
-          <a href="contact.html?product=immuni-fire" class="btn btn-primary btn-sm btn-full" style="margin-top:12px;">Add to Cart</a>
-          <div class="tag-list">
-            <span class="tag">Immunity</span>
-            <span class="tag">Metabolism</span>
-            <span class="tag">Spicy</span>
+          <div class="product-card-body">
+            <div class="product-name">🔥 Immuni-Fire</div>
+            <p class="product-desc">Immuni-Tea with a kick. Cayenne clears sinuses, fires up metabolism, boosts circulation.</p>
+            <div>
+              <span class="product-price">From $3.99</span>
+              <span class="product-price-sub">AUD</span>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Immunity</span>
+              <span class="tag">Metabolism</span>
+              <span class="tag">Spicy</span>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="immuni-fire" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+      </div>
 
-      <a href="products/golden-fire.html" class="product-card reveal reveal-delay-3">
-        <div class="product-card-image">
-          <img src="outputs/images/products/golden_fire_hero.png" alt="Golden Fire juice">
-          <span class="product-badge" style="background:var(--green-mid);color:#fff;">Anti-Inflam.</span>
-        </div>
-        <div class="product-card-body">
-          <div class="product-name">🌟 Golden Fire</div>
-          <p class="product-desc">Turmeric + Cayenne + Lemon + Honey. Nature's ibuprofen. Anti-inflammatory at its peak.</p>
-          <div>
-            <span class="product-price">From $3.99</span>
-            <span class="product-price-sub">AUD</span>
+      <div class="product-card reveal reveal-delay-3">
+        <a href="products/golden-fire.html" class="product-card-link">
+          <div class="product-card-image">
+            <img src="outputs/images/products/golden_fire_hero.png" alt="Golden Fire juice">
+            <span class="product-badge" style="background:var(--green-mid);color:#fff;">Anti-Inflam.</span>
           </div>
-          <a href="contact.html?product=golden-fire" class="btn btn-primary btn-sm btn-full" style="margin-top:12px;">Add to Cart</a>
-          <div class="tag-list">
-            <span class="tag">Joint Health</span>
-            <span class="tag">Inflammation</span>
-            <span class="tag">Recovery</span>
+          <div class="product-card-body">
+            <div class="product-name">🌟 Golden Fire</div>
+            <p class="product-desc">Turmeric + Cayenne + Lemon + Honey. Nature's ibuprofen. Anti-inflammatory at its peak.</p>
+            <div>
+              <span class="product-price">From $3.99</span>
+              <span class="product-price-sub">AUD</span>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Joint Health</span>
+              <span class="tag">Inflammation</span>
+              <span class="tag">Recovery</span>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="golden-fire" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+      </div>
 
-      <a href="products/celery.html" class="product-card reveal reveal-delay-4">
-        <div class="product-card-image">
-          <img src="outputs/images/products/celery_juice_hero.png" alt="Straight Celery Juice">
-          <span class="product-badge" style="background:var(--green-mid);color:#fff;">Detox</span>
-        </div>
-        <div class="product-card-body">
-          <div class="product-name">🥬 Straight Celery</div>
-          <p class="product-desc">100% celery, nothing else. Gut health, detox, blood pressure. Try the 7-Day Challenge.</p>
-          <div>
-            <span class="product-price">From $3.99</span>
-            <span class="product-price-sub">AUD</span>
+      <div class="product-card reveal reveal-delay-4">
+        <a href="products/celery.html" class="product-card-link">
+          <div class="product-card-image">
+            <img src="outputs/images/products/celery_juice_hero.png" alt="Straight Celery Juice">
+            <span class="product-badge" style="background:var(--green-mid);color:#fff;">Detox</span>
           </div>
-          <a href="contact.html?product=celery" class="btn btn-primary btn-sm btn-full" style="margin-top:12px;">Add to Cart</a>
-          <div class="tag-list">
-            <span class="tag">Gut Health</span>
-            <span class="tag">Detox</span>
-            <span class="tag">7-Day Challenge</span>
+          <div class="product-card-body">
+            <div class="product-name">🥬 Straight Celery</div>
+            <p class="product-desc">100% celery, nothing else. Gut health, detox, blood pressure. Try the 7-Day Challenge.</p>
+            <div>
+              <span class="product-price">From $3.99</span>
+              <span class="product-price-sub">AUD</span>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Gut Health</span>
+              <span class="tag">Detox</span>
+              <span class="tag">7-Day Challenge</span>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="celery" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+      </div>
 
-      <a href="products/watermelon.html" class="product-card reveal reveal-delay-5">
-        <div class="product-card-image">
-          <img src="outputs/images/lifestyle/pour_shot_closeup.png" alt="Straight Watermelon Juice">
-          <span class="product-badge" style="background:var(--gold);color:#111;">Hydration</span>
-        </div>
-        <div class="product-card-body">
-          <div class="product-name">🍉 Straight Watermelon</div>
-          <p class="product-desc">100% watermelon, nothing else. Citrulline-rich hydration support for gym days and hot days.</p>
-          <div>
-            <span class="product-price">From $3.99</span>
-            <span class="product-price-sub">AUD</span>
+      <div class="product-card reveal reveal-delay-5">
+        <a href="products/watermelon.html" class="product-card-link">
+          <div class="product-card-image">
+            <img src="outputs/images/lifestyle/pour_shot_closeup.png" alt="Straight Watermelon Juice">
+            <span class="product-badge" style="background:var(--gold);color:#111;">Hydration</span>
           </div>
-          <a href="contact.html?product=watermelon" class="btn btn-primary btn-sm btn-full" style="margin-top:12px;">Add to Cart</a>
-          <div class="tag-list">
-            <span class="tag">Hydration</span>
-            <span class="tag">Recovery</span>
-            <span class="tag">Gym</span>
+          <div class="product-card-body">
+            <div class="product-name">🍉 Straight Watermelon</div>
+            <p class="product-desc">100% watermelon, nothing else. Citrulline-rich hydration support for gym days and hot days.</p>
+            <div>
+              <span class="product-price">From $3.99</span>
+              <span class="product-price-sub">AUD</span>
+            </div>
+            <div class="tag-list">
+              <span class="tag">Hydration</span>
+              <span class="tag">Recovery</span>
+              <span class="tag">Gym</span>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="watermelon" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+      </div>
 
     </div>
     <div class="text-center mt-12">
@@ -451,6 +640,195 @@
   </div>
 </footer>
 
+<!-- ─── Mini Cart ─── -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<div class="cart-drawer" id="cartDrawer">
+  <div class="cart-header">
+    <h3>🛒 Your Order</h3>
+    <button class="cart-close" id="cartClose" aria-label="Close cart">✕</button>
+  </div>
+  <div class="cart-items" id="cartItems">
+    <div class="cart-empty">
+      <div class="cart-empty-icon">🧃</div>
+      <p>Your cart is empty.<br>Add some juices to get started!</p>
+    </div>
+  </div>
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span>Estimated Total</span>
+      <span class="cart-total-price" id="cartTotal">$0.00</span>
+    </div>
+    <button class="cart-send-btn" id="cartSendBtn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Send Order via Text
+    </button>
+  </div>
+</div>
+
 <script src="js/main.js"></script>
+<!-- ─── Mini Cart Logic ─── -->
+<script>
+(function() {
+  const PHONE = '61434694141';
+  const PRICES = { '300ml': 3.99, '500ml': 5.99, '1L': 11.99 };
+
+  const products = {
+    'beetroid':     { name: '⚡ Beetroid',   img: 'outputs/images/products/beetroid_hero.png',   size: '500ml' },
+    'immuni-tea':   { name: '🛡 Immuni-Tea',  img: 'outputs/images/products/immuni_tea_hero.png',  size: '500ml' },
+    'immuni-fire':  { name: '🔥 Immuni-Fire', img: 'outputs/images/products/immuni_fire_hero.png',  size: '500ml' },
+    'golden-fire':  { name: '🌟 Golden Fire', img: 'outputs/images/products/golden_fire_hero.png',  size: '500ml' },
+    'celery':       { name: '🥬 Straight Celery', img: 'outputs/images/products/celery_juice_hero.png', size: '500ml' },
+    'watermelon':   { name: '🍉 Straight Watermelon', img: 'outputs/images/lifestyle/pour_shot_closeup.png', size: '500ml' },
+  };
+
+  let cart = []; // { id, qty }
+
+  const overlay = document.getElementById('cartOverlay');
+  const drawer = document.getElementById('cartDrawer');
+  const closeBtn = document.getElementById('cartClose');
+  const itemsContainer = document.getElementById('cartItems');
+  const totalEl = document.getElementById('cartTotal');
+  const sendBtn = document.getElementById('cartSendBtn');
+  const badge = document.getElementById('cartBadge');
+
+  function openCart() { overlay.classList.add('open'); drawer.classList.add('open'); }
+  function closeCart() { overlay.classList.remove('open'); drawer.classList.remove('open'); }
+  overlay.addEventListener('click', closeCart);
+  closeBtn.addEventListener('click', closeCart);
+
+  function addToCart(id) {
+    const existing = cart.find(i => i.id === id);
+    if (existing) { existing.qty++; }
+    else { cart.push({ id, qty: 1 }); }
+    updateCart();
+    openCart();
+    flashAdded();
+  }
+
+  function changeQty(id, delta) {
+    const item = cart.find(i => i.id === id);
+    if (!item) return;
+    item.qty += delta;
+    if (item.qty <= 0) cart = cart.filter(i => i.id !== id);
+    updateCart();
+  }
+
+  function removeItem(id) {
+    cart = cart.filter(i => i.id !== id);
+    updateCart();
+  }
+
+  function flashAdded() {
+    const items = itemsContainer.querySelectorAll('.cart-item');
+    if (items.length) {
+      const last = items[items.length - 1];
+      last.style.transition = 'background 0.3s';
+      last.style.background = 'rgba(201,168,76,0.15)';
+      setTimeout(() => { last.style.background = ''; }, 400);
+    }
+  }
+
+  function updateCart() {
+    const totalItems = cart.reduce((s, i) => s + i.qty, 0);
+    if (totalItems > 0) badge.classList.add('visible');
+    else badge.classList.remove('visible');
+    badge.textContent = totalItems;
+
+    if (cart.length === 0) {
+      itemsContainer.innerHTML = '<div class="cart-empty"><div class="cart-empty-icon">🧃</div><p>Your cart is empty.<br>Add some juices to get started!</p></div>';
+      totalEl.textContent = '$0.00';
+      sendBtn.style.opacity = '0.4';
+      sendBtn.style.pointerEvents = 'none';
+      return;
+    }
+
+    sendBtn.style.opacity = '1';
+    sendBtn.style.pointerEvents = 'auto';
+
+    let html = '';
+    let grandTotal = 0;
+
+    cart.forEach(item => {
+      const p = products[item.id];
+      const price = PRICES[p.size] || 5.99;
+      const lineTotal = price * item.qty;
+      grandTotal += lineTotal;
+      html += '<div class="cart-item">';
+      html += '<img class="cart-item-img" src="' + p.img + '" alt="' + p.name + '">';
+      html += '<div class="cart-item-info">';
+      html += '<div class="cart-item-name">' + p.name + '</div>';
+      html += '<div class="cart-item-size">' + p.size + ' — $' + price.toFixed(2) + '</div>';
+      html += '<div class="cart-item-qty">';
+      html += '<button class="cart-qty-btn" data-action="dec" data-id="' + item.id + '">−</button>';
+      html += '<span class="cart-qty-val">' + item.qty + '</span>';
+      html += '<button class="cart-qty-btn" data-action="inc" data-id="' + item.id + '">+</button>';
+      html += '<span class="cart-item-price" style="margin-left:auto;">$' + lineTotal.toFixed(2) + '</span>';
+      html += '</div></div>';
+      html += '<button class="cart-item-remove" data-action="remove" data-id="' + item.id + '" title="Remove">✕</button>';
+      html += '</div>';
+    });
+
+    itemsContainer.innerHTML = html;
+    totalEl.textContent = '$' + grandTotal.toFixed(2);
+
+    // Bind qty/remove events
+    itemsContainer.querySelectorAll('[data-action]').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const action = this.dataset.action;
+        const id = this.dataset.id;
+        if (action === 'inc') changeQty(id, 1);
+        else if (action === 'dec') changeQty(id, -1);
+        else if (action === 'remove') removeItem(id);
+      });
+    });
+  }
+
+  // Send order via SMS
+  sendBtn.addEventListener('click', function() {
+    if (cart.length === 0) return;
+    let msg = "Hi Glengala Fresh! I'd like to place an order:\\n\\n";
+    let grandTotal = 0;
+    cart.forEach((item, idx) => {
+      const p = products[item.id];
+      const price = PRICES[p.size] || 5.99;
+      const lineTotal = price * item.qty;
+      grandTotal += lineTotal;
+      msg += p.name + ' — ' + p.size + ' × ' + item.qty + ' ($' + lineTotal.toFixed(2) + ')';
+      if (idx < cart.length - 1) msg += '\\n';
+    });
+    msg += "\\n\\n💰 Estimated total: $" + grandTotal.toFixed(2);
+    msg += "\\n\\nCould you confirm availability and delivery? Thanks!";
+
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    const sep = isIOS ? '&' : '?';
+    window.location.href = 'sms:+' + PHONE + sep + 'body=' + encodeURIComponent(msg);
+  });
+
+  // Bind nav cart trigger
+  var navCartTrigger = document.getElementById('navCartTrigger');
+  if (navCartTrigger) {
+    navCartTrigger.addEventListener('click', function(e) {
+      if (cart.length > 0) {
+        e.preventDefault();
+        openCart();
+      }
+      // If cart is empty, let it fall through to contact.html
+    });
+  }
+
+  // Bind all Add to Cart buttons
+  document.querySelectorAll('.add-to-cart-btn').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      const id = this.dataset.product;
+      addToCart(id);
+    });
+  });
+
+  // Init
+  updateCart();
+})();
+</script>
 </body>
 </html>
