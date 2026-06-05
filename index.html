@@ -120,12 +120,13 @@
   .product-card-link:hover { color: inherit; }
 
   /* Size Selector */
-  .size-selector { display: flex; gap: 6px; margin-top: 10px; }
+  .size-selector { display: flex; gap: 6px; margin-top: 10px; justify-content: center; }
   .size-btn {
     flex: 1; padding: 7px 4px; border-radius: 8px;
     border: 1px solid var(--border); background: var(--card);
     color: var(--text-muted); font-size: 0.75rem; font-weight: 600;
     cursor: pointer; text-align: center; transition: var(--transition);
+    max-width: 100px;
   }
   .size-btn:hover { border-color: var(--gold); color: var(--text); }
   .size-btn.active { border-color: var(--gold); background: rgba(201,168,76,0.12); color: var(--gold); }
@@ -137,7 +138,7 @@
   /* Drink Tip */
   .drink-tip {
     font-size: 0.75rem; color: var(--green-light); margin-top: 8px;
-    display: flex; align-items: center; gap: 5px;
+    display: flex; align-items: center; gap: 5px; justify-content: center;
   }
 
   /* Sticky Mobile CTA */
@@ -164,16 +165,16 @@
 
   /* Testimonials */
   .testimonials-grid {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 24px; margin-top: 48px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px; margin-top: 48px; max-width: 960px; margin-left: auto; margin-right: auto;
   }
   .testimonial-card {
     background: var(--card); border: 1px solid var(--border);
-    border-radius: var(--radius-lg); padding: 28px;
+    border-radius: var(--radius-lg); padding: 28px; text-align: center;
   }
   .testimonial-stars { color: var(--gold); font-size: 0.9rem; margin-bottom: 12px; letter-spacing: 2px; }
-  .testimonial-text { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; }
-  .testimonial-author { display: flex; align-items: center; gap: 10px; }
+  .testimonial-text { font-size: 0.9rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 16px; font-style: italic; }
+  .testimonial-author { display: flex; align-items: center; gap: 10px; justify-content: center; }
   .testimonial-avatar {
     width: 36px; height: 36px; border-radius: 50%;
     background: rgba(201,168,76,0.15);
@@ -188,7 +189,7 @@
   .product-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(0,0,0,0.5); }
   .product-card:active { transform: translateY(-2px); }
 
-  .add-to-cart-btn { transition: all 0.2s ease; position: relative; overflow: hidden; }
+  .add-to-cart-btn { transition: all 0.2s ease; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; cursor: pointer; }
   .add-to-cart-btn::after {
     content: '✓ Added!'; position: absolute; inset: 0;
     display: flex; align-items: center; justify-content: center;
@@ -281,7 +282,7 @@
             </div>
           </div>
         </a>
-        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="beetroid" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;cursor:pointer;">Add to Cart</span>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="beetroid" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
       <!-- Immuni-Tea -->
@@ -306,7 +307,7 @@
             </div>
           </div>
         </a>
-        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="immuni-tea" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="immuni-tea" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
       <!-- Immuni-Fire -->
@@ -332,7 +333,7 @@
             </div>
           </div>
         </a>
-        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="immuni-fire" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="immuni-fire" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
       <!-- Golden Fire -->
@@ -358,7 +359,7 @@
             </div>
           </div>
         </a>
-        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="golden-fire" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="golden-fire" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
       <!-- Straight Celery -->
@@ -385,7 +386,7 @@
             </div>
           </div>
         </a>
-        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="celery" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="celery" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
       <!-- Straight Watermelon -->
@@ -414,7 +415,7 @@
             </div>
           </div>
         </a>
-        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="watermelon" role="button" tabindex="0" style="margin-top:12px;display:flex;align-items:center;justify-content:center;">Add to Cart</span>
+        <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="watermelon" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
     </div>
