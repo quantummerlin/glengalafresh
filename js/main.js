@@ -53,7 +53,9 @@ document.querySelectorAll('.accordion-btn').forEach(btn => {
 // ─── Size Selector ───────────────────────
 document.querySelectorAll('.size-selector').forEach(selector => {
   selector.querySelectorAll('.size-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      e.preventDefault();
       selector.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       // Update displayed price

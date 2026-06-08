@@ -119,6 +119,10 @@
   .product-card-link { display: block; color: inherit; text-decoration: none; }
   .product-card-link:hover { color: inherit; }
 
+  /* More Info link */
+  .more-info-link { display: inline-block; margin-top: 12px; font-size: 0.8rem; font-weight: 600; color: var(--gold); text-decoration: none; }
+  .more-info-link:hover { text-decoration: underline; }
+
   /* Size Selector */
   .size-selector { display: flex; gap: 6px; margin-top: 10px; justify-content: center; }
   .size-btn {
@@ -265,22 +269,23 @@
           <div class="product-card-image">
             <picture><source srcset="outputs/images/products/beetroid_hero.webp" type="image/webp"><img src="outputs/images/products/beetroid_hero.png" alt="Beetroid juice" loading="lazy"></picture>
           </div>
-          <div class="product-card-body">
-            <div class="product-name">⚡ Beetroid</div>
-            <p class="product-desc">Beetroot + Ginger + Lemon + Honey. 40–60% better blood flow. Nature's steroid.</p>
-            <div class="drink-tip">⏱ Best: 30 min before workout</div>
-            <div class="size-selector">
-              <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
-              <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
-            </div>
-            <div class="selected-price">$3.99</div>
-            <div class="tag-list">
-              <span class="tag">Performance</span>
-              <span class="tag">Heart Health</span>
-              <span class="tag">Athletes</span>
-            </div>
-          </div>
         </a>
+        <div class="product-card-body">
+          <div class="product-name">⚡ Beetroid</div>
+          <p class="product-desc">Beetroot + Ginger + Lemon + Honey. 40–60% better blood flow. Nature's steroid.</p>
+          <div class="drink-tip">⏱ Best: 30 min before workout</div>
+          <div class="size-selector">
+            <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
+            <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
+          </div>
+          <div class="selected-price">$3.99</div>
+          <div class="tag-list">
+            <span class="tag">Performance</span>
+            <span class="tag">Heart Health</span>
+            <span class="tag">Athletes</span>
+          </div>
+          <a href="products/beetroid.html" class="more-info-link">More Info →</a>
+        </div>
         <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="beetroid" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
@@ -290,22 +295,23 @@
           <div class="product-card-image">
             <picture><source srcset="outputs/images/products/immuni_tea_hero.webp" type="image/webp"><img src="outputs/images/products/immuni_tea_hero.png" alt="Immuni-Tea juice" loading="lazy"></picture>
           </div>
-          <div class="product-card-body">
-            <div class="product-name">🛡 Immuni-Tea</div>
-            <p class="product-desc">Ginger + Lemon + Honey. Smooth, soothing daily immune support. No burn. Just benefits.</p>
-            <div class="drink-tip">🌅 Best: Morning, on empty stomach</div>
-            <div class="size-selector">
-              <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
-              <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
-            </div>
-            <div class="selected-price">$3.99</div>
-            <div class="tag-list">
-              <span class="tag">Immunity</span>
-              <span class="tag">Morning Ritual</span>
-              <span class="tag">Family</span>
-            </div>
-          </div>
         </a>
+        <div class="product-card-body">
+          <div class="product-name">🛡 Immuni-Tea</div>
+          <p class="product-desc">Ginger + Lemon + Honey. Smooth, soothing daily immune support. No burn. Just benefits.</p>
+          <div class="drink-tip">🌅 Best: Morning, on empty stomach</div>
+          <div class="size-selector">
+            <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
+            <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
+          </div>
+          <div class="selected-price">$3.99</div>
+          <div class="tag-list">
+            <span class="tag">Immunity</span>
+            <span class="tag">Morning Ritual</span>
+            <span class="tag">Family</span>
+          </div>
+          <a href="products/immuni-tea.html" class="more-info-link">More Info →</a>
+        </div>
         <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="immuni-tea" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
@@ -316,22 +322,23 @@
             <picture><source srcset="outputs/images/products/immuni_fire_hero.webp" type="image/webp"><img src="outputs/images/products/immuni_fire_hero.png" alt="Immuni-Fire juice" loading="lazy"></picture>
             <span class="product-badge" style="background:var(--orange);color:#fff;">Spicy</span>
           </div>
-          <div class="product-card-body">
-            <div class="product-name">🔥 Immuni-Fire</div>
-            <p class="product-desc">Immuni-Tea with a kick. Cayenne clears sinuses, fires up metabolism, boosts circulation.</p>
-            <div class="drink-tip">🤧 Best: At first sign of a cold</div>
-            <div class="size-selector">
-              <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
-              <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
-            </div>
-            <div class="selected-price">$3.99</div>
-            <div class="tag-list">
-              <span class="tag">Immunity</span>
-              <span class="tag">Metabolism</span>
-              <span class="tag">Spicy</span>
-            </div>
-          </div>
         </a>
+        <div class="product-card-body">
+          <div class="product-name">🔥 Immuni-Fire</div>
+          <p class="product-desc">Immuni-Tea with a kick. Cayenne clears sinuses, fires up metabolism, boosts circulation.</p>
+          <div class="drink-tip">🤧 Best: At first sign of a cold</div>
+          <div class="size-selector">
+            <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
+            <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
+          </div>
+          <div class="selected-price">$3.99</div>
+          <div class="tag-list">
+            <span class="tag">Immunity</span>
+            <span class="tag">Metabolism</span>
+            <span class="tag">Spicy</span>
+          </div>
+          <a href="products/immuni-fire.html" class="more-info-link">More Info →</a>
+        </div>
         <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="immuni-fire" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
@@ -342,22 +349,23 @@
             <picture><source srcset="outputs/images/products/golden_fire_hero.webp" type="image/webp"><img src="outputs/images/products/golden_fire_hero.png" alt="Golden Fire juice" loading="lazy"></picture>
             <span class="product-badge" style="background:var(--green-mid);color:#fff;">Anti-Inflam.</span>
           </div>
-          <div class="product-card-body">
-            <div class="product-name">🌟 Golden Fire</div>
-            <p class="product-desc">Turmeric + Cayenne + Lemon + Honey. Nature's ibuprofen. Anti-inflammatory at its peak.</p>
-            <div class="drink-tip">🦵 Best: After exercise or with meals</div>
-            <div class="size-selector">
-              <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
-              <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
-            </div>
-            <div class="selected-price">$3.99</div>
-            <div class="tag-list">
-              <span class="tag">Joint Health</span>
-              <span class="tag">Inflammation</span>
-              <span class="tag">Recovery</span>
-            </div>
-          </div>
         </a>
+        <div class="product-card-body">
+          <div class="product-name">🌟 Golden Fire</div>
+          <p class="product-desc">Turmeric + Cayenne + Lemon + Honey. Nature's ibuprofen. Anti-inflammatory at its peak.</p>
+          <div class="drink-tip">🦵 Best: After exercise or with meals</div>
+          <div class="size-selector">
+            <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
+            <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
+          </div>
+          <div class="selected-price">$3.99</div>
+          <div class="tag-list">
+            <span class="tag">Joint Health</span>
+            <span class="tag">Inflammation</span>
+            <span class="tag">Recovery</span>
+          </div>
+          <a href="products/golden-fire.html" class="more-info-link">More Info →</a>
+        </div>
         <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="golden-fire" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
@@ -368,23 +376,24 @@
             <picture><source srcset="outputs/images/products/celery_juice_hero.webp" type="image/webp"><img src="outputs/images/products/celery_juice_hero.png" alt="Straight Celery Juice" loading="lazy"></picture>
             <span class="product-badge" style="background:var(--green-mid);color:#fff;">Detox</span>
           </div>
-          <div class="product-card-body">
-            <div class="product-name">🥬 Straight Celery</div>
-            <p class="product-desc">100% celery, nothing else. Gut health, detox, blood pressure. Try the 7-Day Challenge.</p>
-            <div class="drink-tip">🌅 Best: Morning, 30 min before food</div>
-            <div class="size-selector">
-              <button class="size-btn" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
-              <button class="size-btn active" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
-              <button class="size-btn" data-size="1L" data-price="11.99">1L<span class="size-price">$11.99</span></button>
-            </div>
-            <div class="selected-price">$5.99</div>
-            <div class="tag-list">
-              <span class="tag">Gut Health</span>
-              <span class="tag">Detox</span>
-              <span class="tag">7-Day Challenge</span>
-            </div>
-          </div>
         </a>
+        <div class="product-card-body">
+          <div class="product-name">🥬 Straight Celery</div>
+          <p class="product-desc">100% celery, nothing else. Gut health, detox, blood pressure. Try the 7-Day Challenge.</p>
+          <div class="drink-tip">🌅 Best: Morning, 30 min before food</div>
+          <div class="size-selector">
+            <button class="size-btn" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
+            <button class="size-btn active" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
+            <button class="size-btn" data-size="1L" data-price="11.99">1L<span class="size-price">$11.99</span></button>
+          </div>
+          <div class="selected-price">$5.99</div>
+          <div class="tag-list">
+            <span class="tag">Gut Health</span>
+            <span class="tag">Detox</span>
+            <span class="tag">7-Day Challenge</span>
+          </div>
+          <a href="products/celery.html" class="more-info-link">More Info →</a>
+        </div>
         <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="celery" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
@@ -395,22 +404,23 @@
             <img src="outputs/images/products/watermelon_juice_hero.webp" alt="Straight Watermelon Juice" loading="lazy">
             <span class="product-badge" style="background:var(--gold);color:#111;">Hydration</span>
           </div>
-          <div class="product-card-body">
-            <div class="product-name">🍉 Straight Watermelon</div>
-            <p class="product-desc">100% watermelon, nothing else. Citrulline-rich hydration support for gym days and hot days.</p>
-            <div class="drink-tip">🏋️ Best: Pre or post-workout</div>
-            <div class="size-selector">
-              <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
-              <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
-            </div>
-            <div class="selected-price">$3.99</div>
-            <div class="tag-list">
-              <span class="tag">Hydration</span>
-              <span class="tag">Recovery</span>
-              <span class="tag">Gym</span>
-            </div>
-          </div>
         </a>
+        <div class="product-card-body">
+          <div class="product-name">🍉 Straight Watermelon</div>
+          <p class="product-desc">100% watermelon, nothing else. Citrulline-rich hydration support for gym days and hot days.</p>
+          <div class="drink-tip">🏋️ Best: Pre or post-workout</div>
+          <div class="size-selector">
+            <button class="size-btn active" data-size="300ml" data-price="3.99">300ml<span class="size-price">$3.99</span></button>
+            <button class="size-btn" data-size="500ml" data-price="5.99">500ml<span class="size-price">$5.99</span></button>
+          </div>
+          <div class="selected-price">$3.99</div>
+          <div class="tag-list">
+            <span class="tag">Hydration</span>
+            <span class="tag">Recovery</span>
+            <span class="tag">Gym</span>
+          </div>
+          <a href="products/watermelon.html" class="more-info-link">More Info →</a>
+        </div>
         <span class="btn btn-primary btn-sm btn-full add-to-cart-btn" data-product="watermelon" role="button" tabindex="0" style="margin-top:12px;">Add to Cart</span>
       </div>
 
