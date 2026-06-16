@@ -129,6 +129,12 @@ function getPriceForSize(size) {
   return map[size] || '';
 }
 
+// Lemonade has a different price tier
+function getLemonadePriceForSize(size) {
+  const map = { '300ml': '1.99', '500ml': '2.99', '1L': '5.99' };
+  return map[size] || '';
+}
+
 // Partnership interest form
 const partnerForm = document.getElementById('partnerForm');
 if (partnerForm) {
