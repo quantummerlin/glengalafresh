@@ -1,4 +1,6 @@
-const CACHE_NAME = 'glengala-v2';
+// Bump this version whenever precached pages change so returning visitors
+// pick up the new content (old caches are purged on activation).
+const CACHE_NAME = 'glengala-v3';
 const ASSETS = [
   '/',
   '/index.html',

@@ -48,7 +48,7 @@
 <nav class="nav" id="nav">
   <div class="container">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo"><picture><source srcset="generated_images/Glengala Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></a>
+      <a href="index.html" class="nav-logo"><picture><source srcset="generated_images/Glengala_Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></a>
       <ul class="nav-links">
         <li><a href="shop.html">Shop</a></li>
         <li><a href="about.html">Our Story</a></li>
@@ -137,8 +137,19 @@
             </select>
           </div>
           <div class="form-group">
+            <label class="form-label" for="fulfilment">Delivery or Pickup?</label>
+            <select class="form-control" id="fulfilment" name="fulfilment">
+              <option value="Delivery">🚚 Local delivery</option>
+              <option value="Pickup">📦 Pickup</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="suburb">Your Suburb / Postcode</label>
+            <input class="form-control" type="text" id="suburb" name="suburb" placeholder="So we can confirm delivery coverage">
+          </div>
+          <div class="form-group">
             <label class="form-label" for="note">Anything else? (Optional)</label>
-            <textarea class="form-control" id="note" name="note" placeholder="Delivery address, preferred pickup time, allergies, mix-and-match requests..."></textarea>
+            <textarea class="form-control" id="note" name="note" placeholder="Preferred pickup/delivery time, mix-and-match requests, allergies..."></textarea>
           </div>
 
           <div>
@@ -178,7 +189,7 @@
               <div class="feature-icon" style="background:rgba(37,211,102,0.1);border-color:rgba(37,211,102,0.3)">3</div>
               <div class="feature-text">
                 <h4>We confirm</h4>
-                <p>We'll confirm availability, sort payment, and arrange delivery or pickup. Simple.</p>
+                <p>We'll confirm availability and delivery coverage for your suburb, sort payment, and arrange a delivery or pickup time. Simple.</p>
               </div>
             </div>
           </div>
@@ -238,21 +249,28 @@
           Are the juices cold-pressed or blended?
           <span class="accordion-icon">+</span>
         </button>
-        <div class="accordion-body"><p>Cold-pressed. The juice is extracted through pressure rather than heat or high-speed blending. This preserves more nutrients and enzymes compared to conventional blending methods.</p></div>
+        <div class="accordion-body"><p>Cold-pressed. The juice is extracted through pressure rather than heat or high-speed blending, so the fresh taste and texture of the raw ingredients are preserved.</p></div>
       </div>
       <div class="accordion-item">
         <button class="accordion-btn" aria-expanded="false">
           How long do the juices last?
           <span class="accordion-icon">+</span>
         </button>
-        <div class="accordion-body"><p>Our juices are fresh and unpasteurised. We recommend consuming within 3–5 days of production, stored in the refrigerator. Because ozonated water cleaning significantly reduces the initial bacterial load, shelf life is extended compared to standard fresh juices.</p></div>
+        <div class="accordion-body"><p>Our juices are fresh and unpasteurised. Keep them refrigerated at 5°C or below and consume within 3–5 days of production. Always follow the use-by guidance we provide with your order.</p></div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-btn" aria-expanded="false">
+          Who should be careful with unpasteurised juice?
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-body"><p>Because our juice is unpasteurised, it is not recommended for pregnant women, young children, older adults, or anyone with a weakened immune system. If you take medication or are managing a health condition, check with your doctor or dietitian before adding these juices to your routine.</p></div>
       </div>
       <div class="accordion-item">
         <button class="accordion-btn" aria-expanded="false">
           Do you deliver?
           <span class="accordion-icon">+</span>
         </button>
-        <div class="accordion-body"><p>Message us by text and we'll discuss delivery options in your area. We also offer pickup. We'll confirm everything before processing your order.</p></div>
+        <div class="accordion-body"><p>We currently deliver within a local service area only, and offer pickup. Tell us your suburb in the order form and we'll confirm coverage, any delivery fee, and the best delivery day in the same message. We confirm everything before processing your order.</p></div>
       </div>
       <div class="accordion-item">
         <button class="accordion-btn" aria-expanded="false">
@@ -266,21 +284,21 @@
           What is the 7-Day Celery Challenge?
           <span class="accordion-icon">+</span>
         </button>
-        <div class="accordion-body"><p>Seven consecutive days of drinking 1L of pure celery juice each morning on an empty stomach. The <a href="products/celery.html" style="color:var(--gold);">Wellness Week bundle</a> covers the full challenge — 7 × 1L for $69.99 (saving $13.94). We also add you to a support group where people share their progress.</p></div>
+        <div class="accordion-body"><p>Seven consecutive days of drinking 1L of pure celery juice each morning on an empty stomach. The <a href="products/celery.html" style="color:var(--gold);">Wellness Week bundle</a> covers the full seven days — 7 × 1L for $69.99 (saving $13.94).</p></div>
       </div>
       <div class="accordion-item">
         <button class="accordion-btn" aria-expanded="false">
           Is it suitable for children?
           <span class="accordion-icon">+</span>
         </button>
-        <div class="accordion-body"><p>Immuni-Tea is the most family-friendly option — gentle ginger, lemon, and honey with no spice. For children, we recommend smaller quantities and consulting your healthcare provider for specific dietary advice.</p></div>
+        <div class="accordion-body"><p>Immuni-Tea is the most family-friendly option — gentle ginger, lemon, and honey with no spice. Because all our juices are unpasteurised, please check with your healthcare provider before giving them to children, and serve small quantities only.</p></div>
       </div>
       <div class="accordion-item">
         <button class="accordion-btn" aria-expanded="false">
-          What does "ozonated water cleaned" mean exactly?
+          What does "ozonated water cleaned" mean?
           <span class="accordion-icon">+</span>
         </button>
-        <div class="accordion-body"><p>Every piece of produce is cleaned using a 3-step ozonated water process: physical scrubbing, ozone bubbler bath, and final ozone rinse. Ozone (O3) is 3,100× more effective than chlorine at killing bacteria, fungi, and parasites — with zero chemical residue left behind. After use, it simply converts back to oxygen. See our <a href="science.html#ozone" style="color:var(--gold);">science page</a> for the research.</p></div>
+        <div class="accordion-body"><p>We wash our produce in ozonated water before pressing. Ozone is used widely in food processing and reverts to oxygen afterwards, so it leaves no chemical residue or sanitiser taste on the produce. It's a standard production step — not something we add to the juice or claim a health benefit from. See our <a href="science.html#ozone" style="color:var(--gold);">process page</a> if you'd like more detail.</p></div>
       </div>
     </div>
   </div>
@@ -290,8 +308,8 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <div class="footer-logo"><picture><source srcset="generated_images/Glengala Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></div>
-        <p>Cold-pressed juices. Science-backed formulas. Ozonated water cleaned. No shortcuts.</p>
+        <div class="footer-logo"><picture><source srcset="generated_images/Glengala_Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></div>
+        <p>Cold-pressed juices. Small batch. Made locally. No shortcuts.</p>
       </div>
       <div class="footer-col">
         <h5>Products</h5>
@@ -324,7 +342,7 @@
     </div>
     <div class="footer-bottom">
       <div>© 2026 Glengala Fresh. All rights reserved.</div>
-      <div>Made with real ingredients. Cleaned with ozonated water.</div>
+      <div>Made with real ingredients. Pressed fresh, in small batches.</div>
     </div>
   </div>
 </footer>
@@ -332,7 +350,7 @@
 <script src="js/main.js"></script>
 <script>
 // Live message preview
-const fields = ['name','product','size','qty','note'];
+const fields = ['name','product','size','qty','fulfilment','suburb','note'];
 const preview = document.getElementById('waPreview');
 const WA = '61434694141';
 
@@ -345,6 +363,8 @@ function updatePreview() {
   const product = document.getElementById('product')?.value;
   const size    = document.getElementById('size')?.value;
   const qty     = document.getElementById('qty')?.value || '1';
+  const fulfil  = document.getElementById('fulfilment')?.value;
+  const suburb  = document.getElementById('suburb')?.value.trim();
   const note    = document.getElementById('note')?.value.trim();
 
   if (!name && !product) { preview.textContent = 'Fill in the form above to preview your message...'; return; }
@@ -358,6 +378,8 @@ function updatePreview() {
   if (product) msg += '🧃 Product: ' + product + '\n';
   if (size)    msg += '📏 Size: ' + size + '\n';
   msg += '🔢 Qty: ' + qty;
+  if (fulfil)  msg += '\n🚚 ' + fulfil;
+  if (suburb)  msg += '\n📍 Suburb: ' + suburb;
   if (total)   msg += '\n💰 Approx total: ' + total;
   if (note)    msg += '\n📝 Note: ' + note;
   msg += '\n\nThanks!';

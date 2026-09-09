@@ -73,7 +73,7 @@
 <nav class="nav" id="nav">
   <div class="container">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo"><picture><source srcset="generated_images/Glengala Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></a>
+      <a href="index.html" class="nav-logo"><picture><source srcset="generated_images/Glengala_Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></a>
       <ul class="nav-links">
         <li><a href="shop.html" style="color:var(--text)">Shop</a></li>
         <li><a href="about.html">Our Story</a></li>
@@ -106,7 +106,7 @@
     </div>
     <span class="section-label">The Range</span>
     <h1>All Products</h1>
-    <p>Six science-backed formulas. Multiple sizes. Bundle deals. Order via Text.</p>
+    <p>Six cold-pressed formulas. Multiple sizes. Bundle deals. Order via Text — local delivery and pickup.</p>
   </div>
 </div>
 
@@ -115,11 +115,11 @@
   <div class="container">
 
     <div class="filter-tabs reveal">
-      <button class="filter-tab active" data-filter="all" id="tab-all" onclick="filterShop('all')">All Products</button>
-      <button class="filter-tab" onclick="filterShop('performance')">Performance</button>
-      <button class="filter-tab" onclick="filterShop('immunity')">Immunity</button>
-      <button class="filter-tab" onclick="filterShop('inflammation')">Inflammation</button>
-      <button class="filter-tab" onclick="filterShop('detox')">Detox &amp; Gut</button>
+      <button class="filter-tab active" data-shop-filter="all" onclick="filterShop('all', this)">All Products</button>
+      <button class="filter-tab" data-shop-filter="performance" onclick="filterShop('performance', this)">Gym &amp; Performance</button>
+      <button class="filter-tab" data-shop-filter="immunity" onclick="filterShop('immunity', this)">Ginger, Lemon &amp; Honey</button>
+      <button class="filter-tab" data-shop-filter="inflammation" onclick="filterShop('inflammation', this)">Turmeric</button>
+      <button class="filter-tab" data-shop-filter="detox" onclick="filterShop('detox', this)">Greens &amp; Morning</button>
     </div>
 
     <!-- Beetroid -->
@@ -129,8 +129,8 @@
       </div>
       <div class="product-detail-body" data-product="beetroid">
         <div class="product-detail-name">⚡ Beetroid</div>
-        <div class="product-detail-tagline">"40–60% better blood flow. Nature's pre-workout."</div>
-        <p class="product-detail-desc">Beetroot, Ginger, Lemon, Honey, and Ozonated Water. Drink 30 minutes before training or as your daily heart health ritual.</p>
+        <div class="product-detail-tagline">"Naturally nitrate-rich. Built for gym days."</div>
+        <p class="product-detail-desc">Beetroot, Ginger, Lemon, Honey. Beetroot is naturally high in dietary nitrates. Drink 30 minutes before training, or make it your morning beetroot ritual.</p>
         <div class="tag-list" style="margin-bottom:20px;">
           <span class="tag tag-gold">Performance</span>
           <span class="tag tag-green">Heart Health</span>
@@ -157,7 +157,7 @@
       <div class="product-detail-body" data-product="immuni-tea">
         <div class="product-detail-name">🛡 Immuni-Tea</div>
         <div class="product-detail-tagline">"Your daily immune ritual. No burn. Just benefits."</div>
-        <p class="product-detail-desc">Ginger, Lemon, Honey, and Ozonated Water. The smooth, family-friendly immunity booster you can take every morning without flinching. Antiviral, antibacterial, antioxidant.</p>
+        <p class="product-detail-desc">Ginger, Lemon, Honey. A smooth, warming ginger-lemon-honey drink you can enjoy every morning without the chilli kick. Family-friendly on the palate.</p>
         <div class="tag-list" style="margin-bottom:20px;">
           <span class="tag tag-green">Immunity</span>
           <span class="tag">Morning Ritual</span>
@@ -184,7 +184,7 @@
       <div class="product-detail-body" data-product="immuni-fire">
         <div class="product-detail-name">🔥 Immuni-Fire</div>
         <div class="product-detail-tagline">"Immuni-Tea with a KICK. For when you need the big guns."</div>
-        <p class="product-detail-desc">Ginger, Lemon, Honey, Cayenne, and Ozonated Water. When you feel something coming on, when your sinuses need clearing, when your immune system needs more than a nudge — this is your drink.</p>
+        <p class="product-detail-desc">Ginger, Lemon, Honey, Cayenne. The Immuni-Tea base with real cayenne heat added — genuinely spicy, warming and built for cold-weather mornings and people who like it hot.</p>
         <div class="tag-list" style="margin-bottom:20px;">
           <span class="tag tag-gold">Spicy</span>
           <span class="tag tag-green">Immunity</span>
@@ -210,13 +210,13 @@
       </div>
       <div class="product-detail-body" data-product="golden-fire">
         <div class="product-detail-name">🌟 Golden Fire</div>
-        <div class="product-detail-tagline">"Nature's ibuprofen. Two anti-inflammatory forces in one bottle."</div>
-        <p class="product-detail-desc">Turmeric, Lemon, Honey, and Cayenne. Curcumin (turmeric) and capsaicin (cayenne) fight inflammation through separate pathways simultaneously. Cayenne also significantly boosts turmeric's bioavailability.</p>
+        <div class="product-detail-tagline">"Turmeric and cayenne. Golden, peppery, and seriously drinkable."</div>
+        <p class="product-detail-desc">Turmeric, Lemon, Honey, and Cayenne. Cayenne is traditionally paired with turmeric because piperine-style companions help the body absorb curcumin. A warming golden drink for after training or with a meal.</p>
         <div class="tag-list" style="margin-bottom:20px;">
-          <span class="tag tag-gold">Anti-Inflammatory</span>
-          <span class="tag tag-green">Joint Health</span>
-          <span class="tag">Recovery</span>
-          <span class="tag">Metabolism</span>
+          <span class="tag tag-gold">Turmeric</span>
+          <span class="tag tag-green">Post-Workout</span>
+          <span class="tag">With Meals</span>
+          <span class="tag">Warming</span>
         </div>
         <div class="size-selector" style="margin-bottom:20px;">
           <button class="size-btn" data-size="300ml" data-price="3.99">300ml<small>$3.99</small></button>
@@ -237,13 +237,13 @@
       </div>
       <div class="product-detail-body" data-product="straight-celery">
         <div class="product-detail-name">🥬 Straight Celery Juice</div>
-        <div class="product-detail-tagline">"Pure. Nothing added. The 7-Day Challenge starts here."</div>
-        <p class="product-detail-desc">100% fresh celery, cleaned in ozonated water. Nothing else. Gut health, detox, blood pressure support. Drink on an empty stomach first thing in the morning for maximum impact. Available in 1L for the full 7-Day Challenge.</p>
+        <div class="product-detail-tagline">"Pure. Nothing added. The 7-Day Celery Week starts here."</div>
+        <p class="product-detail-desc">100% fresh celery. Nothing else. Salty, green and grassy — a classic first-thing-in-the-morning drink, taken before breakfast. Available in 1L for the full 7-Day Celery Week.</p>
         <div class="tag-list" style="margin-bottom:20px;">
-          <span class="tag tag-green">Gut Health</span>
-          <span class="tag">Detox</span>
-          <span class="tag">Blood Pressure</span>
-          <span class="tag tag-gold">7-Day Challenge</span>
+          <span class="tag tag-green">Single Ingredient</span>
+          <span class="tag">Morning Ritual</span>
+          <span class="tag">Before Breakfast</span>
+          <span class="tag tag-gold">7-Day Celery Week</span>
         </div>
         <div class="size-selector" style="margin-bottom:20px;">
           <button class="size-btn" data-size="300ml" data-price="3.99">300ml<small>$3.99</small></button>
@@ -265,12 +265,12 @@
       </div>
       <div class="product-detail-body" data-product="straight-watermelon">
         <div class="product-detail-name">🍉 Straight Watermelon Juice</div>
-        <div class="product-detail-tagline">"Pure hydration with natural citrulline. Built for heat and hard sessions."</div>
-        <p class="product-detail-desc">100% fresh watermelon, cleaned with ozonated water, cold-pressed and bottled. Naturally rich in L-citrulline and potassium for hydration and post-training recovery support.</p>
+        <div class="product-detail-tagline">"Pure watermelon. Built for heat and hard sessions."</div>
+        <p class="product-detail-desc">100% fresh watermelon, cold-pressed and bottled. Naturally contains L-citrulline and potassium — a refreshing, hydrating drink around workouts and on hot days.</p>
         <div class="tag-list" style="margin-bottom:20px;">
           <span class="tag tag-green">Hydration</span>
-          <span class="tag">Gym Recovery</span>
-          <span class="tag">Circulation Support</span>
+          <span class="tag">Around Workouts</span>
+          <span class="tag">Refreshing</span>
           <span class="tag tag-gold">Summer Favorite</span>
         </div>
         <div class="size-selector" style="margin-bottom:20px;">
@@ -299,21 +299,21 @@
     <div class="bundle-grid">
       <div class="bundle-card reveal">
         <div class="bundle-name">Immunity Duo</div>
-        <div class="bundle-contents">Immuni-Tea 300ml + Immuni-Fire 300ml<br>Try both — gentle and spicy, side by side.</div>
+        <div class="bundle-contents">Immuni-Tea 300ml + Immuni-Fire 300ml<br>Try both — the smooth one and the spicy one, side by side.</div>
         <div class="bundle-price">$6.99</div>
         <div class="bundle-save">Save $0.99 vs buying separately</div>
         <a href="https://wa.me/61434694141?text=Hi!%20I%27d%20like%20the%20Immunity%20Duo%20bundle%20(%24699)%20-%20Immuni-Tea%20%2B%20Immuni-Fire%20300ml%20each." class="btn btn-sm btn-whatsapp" target="_blank">Order via Text</a>
       </div>
       <div class="bundle-card reveal reveal-delay-1">
         <div class="bundle-name">Performance Pack</div>
-        <div class="bundle-contents">Beetroid 500ml + Golden Fire 300ml<br>Pre-workout performance and recovery in one order.</div>
+        <div class="bundle-contents">Beetroid 500ml + Golden Fire 300ml<br>One for before training, one for after. Pairs naturally with gym days.</div>
         <div class="bundle-price">$8.99</div>
         <div class="bundle-save">Save $0.99 vs buying separately</div>
         <a href="https://wa.me/61434694141?text=Hi!%20I%27d%20like%20the%20Performance%20Pack%20(%248.99)%20-%20Beetroid%20500ml%20%2B%20Golden%20Fire%20300ml." class="btn btn-sm btn-whatsapp" target="_blank">Order via Text</a>
       </div>
       <div class="bundle-card reveal reveal-delay-2" style="border-color:var(--gold);">
         <div class="bundle-name" style="color:var(--gold);">Wellness Week 🥬</div>
-        <div class="bundle-contents">7 × Straight Celery 1L<br>Everything you need for the complete 7-Day Celery Challenge. support included.</div>
+        <div class="bundle-contents">7 × Straight Celery 1L<br>Everything you need for the complete 7-Day Celery Week — one 1L bottle each morning.</div>
         <div class="bundle-price">$69.99</div>
         <div class="bundle-save">Save $13.94 vs buying individually</div>
         <a href="https://wa.me/61434694141?text=Hi!%20I%27d%20like%20to%20start%20the%207-Day%20Celery%20Challenge%20-%20the%20Wellness%20Week%20bundle%20(%2469.99)%20please." class="btn btn-sm btn-whatsapp" target="_blank">Order via Text</a>
@@ -353,8 +353,8 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <div class="footer-logo"><picture><source srcset="generated_images/Glengala Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></div>
-        <p>Cold-pressed juices. Science-backed formulas. Ozonated water cleaned. No shortcuts.</p>
+        <div class="footer-logo"><picture><source srcset="generated_images/Glengala_Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></div>
+        <p>Cold-pressed juices. Small batch. Made locally. No shortcuts.</p>
       </div>
       <div class="footer-col">
         <h5>Products</h5>
@@ -387,19 +387,25 @@
     </div>
     <div class="footer-bottom">
       <div>© 2026 Glengala Fresh. All rights reserved.</div>
-      <div>Made with real ingredients. Cleaned with ozonated water.</div>
+      <div>Made with real ingredients. Pressed fresh, in small batches.</div>
     </div>
   </div>
 </footer>
 
 <script src="js/main.js"></script>
 <script>
-function filterShop(cat) {
+function filterShop(cat, btn) {
   document.querySelectorAll('[data-shop-cat]').forEach(card => {
     card.style.display = (cat === 'all' || card.dataset.shopCat === cat) ? '' : 'none';
   });
-  document.querySelectorAll('.filter-tab').forEach(btn => btn.classList.remove('active'));
-  event.target.classList.add('active');
+  document.querySelectorAll('.filter-tab').forEach(b => b.classList.remove('active'));
+  if (btn) {
+    btn.classList.add('active');
+  } else {
+    // Fallback when invoked without a button (e.g. programmatically)
+    var fallback = document.querySelector('[data-shop-filter="' + cat + '"]');
+    if (fallback) fallback.classList.add('active');
+  }
 }
 </script>
 </body>

@@ -70,6 +70,33 @@ document.querySelectorAll('.size-selector').forEach(selector => {
   if (first) first.classList.add('active');
 });
 
+// ─── Campaign Source Tracking ─────────────
+// Reads utm_* / ref params from the URL so every order message and Plausible
+// event can be attributed back to the social post, QR code or partner link.
+function getCampaignSource() {
+  try {
+    var params = new URLSearchParams(window.location.search);
+    var source = params.get('utm_source') || params.get('src') || '';
+    var medium = params.get('utm_medium') || params.get('utm_campaign') || params.get('bundle') || '';
+    var bits = [source, medium].filter(Boolean);
+    return bits.length ? bits.join('/') : '';
+  } catch (e) {
+    return '';
+  }
+}
+
+function withSource(msg) {
+  var src = getCampaignSource();
+  return src ? msg + '\n\n(seen via: ' + src + ')' : msg;
+}
+
+// ─── Analytics Events ─────────────────────
+function trackEvent(name, props) {
+  try {
+    if (typeof window.plausible === 'function') window.plausible(name, { props: props || {} });
+  } catch (e) {}
+}
+
 // ─── SMS Order Builder ───────────────────
 function buildSmsLink(message) {
   const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
@@ -83,6 +110,7 @@ document.querySelectorAll('a[href*="wa.me"]').forEach(a => {
   const text = url.searchParams.get('text') || '';
   a.href = buildSmsLink(text);
   a.removeAttribute('target');
+  a.addEventListener('click', () => trackEvent('Whatsapp Open', { source: getCampaignSource() || 'direct-link' }));
 });
 
 // Generic product order button
@@ -92,7 +120,9 @@ document.querySelectorAll('[data-wa-product]').forEach(btn => {
     const selector = btn.closest('[data-product]')?.querySelector('.size-btn.active');
     const size = selector ? selector.dataset.size : '500ml';
     const price = selector ? '$' + selector.dataset.price : '';
-    const msg = `Hi! I'd like to order:\n\n${product} — ${size} ${price}\n\nCould you let me know availability and delivery? Thanks!`;
+    let msg = `Hi! I'd like to order:\n\n${product} — ${size} ${price}\n\nCould you let me know availability and delivery? Thanks!`;
+    msg = withSource(msg);
+    trackEvent('Order Intent', { product: product, size: size, source: getCampaignSource() || 'organic' });
     window.location.href = buildSmsLink(msg);
   });
 });
@@ -107,6 +137,8 @@ if (orderForm) {
     const qty     = orderForm.querySelector('[name="qty"]')?.value || '1';
     const name    = orderForm.querySelector('[name="name"]')?.value || '';
     const note    = orderForm.querySelector('[name="note"]')?.value || '';
+    const fulfil  = orderForm.querySelector('[name="fulfilment"]')?.value || '';
+    const suburb  = orderForm.querySelector('[name="suburb"]')?.value || '';
 
     const price = getPriceForSize(size);
     const total = price ? `$${(parseFloat(price) * parseInt(qty)).toFixed(2)}` : '';
@@ -116,10 +148,14 @@ if (orderForm) {
     msg += `🧃 Product: ${product}\n`;
     msg += `📏 Size: ${size}\n`;
     msg += `🔢 Qty: ${qty}`;
+    if (fulfil) msg += `\n🚚 ${fulfil}`;
+    if (suburb) msg += `\n📍 Suburb: ${suburb}`;
     if (total) msg += `\n💰 Approx total: ${total}`;
     if (note)  msg += `\n📝 Note: ${note}`;
     msg += `\n\nThanks!`;
+    msg = withSource(msg);
 
+    trackEvent('Order Submitted', { product: product, size: size, qty: qty, fulfilment: fulfil, source: getCampaignSource() || 'organic' });
     window.location.href = buildSmsLink(msg);
   });
 }
@@ -144,7 +180,9 @@ if (partnerForm) {
     msg += `🏋️ Business: ${gym}\n`;
     msg += `📦 Tier: ${tier}`;
     if (message) msg += `\n💬 Message: ${message}`;
+    msg = withSource(msg);
 
+    trackEvent('Partner Enquiry', { tier: tier, source: getCampaignSource() || 'organic' });
     window.location.href = buildSmsLink(msg);
   });
 }
@@ -183,3 +221,20 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/sw.js').catch(() => {});
   });
 }
+
+// ─── Site-wide Disclaimer ─────────────────
+// Injected once, below every page footer, so compliance language is consistent
+// across shop, product, article and partnership pages.
+(function injectDisclaimer() {
+  var footer = document.querySelector('footer.footer');
+  if (!footer || document.getElementById('gf-disclaimer')) return;
+  var box = document.createElement('div');
+  box.id = 'gf-disclaimer';
+  box.style.cssText = 'border-top:1px solid rgba(255,255,255,0.08);padding:24px 0;margin-top:24px;';
+  box.innerHTML =
+    '<div class="container" style="max-width:900px;">' +
+    '<p style="font-size:0.75rem;line-height:1.7;color:rgba(255,255,255,0.45);margin:0;">' +
+    '<strong>Important:</strong> Glengala Fresh juices are fresh, unpasteurised food products. They are not medicines and are not intended to diagnose, treat, cure or prevent any disease. Keep refrigerated at 5°C or below and consume within 3–5 days. Unpasteurised juice is not recommended for pregnant women, young children, older adults, or people with weakened immune systems. If you take medication or are managing a health condition, check with your doctor or dietitian before adding these juices to your routine. Information on this site is general in nature. All prices in AUD, including GST.</p>' +
+    '</div>';
+  footer.appendChild(box);
+})();
