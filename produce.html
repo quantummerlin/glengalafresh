@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Fresh Produce — Glengala Fresh</title>
+  <meta name="description" content="Fresh fruit, vegetables, eggs, herbs and more from Glengala Fresh. Hand-picked from Melbourne's Epping Market. Order via text for delivery across 3020.">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer data-domain="glengalafresh.au" src="https://plausible.io/js/script.js"></script>
+  <link rel="icon" type="image/svg+xml" href="/images/icons/gf-icon.svg">
+  <style>
+    .produce-hero {
+      background: linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+      padding: 80px 0 40px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .produce-search {
+      max-width: 500px;
+      margin: 24px auto 0;
+      position: relative;
+    }
+    .produce-search input {
+      width: 100%;
+      padding: 14px 20px 14px 48px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: var(--card);
+      color: var(--text);
+      font-size: 1rem;
+      font-family: inherit;
+      transition: border-color 0.2s;
+    }
+    .produce-search input:focus { outline: none; border-color: var(--gold); }
+    .produce-search input::placeholder { color: var(--text-dim); }
+    .produce-search .search-icon {
+      position: absolute; left: 16px; top: 50%; transform: translateY(-50%);
+      font-size: 1.2rem; pointer-events: none;
+    }
+
+    .category-tabs {
+      display: flex; flex-wrap: wrap; gap: 8px;
+      margin-bottom: 32px; padding: 0 4px;
+    }
+    .category-tab {
+      padding: 10px 20px; border-radius: 24px;
+      font-size: 0.85rem; font-weight: 600;
+      color: var(--text-muted); border: 1px solid var(--border);
+      background: transparent; cursor: pointer;
+      transition: var(--transition); font-family: inherit;
+    }
+    .category-tab:hover { color: var(--text); border-color: rgba(255,255,255,0.15); }
+    .category-tab.active {
+      background: rgba(201,168,76,0.1); border-color: var(--gold); color: var(--gold);
+    }
+
+    .produce-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
+
+    .produce-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: var(--radius-lg); padding: 20px 16px;
+      text-align: center; transition: var(--transition);
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+    }
+    .produce-card:hover { border-color: rgba(201,168,76,0.25); transform: translateY(-2px); box-shadow: var(--shadow); }
+    .produce-card .emoji { font-size: 2.5rem; line-height: 1; margin-bottom: 4px; }
+    .produce-card .name { font-weight: 700; font-size: 0.95rem; }
+    .produce-card .price { font-size: 1.2rem; font-weight: 800; color: var(--gold); }
+    .produce-card .unit { font-size: 0.75rem; color: var(--text-dim); }
+    .produce-card .special {
+      display: inline-block; background: var(--orange); color: #fff;
+      font-size: 0.65rem; font-weight: 700; padding: 2px 8px; border-radius: 12px;
+      margin-top: 4px;
+    }
+    .produce-card .order-text {
+      margin-top: 8px; padding: 8px 14px;
+      background: var(--green-mid); color: #fff;
+      border-radius: var(--radius); font-size: 0.75rem; font-weight: 700;
+      cursor: pointer; border: none; font-family: inherit;
+      transition: opacity 0.2s; width: 100%;
+    }
+    .produce-card .order-text:hover { opacity: 0.85; }
+
+    .popular-badge {
+      background: var(--gold); color: #111;
+      font-size: 0.65rem; font-weight: 700;
+      padding: 2px 8px; border-radius: 12px;
+      position: absolute; top: -6px; right: -4px;
+    }
+    .produce-card { position: relative; }
+
+    .delivery-notice {
+      text-align: center; padding: 16px; margin: 32px 0 0;
+      border: 1px solid var(--border); border-radius: var(--radius);
+      background: var(--card); font-size: 0.9rem; color: var(--text-muted);
+    }
+    .delivery-notice strong { color: var(--gold); }
+
+    @media (max-width: 640px) {
+      .produce-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+      .produce-card { padding: 14px 10px; }
+      .produce-card .emoji { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><picture><source srcset="generated_images/Glengala Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></a>
+      <ul class="nav-links">
+        <li><a href="shop.html">Juice Shop</a></li>
+        <li><a href="produce.html" style="color:var(--gold);">Produce</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="science.html">The Science</a></li>
+        <li><a href="wholesale.html">Wholesale</a></li>
+        <li><a href="contact.html" class="nav-cta">Order Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav">
+    <a href="shop.html">Juice Shop</a>
+    <a href="produce.html">Produce</a>
+    <a href="about.html">Our Story</a>
+    <a href="science.html">The Science</a>
+    <a href="wholesale.html">Wholesale</a>
+    <a href="contact.html">Order Now →</a>
+  </div>
+</nav>
+
+<div class="produce-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><span>→</span><span>Fresh Produce</span></div>
+    <span class="section-label">Fresh Produce</span>
+    <h1>Fruit, Veg & More</h1>
+    <p>Hand-picked from Melbourne's Epping Market. Same quality, same freshness, fair prices.</p>
+    <div class="produce-search">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="produceSearch" placeholder="Search products...">
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="category-tabs" id="categoryTabs">
+      <button class="category-tab active" onclick="filterProduce('all')">All</button>
+      <button class="category-tab" onclick="filterProduce('vegetables')">🥕 Vegetables</button>
+      <button class="category-tab" onclick="filterProduce('fruits')">🍎 Fruits</button>
+      <button class="category-tab" onclick="filterProduce('herbs')">🌿 Herbs & Greens</button>
+      <button class="category-tab" onclick="filterProduce('eggs')">🥚 Eggs</button>
+      <button class="category-tab" onclick="filterProduce('nuts')">🥜 Nuts & Dried Fruit</button>
+    </div>
+
+    <div class="produce-grid" id="produceGrid">
+      <!-- Populated by JS -->
+    </div>
+
+    <div class="delivery-notice">
+      🚚 <strong>$8 delivery</strong> across Sunshine 3020 • <strong>FREE delivery</strong> on orders over $50<br>
+      📱 Order via text — we confirm availability and arrange delivery
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo"><picture><source srcset="generated_images/Glengala Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></div>
+        <p>Cold-pressed juices. Fresh produce. Science-backed formulas. Ozonated water cleaned. No shortcuts.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Juices</h5>
+        <ul>
+          <li><a href="products/beetroid.html">Beetroid</a></li>
+          <li><a href="products/immuni-tea.html">Immuni-Tea</a></li>
+          <li><a href="products/immuni-fire.html">Immuni-Fire</a></li>
+          <li><a href="products/golden-fire.html">Golden Fire</a></li>
+          <li><a href="products/celery.html">Straight Celery</a></li>
+          <li><a href="products/watermelon.html">Straight Watermelon</a></li>
+          <li><a href="shop.html">Traditional Lemonade</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="produce.html">Fresh Produce</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="partnerships.html">Partner With Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Order</h5>
+        <ul>
+          <li><a href="shop.html">Juice Shop</a></li>
+          <li><a href="produce.html">Produce</a></li>
+          <li><a href="contact.html">Contact & Order</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Glengala Fresh. All rights reserved.</div>
+      <div>Hand-picked freshness. Cleaned with ozonated water.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+// ─── Produce Data (from inventory-system.md — single source of truth) ───
+const produceItems = [
+  // VEGETABLES
+  { name: "Beetroot", cat: "vegetables", price: 3.49, unit: "/kg", emoji: "🟣" },
+  { name: "Carrots, loose", cat: "vegetables", price: 1.99, unit: "/kg", emoji: "🥕", popular: true },
+  { name: "Carrots, 1kg bag", cat: "vegetables", price: 1.99, unit: " each", emoji: "🥕" },
+  { name: "Brushed potatoes", cat: "vegetables", price: 1.99, unit: "/kg", emoji: "🥔", popular: true },
+  { name: "Brushed potatoes 5kg", cat: "vegetables", price: 6.99, unit: " bag", emoji: "🥔" },
+  { name: "Washed potatoes", cat: "vegetables", price: 2.49, unit: "/kg", emoji: "🥔" },
+  { name: "Washed potatoes 5kg", cat: "vegetables", price: 9.99, unit: " bag", emoji: "🥔" },
+  { name: "Red/Desiree potatoes", cat: "vegetables", price: 2.99, unit: "/kg", emoji: "🥔" },
+  { name: "Brown onions", cat: "vegetables", price: 2.49, unit: "/kg", emoji: "🧅", popular: true },
+  { name: "Brown onions 1kg bag", cat: "vegetables", price: 1.99, unit: " bag", emoji: "🧅" },
+  { name: "Brown onions 10kg bag", cat: "vegetables", price: 15.00, unit: " bag", emoji: "🧅" },
+  { name: "Red onions", cat: "vegetables", price: 3.99, unit: "/kg", emoji: "🧅" },
+  { name: "Leeks", cat: "vegetables", price: 2.99, unit: " each", emoji: "🥬", special: "2 for $4.50" },
+  { name: "Garlic, Australian", cat: "vegetables", price: 19.99, unit: "/kg", emoji: "🧄" },
+  { name: "Garlic, imported bag", cat: "vegetables", price: 3.99, unit: " bag", emoji: "🧄" },
+  { name: "Cauliflower", cat: "vegetables", price: 3.99, unit: " each", emoji: "🥦", popular: true },
+  { name: "Broccoli", cat: "vegetables", price: 3.99, unit: "/kg", emoji: "🥦", popular: true },
+  { name: "Green cabbage", cat: "vegetables", price: 4.99, unit: " each", emoji: "🥬" },
+  { name: "Red cabbage", cat: "vegetables", price: 4.99, unit: " each", emoji: "🥬" },
+  { name: "Sweet potato, gold", cat: "vegetables", price: 3.99, unit: "/kg", emoji: "🍠" },
+  { name: "Butternut pumpkin", cat: "vegetables", price: 2.49, unit: "/kg", emoji: "🎃" },
+  { name: "Japanese pumpkin", cat: "vegetables", price: 2.49, unit: "/kg", emoji: "🎃" },
+  { name: "Zucchini", cat: "vegetables", price: 2.99, unit: "/kg", emoji: "🥒" },
+  { name: "Eggplant", cat: "vegetables", price: 2.99, unit: "/kg", emoji: "🍆" },
+  { name: "Red capsicum", cat: "vegetables", price: 4.99, unit: "/kg", emoji: "🌶️", popular: true },
+  { name: "Green capsicum", cat: "vegetables", price: 3.99, unit: "/kg", emoji: "🫑", popular: true },
+  { name: "Yellow sweet chili", cat: "vegetables", price: 8.99, unit: "/kg", emoji: "🌶️" },
+  { name: "Green beans", cat: "vegetables", price: 4.99, unit: "/kg", emoji: "🫘" },
+  { name: "Mushrooms", cat: "vegetables", price: 12.99, unit: "/kg", emoji: "🍄" },
+  { name: "Celery", cat: "vegetables", price: 2.99, unit: " bunch", emoji: "🌿" },
+  { name: "Gourmet tomatoes", cat: "vegetables", price: 3.49, unit: "/kg", emoji: "🍅", popular: true },
+  { name: "Roma tomatoes", cat: "vegetables", price: 7.99, unit: "/kg", emoji: "🍅" },
+  { name: "Truss tomatoes", cat: "vegetables", price: 7.99, unit: "/kg", emoji: "🍅" },
+  { name: "Cherry tomato punnet", cat: "vegetables", price: 3.49, unit: " punnet", emoji: "🍅" },
+  { name: "Lebanese cucumber", cat: "vegetables", price: 7.99, unit: "/kg", emoji: "🥒" },
+  { name: "Continental cucumber", cat: "vegetables", price: 1.59, unit: " each", emoji: "🥒" },
+
+  // FRUITS
+  { name: "Bananas", cat: "fruits", price: 3.49, unit: "/kg", emoji: "🍌", popular: true },
+  { name: "Granny Smith apples", cat: "fruits", price: 3.49, unit: "/kg", emoji: "🍏", popular: true },
+  { name: "Pink Lady apples", cat: "fruits", price: 3.49, unit: "/kg", emoji: "🍎", popular: true },
+  { name: "Royal Gala apples", cat: "fruits", price: 3.49, unit: "/kg", emoji: "🍎" },
+  { name: "Navel oranges, large", cat: "fruits", price: 1.99, unit: "/kg", emoji: "🍊", popular: true },
+  { name: "Navel oranges, bag", cat: "fruits", price: 5.00, unit: " bag", emoji: "🍊" },
+  { name: "Daisy mandarins", cat: "fruits", price: 3.49, unit: "/kg", emoji: "🍊" },
+  { name: "Imperial mandarins", cat: "fruits", price: 3.99, unit: "/kg", emoji: "🍊" },
+  { name: "Lemons", cat: "fruits", price: 2.99, unit: "/kg", emoji: "🍋", popular: true },
+  { name: "Limes", cat: "fruits", price: 6.99, unit: "/kg", emoji: "🍋" },
+  { name: "Avocados, large", cat: "fruits", price: 1.99, unit: " each", emoji: "🥑", popular: true, special: "2 for $3.50" },
+  { name: "Avocados, medium", cat: "fruits", price: 1.79, unit: " each", emoji: "🥑", special: "2 for $3.00" },
+  { name: "Pineapples", cat: "fruits", price: 2.99, unit: " each", emoji: "🍍", popular: true, special: "2 for $5" },
+  { name: "Strawberries", cat: "fruits", price: 3.49, unit: " punnet", emoji: "🍓", popular: true },
+  { name: "Blueberries", cat: "fruits", price: 4.99, unit: " punnet", emoji: "🫐" },
+  { name: "Watermelon", cat: "fruits", price: 2.49, unit: "/kg", emoji: "🍉" },
+  { name: "Rockmelon", cat: "fruits", price: 3.99, unit: " each", emoji: "🍈" },
+  { name: "Packham pears", cat: "fruits", price: 2.99, unit: "/kg", emoji: "🍐" },
+  { name: "Corella pears", cat: "fruits", price: 3.99, unit: "/kg", emoji: "🍐" },
+  { name: "Gold kiwi", cat: "fruits", price: 9.99, unit: "/kg", emoji: "🥝" },
+  { name: "Grapes, red", cat: "fruits", price: 3.99, unit: "/kg", emoji: "🍇" },
+  { name: "Grapes, black", cat: "fruits", price: 3.99, unit: "/kg", emoji: "🍇" },
+  { name: "Passionfruit", cat: "fruits", price: 8.99, unit: "/kg", emoji: "🫒" },
+
+  // HERBS & GREENS
+  { name: "Salad mix bag", cat: "herbs", price: 1.99, unit: " bag", emoji: "🥗" },
+  { name: "Baby spinach bag", cat: "herbs", price: 1.99, unit: " bag", emoji: "🌿" },
+  { name: "Rocket bag", cat: "herbs", price: 1.99, unit: " bag", emoji: "🌿" },
+  { name: "Spring onion", cat: "herbs", price: 1.49, unit: " bunch", emoji: "🧅" },
+  { name: "Continental parsley", cat: "herbs", price: 1.49, unit: " bunch", emoji: "🌿" },
+  { name: "Coriander", cat: "herbs", price: 1.49, unit: " bunch", emoji: "🌿" },
+  { name: "Basil", cat: "herbs", price: 1.99, unit: " bunch", emoji: "🌱" },
+  { name: "Iceberg lettuce", cat: "herbs", price: 1.99, unit: " each", emoji: "🥬" },
+
+  // EGGS
+  { name: "Free Range Eggs 800g", cat: "eggs", price: 5.99, unit: " doz", emoji: "🥚", popular: true },
+  { name: "Cage Eggs 700g", cat: "eggs", price: 4.99, unit: " doz", emoji: "🥚" },
+
+  // NUTS & DRIED FRUIT
+  { name: "Organic Medjool dates", cat: "nuts", price: 28.00, unit: "/kg", emoji: "🌴" },
+  { name: "Natural almonds", cat: "nuts", price: 15.99, unit: "/kg", emoji: "🥜" },
+  { name: "Raw cashews", cat: "nuts", price: 23.99, unit: "/kg", emoji: "🥜" },
+  { name: "Whole walnuts", cat: "nuts", price: 11.99, unit: "/kg", emoji: "🌰" },
+  { name: "Sultanas", cat: "nuts", price: 8.99, unit: "/kg", emoji: "🍇" },
+  { name: "Raw peanuts", cat: "nuts", price: 6.99, unit: "/kg", emoji: "🥜" },
+];
+
+let activeCategory = 'all';
+
+function renderProduce(filter = 'all', search = '') {
+  const grid = document.getElementById('produceGrid');
+  let items = filter === 'all' ? produceItems : produceItems.filter(p => p.cat === filter);
+  if (search) {
+    const q = search.toLowerCase();
+    items = items.filter(p => p.name.toLowerCase().includes(q));
+  }
+  grid.innerHTML = items.map(p => `
+    <div class="produce-card">
+      ${p.popular ? '<span class="popular-badge">🔥 Popular</span>' : ''}
+      <div class="emoji">${p.emoji}</div>
+      <div class="name">${p.name}</div>
+      <div class="price">$${p.price.toFixed(2)}</div>
+      <div class="unit">${p.unit}</div>
+      ${p.special ? `<span class="special">${p.special}</span>` : ''}
+      <button class="order-text" onclick="orderItem('${p.name.replace(/'/g, "\\'")}', '$${p.price.toFixed(2)}${p.unit}')">📱 Order via Text</button>
+    </div>
+  `).join('');
+}
+
+function orderItem(name, price) {
+  const msg = `Hi! I'd like to order:\n\n🥬 ${name} — ${price}\n\nCould you confirm availability and delivery? Thanks!`;
+  window.location.href = buildSmsLink(msg);
+}
+
+function filterProduce(cat) {
+  activeCategory = cat;
+  document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
+  event.target.classList.add('active');
+  renderProduce(cat, document.getElementById('produceSearch').value);
+}
+
+document.getElementById('produceSearch').addEventListener('input', (e) => {
+  renderProduce(activeCategory, e.target.value);
+});
+
+// Initial render
+renderProduce();
+</script>
+</body>
+</html>

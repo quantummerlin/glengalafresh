@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>Wholesale — Glengala Fresh</title>
+  <meta name="description" content="Wholesale fresh produce and juices from Glengala Fresh. Bulk discounts, wholesale pricing, and delivery across Melbourne. Order via text.">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer data-domain="glengalafresh.au" src="https://plausible.io/js/script.js"></script>
+  <link rel="icon" type="image/svg+xml" href="/images/icons/gf-icon.svg">
+  <style>
+    .wholesale-hero {
+      background: linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+      padding: 80px 0 40px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .wholesale-hero h1 { font-size: 2.5rem; }
+    .wholesale-hero p { max-width: 600px; margin: 0 auto; }
+
+    .wholesale-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px; margin: 40px 0;
+    }
+    .wholesale-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: var(--radius-lg); padding: 32px;
+      display: flex; flex-direction: column; align-items: center;
+      text-align: center;
+    }
+    .wholesale-card h3 { color: var(--gold); margin-bottom: 16px; }
+    .wholesale-card p { margin-bottom: 24px; }
+    .wholesale-card .icon { font-size: 3rem; margin-bottom: 16px; }
+
+    .wholesale-form {
+      max-width: 600px; margin: 0 auto; background: var(--card);
+      border: 1px solid var(--border); border-radius: var(--radius-lg);
+      padding: 32px;
+    }
+    .wholesale-form h2 { margin-bottom: 24px; }
+    .form-group { margin-bottom: 20px; }
+    .form-group label { display: block; margin-bottom: 8px; font-weight: 600; }
+    .form-group input, .form-group textarea, .form-group select {
+      width: 100%; padding: 12px; border: 1px solid var(--border);
+      border-radius: var(--radius); background: var(--bg); color: var(--text);
+      font-family: inherit; font-size: 1rem;
+    }
+    .form-group textarea { min-height: 120px; resize: vertical; }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+      outline: none; border-color: var(--gold);
+    }
+    .form-group select { appearance: none; background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+      background-repeat: no-repeat; background-position: right 12px center; background-size: 1em; }
+    .submit-btn {
+      background: var(--green-mid); color: #fff; border: none;
+      padding: 14px 24px; border-radius: var(--radius); font-size: 1rem;
+      font-weight: 700; cursor: pointer; transition: opacity 0.2s;
+      width: 100%; font-family: inherit;
+    }
+    .submit-btn:hover { opacity: 0.85; }
+
+    .wholesale-cta {
+      text-align: center; padding: 40px 0;
+      border-top: 1px solid var(--border); margin-top: 40px;
+    }
+    .wholesale-cta h2 { margin-bottom: 16px; }
+    .wholesale-cta p { max-width: 600px; margin: 0 auto 24px; }
+    .wholesale-cta .btn { margin: 0 8px; }
+  </style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><picture><source srcset="generated_images/Glengala Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></a>
+      <ul class="nav-links">
+        <li><a href="shop.html">Juice Shop</a></li>
+        <li><a href="produce.html">Produce</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="science.html">The Science</a></li>
+        <li><a href="wholesale.html" style="color:var(--gold);">Wholesale</a></li>
+        <li><a href="contact.html" class="nav-cta">Order Now</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-nav">
+    <a href="shop.html">Juice Shop</a>
+    <a href="produce.html">Produce</a>
+    <a href="about.html">Our Story</a>
+    <a href="science.html">The Science</a>
+    <a href="wholesale.html">Wholesale</a>
+    <a href="contact.html">Order Now →</a>
+  </div>
+</nav>
+
+<div class="wholesale-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><span>→</span><span>Wholesale</span></div>
+    <span class="section-label">For Businesses</span>
+    <h1>Wholesale Fresh Produce & Juices</h1>
+    <p>Bulk discounts, wholesale pricing, and delivery across Melbourne. Order via text for your business.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="wholesale-grid">
+      <div class="wholesale-card">
+        <div class="icon">🥬</div>
+        <h3>Fresh Produce</h3>
+        <p>Hand-picked fruit, vegetables, eggs, and herbs from Melbourne's Epping Market. Same quality, same freshness, wholesale pricing.</p>
+        <a href="produce.html" class="btn btn-outline-gold">View Produce →</a>
+      </div>
+      <div class="wholesale-card">
+        <div class="icon">🧃</div>
+        <h3>Cold-Pressed Juices</h3>
+        <p>Our science-backed formulas in bulk. Beetroid, Immuni-Tea, Golden Fire, and more. Bulk discounts available.</p>
+        <a href="shop.html" class="btn btn-outline-gold">View Juices →</a>
+      </div>
+      <div class="wholesale-card">
+        <div class="icon">📦</div>
+        <h3>Bulk Packaging</h3>
+        <p>We provide packaging for bulk orders. Glass bottles, plastic containers, and reusable packaging options available.</p>
+        <a href="#contact" class="btn btn-outline-gold">Contact Us →</a>
+      </div>
+    </div>
+
+    <div class="wholesale-form" id="contact">
+      <h2>Wholesale Inquiry</h2>
+      <form id="wholesaleForm">
+        <div class="form-group">
+          <label for="businessName">Business Name</label>
+          <input type="text" id="businessName" name="businessName" required>
+        </div>
+        <div class="form-group">
+          <label for="contactName">Contact Name</label>
+          <input type="text" id="contactName" name="contactName" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="productType">Product Type</label>
+          <select id="productType" name="productType" required>
+            <option value="">Select one...</option>
+            <option value="produce">Fresh Produce</option>
+            <option value="juices">Cold-Pressed Juices</option>
+            <option value="both">Both Produce & Juices</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Estimated Quantity</label>
+          <input type="text" id="quantity" name="quantity" placeholder="e.g. 5kg carrots, 100L Immuni-Tea" required>
+        </div>
+        <div class="form-group">
+          <label for="delivery">Delivery Requirements</label>
+          <textarea id="delivery" name="delivery" placeholder="Delivery frequency, preferred days/times, special instructions"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="message">Additional Information</label>
+          <textarea id="message" name="message" placeholder="Any other details we should know?"></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit Inquiry</button>
+      </form>
+    </div>
+
+    <div class="wholesale-cta">
+      <h2>Ready to Order?</h2>
+      <p>Fill out the form above or text us directly. We'll confirm availability and arrange delivery for your business.</p>
+      <a href="https://wa.me/61434694141?text=Hi!%20I%27d%20like%20to%20place%20a%20wholesale%20order%20from%20Glengala%20Fresh.%20Could%20you%20provide%20details%20on%20pricing%20and%20delivery?" class="btn btn-whatsapp" target="_blank">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+        Text Us Now
+      </a>
+      <a href="mailto:wholesale@glengalafresh.au" class="btn btn-secondary">Email Us</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo"><picture><source srcset="generated_images/Glengala Logo.webp" type="image/webp"><img src="generated_images/Glengala Logo.png" alt="Glengala Fresh" class="logo-img"></picture>Glengala <span>Fresh</span></div>
+        <p>Cold-pressed juices. Fresh produce. Science-backed formulas. Ozonated water cleaned. No shortcuts.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Juices</h5>
+        <ul>
+          <li><a href="products/beetroid.html">Beetroid</a></li>
+          <li><a href="products/immuni-tea.html">Immuni-Tea</a></li>
+          <li><a href="products/immuni-fire.html">Immuni-Fire</a></li>
+          <li><a href="products/golden-fire.html">Golden Fire</a></li>
+          <li><a href="products/celery.html">Straight Celery</a></li>
+          <li><a href="products/watermelon.html">Straight Watermelon</a></li>
+          <li><a href="shop.html">Traditional Lemonade</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="about.html">Our Story</a></li>
+          <li><a href="produce.html">Fresh Produce</a></li>
+          <li><a href="wholesale.html">Wholesale</a></li>
+          <li><a href="partnerships.html">Partner With Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Order</h5>
+        <ul>
+          <li><a href="shop.html">Juice Shop</a></li>
+          <li><a href="produce.html">Produce</a></li>
+          <li><a href="contact.html">Contact & Order</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Glengala Fresh. All rights reserved.</div>
+      <div>Hand-picked freshness. Cleaned with ozonated water.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+// Wholesale form handler
+const wholesaleForm = document.getElementById('wholesaleForm');
+if (wholesaleForm) {
+  wholesaleForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const businessName = wholesaleForm.querySelector('[name="businessName"]')?.value || '';
+    const contactName  = wholesaleForm.querySelector('[name="contactName"]')?.value || '';
+    const email        = wholesaleForm.querySelector('[name="email"]')?.value || '';
+    const phone        = wholesaleForm.querySelector('[name="phone"]')?.value || '';
+    const productType  = wholesaleForm.querySelector('[name="productType"]')?.value || '';
+    const quantity     = wholesaleForm.querySelector('[name="quantity"]')?.value || '';
+    const delivery     = wholesaleForm.querySelector('[name="delivery"]')?.value || '';
+    const message      = wholesaleForm.querySelector('[name="message"]')?.value || '';
+
+    let msg = `Hi Glengala Fresh! I'm interested in a wholesale order:\n\n`;
+    msg += `🏢 Business: ${businessName}\n`;
+    msg += `👤 Contact: ${contactName}\n`;
+    msg += `📧 Email: ${email}\n`;
+    msg += `📱 Phone: ${phone}\n`;
+    msg += `🥬 Product: ${productType}\n`;
+    msg += `📦 Quantity: ${quantity}`;
+    if (delivery) msg += `\n🚚 Delivery: ${delivery}`;
+    if (message)  msg += `\n💬 Message: ${message}`;
+
+    window.location.href = buildSmsLink(msg);
+  });
+}
+</script>
+</body>
+</html>
