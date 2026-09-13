@@ -165,12 +165,6 @@ function getPriceForSize(size) {
   return map[size] || '';
 }
 
-// Lemonade has a different price tier
-function getLemonadePriceForSize(size) {
-  const map = { '300ml': '1.99', '500ml': '2.99', '1L': '5.99' };
-  return map[size] || '';
-}
-
 // Partnership interest form
 const partnerForm = document.getElementById('partnerForm');
 if (partnerForm) {
@@ -240,7 +234,7 @@ if ('serviceWorker' in navigator) {
   box.innerHTML =
     '<div class="container" style="max-width:900px;">' +
     '<p style="font-size:0.75rem;line-height:1.7;color:rgba(255,255,255,0.45);margin:0;">' +
-    '<strong>Important:</strong> Glengala Fresh juices are fresh, unpasteurised food products. They are not medicines and are not intended to diagnose, treat, cure or prevent any disease. Keep refrigerated at 5°C or below and consume within 3–5 days. Unpasteurised juice is not recommended for pregnant women, young children, older adults, or people with weakened immune systems. If you take medication or are managing a health condition, check with your doctor or dietitian before adding these juices to your routine. Information on this site is general in nature. All prices in AUD, including GST.</p>' +
+    '<strong>About our juices:</strong> Glengala Fresh juices are fresh, unpasteurised food products made from real ingredients. While we can\'t make medical claims, cold-pressed juice is a nutritious addition to a wellness routine. For best results, keep refrigerated at 5°C or below and consume within 3 days. If you\'re new to unpasteurised juice, consulting a nutrition expert or wellness professional (like a naturopath or dietitian) can help you get the most from your juice routine. Not suitable for very young children or those with compromised immune systems. All prices in AUD, including GST.</p>' +
     '</div>';
   footer.appendChild(box);
 })();
